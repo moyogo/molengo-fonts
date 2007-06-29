@@ -11,14 +11,13 @@ UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
 Order2: 1
-NeedsXUIDChange: 1
 XUID: [1021 786 1613055102 314323]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1183134929
+ModificationTime: 1183143406
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +52,7 @@ Lookup: 5 0 0 "'ccmp' Contextual Alternates in Latin lookup 0"  {"'ccmp' Context
 Lookup: 1 0 0 "Dotless Single Substitution"  {"Dotless Single Substitution lookup-1"  } []
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin"  {"'mark' topright in Latin"  "'mark' above in Latin"  "'mark' ogonek in Latin"  "'mark' cedilla in Latin"  "'mark' below in Latin"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Latin"  {"'mkmk' mark-above in Latin"  "'mkmk' mark-below in Latin"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 kerning class 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 kerning class 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 KernClass2: 2 7 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 0" 
  1 T
  1 a
@@ -62,7 +61,7 @@ KernClass2: 2 7 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 0"
  1 g
  1 r
  1 p
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -221 {} -204 {} 0 {} 0 {} -269 {} -380 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -84 {} -95 {} 0 {} 0 {} -160 {} -162 {}
 KernClass2: 6 2 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1" 
  1 o
  1 e
@@ -70,7 +69,7 @@ KernClass2: 6 2 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  1 u
  1 n
  1 T
- 0 {} 0 {} 0 {} -220 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 0 {} 0 {} 0 {} -83 {} 0 {} -82 {} 0 {} -82 {} 0 {} 0 {} 0 {} 0 {}
 ContextSub2: class "'ccmp' Contextual Alternates in Latin lookup 0-1"  4 1 1 4
   Class: 11 i j uni0268
   Class: 163 acutecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni0311 uni0312 uni0313 uni0314 uni0315
@@ -127,7 +126,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 112 8 5
+WinInfo: 88 8 5
 AnchorClass2: "mark-below"  "'mkmk' mark-below in Latin" "mark-above"  "'mkmk' mark-above in Latin" "topright"  "'mark' topright in Latin" "ogonek"  "'mark' ogonek in Latin" "cedilla"  "'mark' cedilla in Latin" "below"  "'mark' below in Latin" "above"  "'mark' above in Latin" 
 BeginChars: 65540 291
 StartChar: .notdef
@@ -3195,7 +3194,7 @@ StartChar: braceleft
 Encoding: 123 123 94
 Width: 667
 GlyphClass: 2
-Flags: HMWO
+Flags: MW
 Fore
 214 492 m 1,0,1
  281 470 281 470 320.5 437 c 128,-1,2
@@ -3252,7 +3251,7 @@ StartChar: braceright
 Encoding: 125 125 96
 Width: 667
 GlyphClass: 2
-Flags: HMWO
+Flags: MW
 Fore
 453 492 m 1,0,1
  386 514 386 514 346.5 547 c 128,-1,2
