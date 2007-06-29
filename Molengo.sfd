@@ -4,7 +4,7 @@ FullName: Molengo
 FamilyName: Molengo
 Weight: Book
 Copyright: Copyright (c) Denis Moyogo Jacquerye, 2007. Some rights reserved.\nOFL 1.1
-Version: 1.800;PS 001.008;hotconv 1.0.38
+Version: 0.0
 ItalicAngle: 0
 UnderlinePosition: -196
 UnderlineWidth: 90
@@ -17,7 +17,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1183081260
+ModificationTime: 1183082084
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
