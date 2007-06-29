@@ -7,7 +7,7 @@
   <profile>
     <infile>Molengo.sfd</infile>
     <outfile>Molengo.ttf</outfile>
-    <!-- Points in the twilight zone -->
+    <!-- Points in the twilight zone should come here -->
     <constant name="left-sidebearing" num="last + 1"/>
     <constant name="right-sidebearing" num="left-sidebearing + 1"/>
   </profile>
@@ -6872,6 +6872,88 @@
     </with-vectors>
   </glyph>
 
+  <glyph ps-name="braceleft">
+    <declarations>
+      <constant name="crotch-over" num="24"/>
+      <constant name="crotch" num="0"/>
+      <constant name="top-stem-top-left" num="32"/>
+      <constant name="top-stem-top-right" num="40"/>
+      <constant name="top-stem-bottom-left" num="29"/>
+      <constant name="top-stem-bottom-right" num="43"/>
+      <constant name="bottom-stem-top-left" num="18"/>
+      <constant name="bottom-stem-top-right" num="4"/>
+      <constant name="bottom-stem-bottom-left" num="15"/>
+      <constant name="bottom-stem-bottom-right" num="7"/>
+      <constant name="top" num="34"/>
+      <constant name="top-under" num="35"/>
+      <constant name="bottom" num="13"/>
+      <constant name="bottom-over" num="12"/>
+      <constant name="last" num="46"/>
+    </declarations>
+    <with-vectors axis="y">
+      <move distance="ascender-height">
+        <point num="top"/>
+        <move min-distance="no" round="no">
+          <point num="top-under"/>
+        </move>
+      </move>
+      <move distance="descender-bottom">
+        <point num="bottom"/>
+        <move min-distance="no" round="no">
+          <point num="bottom-over"/>
+        </move>
+      </move>
+    </with-vectors>
+    <with-vectors axis="x">
+      <move>
+        <reference>
+          <point num="left-sidebearing"/>
+        </reference>
+        <point num="crotch-over"/>
+        <move>
+          <point num="top-stem-bottom-left"/>
+          <align>
+            <point num="bottom-stem-top-left"/>
+          </align>
+          <move distance="vert-curve">
+            <point num="top-stem-bottom-right"/>
+            <align>
+              <point num="bottom-stem-top-right"/>
+            </align>
+            <move>
+              <point num="top"/>
+              <align>
+                <point num="bottom"/>
+              </align>
+              <move min-distance="no" round="no">
+                <point num="top-under"/>
+                <align>
+                  <point num="bottom-over"/>
+                </align>
+                <move>
+                  <point num="right-sidebearing"/>
+                </move>
+              </move>
+            </move>
+          </move>
+          <move min-distance="no">
+            <point num="top-stem-top-left"/>
+            <align>
+              <point num="bottom-stem-bottom-left"/>
+            </align>
+            <move distance="vert-curve">
+              <point num="top-stem-top-right"/>
+              <align>
+                <point num="bottom-stem-bottom-right"/>
+              </align>
+            </move>
+          </move>
+        </move>
+      </move>  
+    </with-vectors>
+    <interpolate-untouched-points/>
+  </glyph>
+
   <!-- "|" -->
   <glyph ps-name="bar">
     <declarations>
@@ -6900,6 +6982,89 @@
     </with-vectors>
     <interpolate-untouched-points/>
   </glyph>
+
+  <glyph ps-name="braceright">
+    <declarations>
+      <constant name="crotch-over" num="23"/>
+      <constant name="crotch" num="0"/>
+      <constant name="top-stem-top-left" num="7"/>
+      <constant name="top-stem-top-right" num="15"/>
+      <constant name="top-stem-bottom-left" num="4"/>
+      <constant name="top-stem-bottom-right" num="18"/>
+      <constant name="bottom-stem-top-left" num="43"/>
+      <constant name="bottom-stem-top-right" num="29"/>
+      <constant name="bottom-stem-bottom-left" num="40"/>
+      <constant name="bottom-stem-bottom-right" num="32"/>
+      <constant name="top" num="13"/>
+      <constant name="top-under" num="12"/>
+      <constant name="bottom" num="34"/>
+      <constant name="bottom-over" num="35"/>
+      <constant name="last" num="46"/>
+    </declarations>
+    <with-vectors axis="y">
+      <move distance="ascender-height">
+        <point num="top"/>
+        <move min-distance="no" round="no">
+          <point num="top-under"/>
+        </move>
+      </move>
+      <move distance="descender-bottom">
+        <point num="bottom"/>
+        <move min-distance="no" round="no">
+          <point num="bottom-over"/>
+        </move>
+      </move>
+    </with-vectors>
+    <with-vectors axis="x">
+      <move>
+        <reference>
+          <point num="right-sidebearing"/>
+        </reference>
+        <point num="crotch-over"/>
+        <move>
+          <point num="top-stem-bottom-right"/>
+          <align>
+            <point num="bottom-stem-top-right"/>
+          </align>
+          <move distance="vert-curve">
+            <point num="top-stem-bottom-left"/>
+            <align>
+              <point num="bottom-stem-top-left"/>
+            </align>
+            <move>
+              <point num="top"/>
+              <align>
+                <point num="bottom"/>
+              </align>
+              <move min-distance="no" round="no">
+                <point num="top-under"/>
+                <align>
+                  <point num="bottom-over"/>
+                </align>
+                <move>
+                  <point num="left-sidebearing"/>
+                </move>
+              </move>
+            </move>
+          </move>
+          <move min-distance="no">
+            <point num="top-stem-top-right"/>
+            <align>
+              <point num="bottom-stem-bottom-right"/>
+            </align>
+            <move distance="vert-curve">
+              <point num="top-stem-top-left"/>
+              <align>
+                <point num="bottom-stem-bottom-left"/>
+              </align>
+            </move>
+          </move>
+        </move>
+      </move>  
+    </with-vectors>
+    <interpolate-untouched-points/>
+  </glyph>
+
 
   <!-- ascii tilde -->
   <glyph ps-name="asciitilde">
