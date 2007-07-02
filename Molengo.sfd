@@ -18,7 +18,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1183382102
+ModificationTime: 1183382695
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 56 8 5
+WinInfo: 768 8 5
 AnchorClass2: "mark-below"  "'mkmk' mark-below in Latin" "mark-above"  "'mkmk' mark-above in Latin" "topright"  "'mark' topright in Latin" "ogonek"  "'mark' ogonek in Latin" "cedilla"  "'mark' cedilla in Latin" "below"  "'mark' below in Latin" "above"  "'mark' above in Latin" 
 BeginChars: 65540 364
 StartChar: .notdef
@@ -1427,7 +1427,7 @@ StartChar: G
 Encoding: 71 71 42
 Width: 1435
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "topright" 1255 1053 basechar 0 37
 AnchorPoint: "cedilla" 740 0 basechar 0 38
 AnchorPoint: "below" 740 0 basechar 0 38
@@ -1472,7 +1472,7 @@ StartChar: H
 Encoding: 72 72 43
 Width: 1364
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "ogonek" 1093 0 basechar 0 14
 AnchorPoint: "above" 682 1409 basechar 0 12
 AnchorPoint: "below" 682 0 basechar 0 15
@@ -1523,7 +1523,7 @@ StartChar: J
 Encoding: 74 74 45
 Width: 541
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "topright" 270 1053 basechar 0 16
 AnchorPoint: "cedilla" 60 -492 basechar 0 18
 AnchorPoint: "below" 180 -492 basechar 0 17
@@ -1554,7 +1554,7 @@ StartChar: K
 Encoding: 75 75 46
 Width: 1115
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "topright" 999 1053 basechar 0 12
 AnchorPoint: "cedilla" 997 0 basechar 0 13
 AnchorPoint: "below" 620 0 basechar 0 14
@@ -1583,7 +1583,7 @@ StartChar: L
 Encoding: 76 76 47
 Width: 1010
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "above" 270 1409 basechar 0 6
 AnchorPoint: "ogonek" 580 0 basechar 0 8
 AnchorPoint: "below" 580 0 basechar 0 8
@@ -1606,7 +1606,7 @@ StartChar: M
 Encoding: 77 77 48
 Width: 1774
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "topright" 1455 1053 basechar 0 14
 AnchorPoint: "cedilla" 1575 0 basechar 0 15
 AnchorPoint: "below" 886 0 basechar 0 16
@@ -1665,7 +1665,7 @@ StartChar: O
 Encoding: 79 79 50
 Width: 1444
 GlyphClass: 2
-Flags: HMWO
+Flags: MW
 AnchorPoint: "above" 727 1409 basechar 0 0
 AnchorPoint: "below" 727 0 basechar 0 40
 AnchorPoint: "cedilla" 727 0 basechar 0 40
@@ -3490,7 +3490,7 @@ EndChar
 StartChar: uni0308
 Encoding: 776 776 104
 Width: 0
-Flags: MW
+Flags: MWO
 TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 1120 mark 0 26
 AnchorPoint: "mark-above" 0 1475 basemark 0 25
@@ -6406,7 +6406,6 @@ EndChar
 StartChar: Ograve
 Encoding: 210 210 210
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 727 453 6 0 5
@@ -6414,7 +6413,6 @@ EndChar
 StartChar: Oacute
 Encoding: 211 211 211
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 107 769 S 1 0 0 1 727 453 6 0 5
@@ -6422,7 +6420,6 @@ EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 212
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 108 770 S 1 0 0 1 727 453 6 0 8
@@ -6430,7 +6427,6 @@ EndChar
 StartChar: Otilde
 Encoding: 213 213 213
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 109 771 S 1 0 0 1 727 453 6 0 25
@@ -6438,7 +6434,6 @@ EndChar
 StartChar: Odieresis
 Encoding: 214 214 214
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 105 168 S 1 0 0 1 255 453 6 0 24
@@ -6486,7 +6481,7 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "mark-above" 439 1475 basemark 0 60
+AnchorPoint: "above" 439 1475 basechar 0 61
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 439 0 6 55 5 O
 EndChar
@@ -6494,7 +6489,7 @@ StartChar: aacute
 Encoding: 225 225 221
 Width: 894
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 439 1475 basemark 0 60
+AnchorPoint: "above" 439 1475 basechar 0 61
 AnchorPoint: "below" 439 0 basechar 0 54
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "ogonek" 720 0 basechar 0 52
@@ -6510,7 +6505,7 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "mark-above" 439 1475 basemark 0 63
+AnchorPoint: "above" 439 1475 basechar 0 64
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 439 0 6 55 8
 EndChar
@@ -6522,7 +6517,7 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "mark-above" 439 1410 basemark 0 80
+AnchorPoint: "above" 439 1410 basechar 0 81
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 439 0 6 55 25 O
 EndChar
@@ -6534,7 +6529,7 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "mark-above" 439 1475 basemark 0 81
+AnchorPoint: "above" 439 1475 basechar 0 82
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 -33 0 6 55 24 O
 EndChar
@@ -6546,7 +6541,7 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "mark-above" 439 1475 basemark 0 80
+AnchorPoint: "above" 439 1475 basechar 0 81
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 163 778 N 1 0 0 1 439 0 6 55 25 O
 EndChar
@@ -6556,7 +6551,7 @@ Width: 888
 TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 27
 AnchorPoint: "above" 486 956 basechar 0 26
-AnchorPoint: "mark-below" 516 -492 basemark 0 47
+AnchorPoint: "mark-below" 516 -492 basemark 0 48
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 114 807 N 1 0 0 1 516 0 6 29 19
 EndChar
@@ -6566,7 +6561,7 @@ Width: 939
 TeX: 0 0 0 0
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 AnchorPoint: "topright" 773 828 basechar 0 40
-AnchorPoint: "mark-above" 495 1475 basemark 0 46
+AnchorPoint: "above" 495 1475 basechar 0 47
 AnchorPoint: "below" 495 0 basechar 0 42
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 495 0 6 39 5
@@ -6576,7 +6571,7 @@ Encoding: 233 233 228
 Width: 939
 TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
-AnchorPoint: "mark-above" 495 1475 basemark 0 46
+AnchorPoint: "above" 495 1475 basechar 0 47
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 Refer: 72 101 N 1 0 0 1 0 0 3
@@ -6587,7 +6582,7 @@ Encoding: 234 234 229
 Width: 939
 TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
-AnchorPoint: "mark-above" 495 1475 basemark 0 49
+AnchorPoint: "above" 495 1475 basechar 0 50
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 Refer: 72 101 N 1 0 0 1 0 0 3
@@ -6598,7 +6593,7 @@ Encoding: 235 235 230
 Width: 939
 TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
-AnchorPoint: "mark-above" 495 1120 basemark 0 68
+AnchorPoint: "above" 495 1475 basechar 0 68
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 Refer: 72 101 N 1 0 0 1 0 0 3
@@ -6612,7 +6607,7 @@ AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
-AnchorPoint: "mark-above" 302 1475 basemark 0 12
+AnchorPoint: "above" 302 1475 basechar 0 13
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 302 0 6 6 5
 EndChar
@@ -6624,7 +6619,7 @@ AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
-AnchorPoint: "mark-above" 302 1475 basemark 0 12
+AnchorPoint: "above" 302 1475 basechar 0 13
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 302 0 6 6 5
 EndChar
@@ -6636,7 +6631,7 @@ AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
-AnchorPoint: "mark-above" 302 1475 basemark 0 15
+AnchorPoint: "above" 302 1475 basechar 0 16
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 302 0 6 6 8
 EndChar
@@ -6649,7 +6644,7 @@ AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
-AnchorPoint: "mark-above" 302 1475 basemark 0 33
+AnchorPoint: "above" 302 1475 basechar 0 34
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 -170 0 6 6 24
 EndChar
@@ -6657,19 +6652,19 @@ StartChar: ntilde
 Encoding: 241 241 235
 Width: 1121
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 555 1410 basemark 0 51
+AnchorPoint: "above" 555 1410 basechar 0 52
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 795 828 basechar 0 26
 Refer: 81 110 N 1 0 0 1 0 0 3
-Refer: 109 771 S 1 0 0 1 555 0 6 25 25 O
+Refer: 109 771 N 1 0 0 1 555 0 6 25 25 O
 EndChar
 StartChar: ograve
 Encoding: 242 242 236
 Width: 1012
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 506 1475 basemark 0 50
+AnchorPoint: "above" 506 1475 basechar 0 51
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "ogonek" 506 0 basechar 0 46
@@ -6685,7 +6680,7 @@ AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
-AnchorPoint: "mark-above" 506 1475 basemark 0 50
+AnchorPoint: "above" 506 1475 basechar 0 51
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 506 0 6 44 5
 EndChar
@@ -6697,7 +6692,7 @@ AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
-AnchorPoint: "mark-above" 506 1475 basemark 0 53
+AnchorPoint: "above" 506 1475 basechar 0 54
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 506 0 6 44 8
 EndChar
@@ -6709,7 +6704,7 @@ AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
-AnchorPoint: "mark-above" 506 1410 basemark 0 70
+AnchorPoint: "above" 506 1410 basechar 0 71
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 506 0 6 44 25 O
 EndChar
@@ -6721,7 +6716,7 @@ AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
-AnchorPoint: "mark-above" 506 1475 basemark 0 71
+AnchorPoint: "above" 506 1475 basechar 0 72
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 34 0 6 44 24
 EndChar
@@ -6733,7 +6728,7 @@ AnchorPoint: "topright" 907 828 basechar 0 26
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "below" 555 0 basechar 0 24
-AnchorPoint: "mark-above" 555 1475 basemark 0 31
+AnchorPoint: "above" 555 1475 basechar 0 32
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 555 0 6 25 5
 EndChar
@@ -6741,7 +6736,7 @@ StartChar: uacute
 Encoding: 250 250 242
 Width: 1121
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 555 1475 basemark 0 31
+AnchorPoint: "above" 555 1475 basechar 0 32
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
@@ -6753,7 +6748,7 @@ StartChar: ucircumflex
 Encoding: 251 251 243
 Width: 1121
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 555 1475 basemark 0 34
+AnchorPoint: "above" 555 1475 basechar 0 35
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
@@ -6765,7 +6760,7 @@ StartChar: udieresis
 Encoding: 252 252 244
 Width: 1121
 TeX: 0 0 0 0
-AnchorPoint: "mark-above" 555 1475 basemark 0 52
+AnchorPoint: "above" 555 1475 basechar 0 53
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
@@ -6781,7 +6776,7 @@ AnchorPoint: "topright" 880 828 basechar 0 26
 AnchorPoint: "ogonek" 170 -492 basechar 0 27
 AnchorPoint: "cedilla" 170 -492 basechar 0 27
 AnchorPoint: "below" 515 -492 basechar 0 24
-AnchorPoint: "mark-above" 515 1475 basemark 0 31
+AnchorPoint: "above" 515 1475 basechar 0 32
 Refer: 92 121 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 515 0 6 25 5
 EndChar
@@ -6793,7 +6788,7 @@ AnchorPoint: "topright" 880 828 basechar 0 26
 AnchorPoint: "ogonek" 170 -492 basechar 0 27
 AnchorPoint: "cedilla" 170 -492 basechar 0 27
 AnchorPoint: "below" 515 -492 basechar 0 24
-AnchorPoint: "mark-above" 515 1475 basemark 0 52
+AnchorPoint: "above" 515 1475 basechar 0 53
 Refer: 92 121 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 43 0 6 25 24
 EndChar
@@ -7055,7 +7050,6 @@ EndChar
 StartChar: uni1ECC
 Encoding: 7884 7884 260
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 727 0 6 40 13
@@ -7206,7 +7200,6 @@ EndChar
 StartChar: uni01D1
 Encoding: 465 465 270
 Width: 1444
-Flags: H
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 727 453 6 0 8
@@ -7472,7 +7465,6 @@ EndChar
 StartChar: Omacron
 Encoding: 332 332 293
 Width: 1444
-Flags: HO
 TeX: 0 0 0 0
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 727 453 6 0 5
@@ -7815,7 +7807,6 @@ EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 310
 Width: 1435
-Flags: H
 TeX: 0 0 0 0
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 740 453 6 36 8
@@ -7830,7 +7821,6 @@ EndChar
 StartChar: uni1E3C
 Encoding: 7740 7740 312
 Width: 1010
-Flags: H
 TeX: 0 0 0 0
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 580 0 6 8 8
@@ -8055,7 +8045,6 @@ EndChar
 StartChar: uni1E24
 Encoding: 7716 7716 344
 Width: 1364
-Flags: H
 TeX: 0 0 0 0
 Refer: 43 72 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 682 0 6 15 13
@@ -8070,7 +8059,6 @@ EndChar
 StartChar: uni1E36
 Encoding: 7734 7734 346
 Width: 1010
-Flags: H
 TeX: 0 0 0 0
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 580 0 6 8 13
