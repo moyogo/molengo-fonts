@@ -2908,10 +2908,10 @@
       <constant name="left-curve-right" num="26"/>
       <constant name="right-curve-right" num="6"/>
       <constant name="right-curve-left" num="35"/>
-      <constant name="last" num="41"/>
-      <constant name="anchor-mark-above" num="39"/>
-      <constant name="anchor-topright" num="40"/>
-      <constant name="anchor-mark-below-cedilla-ogonek" num="41"/>
+      <constant name="last" num="40"/>
+      <!-- <constant name="anchor-mark-above" num="0"/> -->
+      <constant name="anchor-topright" num="39"/>
+      <constant name="anchor-mark-below-cedilla-ogonek" num="40"/>
     </declarations>
     <with-vectors axis="y">
       <move distance="cap-round-bottom" round="no" cut-in="no">
@@ -2950,9 +2950,9 @@
     <interpolate-untouched-points/>
 <!-- anchors -->
     <with-vectors axis="y">
-      <move distance="cap-o-height">
+      <!-- move distance="cap-o-height">
         <point num="anchor-mark-above"/>
-      </move>
+      </move -->
     </with-vectors>
     <with-vectors axis="x">
       <interpolate>
@@ -2960,7 +2960,7 @@
           <point num="left-curve-left"/>
           <point num="right-curve-right"/>
         </reference>
-        <point num="anchor-mark-above"/>
+        <!-- point num="anchor-mark-above"/ -->
         <point num="anchor-mark-below-cedilla-ogonek"/>
       </interpolate>
     </with-vectors>
