@@ -2184,21 +2184,21 @@
   <glyph ps-name="G">
     <declarations>
       <constant name="curve-left" num="0"/>
-      <constant name="curve-right" num="16"/>
-      <constant name="top" num="3"/>
-      <constant name="top-under" num="11"/>
-      <constant name="base" num="32"/>
-      <constant name="base-over" num="22"/>
-      <constant name="top-right" num="8"/>
-      <constant name="top-right-under" num="9"/>
-      <constant name="bottom-right" num="29"/>
-      <constant name="bottom-right-over" num="24"/>
-      <constant name="middle-bar-bottom" num="25"/>
-      <constant name="middle-bar-top-left" num="27"/>
-      <constant name="last" num="37"/>
-      <constant name="anchor-mark-above" num="35"/>
-      <constant name="anchor-topright" num="36"/>
-      <constant name="anchor-mark-below-cedilla-ogonek" num="37"/>
+      <constant name="curve-right" num="17"/>
+      <constant name="top" num="4"/>
+      <constant name="top-under" num="12"/>
+      <constant name="base" num="33"/>
+      <constant name="base-over" num="23"/>
+      <constant name="top-right" num="9"/>
+      <constant name="top-right-under" num="10"/>
+      <constant name="bottom-right" num="30"/>
+      <constant name="bottom-right-over" num="25"/>
+      <constant name="middle-bar-bottom" num="26"/>
+      <constant name="middle-bar-top-left" num="28"/>
+      <constant name="last" num="38"/>
+      <constant name="anchor-mark-above" num="36"/>
+      <constant name="anchor-topright" num="37"/>
+      <constant name="anchor-mark-below-cedilla-ogonek" num="38"/>
     </declarations>
     <with-vectors axis="y">
       <move distance="cap-round-bottom" round="no" cut-in="no">

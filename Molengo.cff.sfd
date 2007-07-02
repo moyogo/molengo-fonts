@@ -10,14 +10,13 @@ UnderlinePosition: -196
 UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
-NeedsXUIDChange: 1
 XUID: [1021 786 1613055102 579096]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1183195634
+ModificationTime: 1183381276
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -26,16 +25,16 @@ VLineGap: 0
 Panose: 2 0 0 0 0 0 0 0 0 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: -250
+OS2TypoDescent: 0
 OS2TypoDOffset: 1
 OS2TypoLinegap: 61
-OS2WinAscent: 0
+OS2WinAscent: 208
 OS2WinAOffset: 1
-OS2WinDescent: -250
+OS2WinDescent: -39
 OS2WinDOffset: 1
-HheadAscent: 0
+HheadAscent: 208
 HheadAOffset: 1
-HheadDescent: -250
+HheadDescent: 39
 HheadDOffset: 1
 OS2SubXSize: 1331
 OS2SubYSize: 1229
@@ -4814,7 +4813,7 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 248
 Width: 1052
-Flags: HWO
+Flags: HW
 TeX: 0 0 0 0
 Fore
 785 563 m 25
