@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
 FontName: Molengo
-FullName: Molengo
+FullName: Molengo
 FamilyName: Molengo
 Weight: Book
 Copyright: Copyright (c) Denis Moyogo Jacquerye, 2007. Some rights reserved.\nOFL 1.1
-Version: 0.0
+Version: 0.10
 ItalicAngle: 0
 UnderlinePosition: -196
 UnderlineWidth: 90
@@ -20,7 +20,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1274186544
+ModificationTime: 1274187076
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,6 +56,7 @@ Lookup: 1 0 0 "Dotless Single Substitution"  {"Dotless Single Substitution looku
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin"  {"'mark' topright in Latin"  "'mark' above in Latin"  "'mark' ogonek in Latin"  "'mark' cedilla in Latin"  "'mark' below in Latin"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Latin"  {"'mkmk' mark-above in Latin"  "'mkmk' mark-below in Latin"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 kerning class 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 2 7 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 0" 
  1 T
@@ -692,7 +693,7 @@ ShortTable: maxp 16
   2
   1
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 1.800;PS 001.008;hotconv 1.0.38" "" "Please refer to the Copyright section for the font trademark attribution notices." "moyogo" "moyogo" "" "" "" "Copyright (c) 2007, Denis Jacquerye <moyogo@gmail.com>,+AAoA-with Reserved Font Name Molengo.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/ofl" "" "Molengo" "Regular" "Molengo" 
+LangName: 1033 "" "" "Regular" "" "" "Version 0.10" "" "Please refer to the Copyright section for the font trademark attribution notices." "moyogo" "moyogo" "" "" "" "Copyright (c) 2007, Denis Jacquerye <moyogo@gmail.com>,+AAoA-with Reserved Font Name Molengo.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/ofl" "" "Molengo" "Regular" "Molengo" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -2964,7 +2965,7 @@ StartChar: a
 Encoding: 97 97 68
 Width: 894
 GlyphClass: 2
-Flags: HMW
+Flags: MW
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 720 0 basechar 0 55
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7586,7 +7587,6 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 220
 Width: 894
-Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7601,7 +7601,6 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 221
 Width: 894
-Flags: H
 AnchorPoint: "above" 720 519 basechar 0 61
 AnchorPoint: "below" 439 0 basechar 0 54
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7616,7 +7615,6 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 222
 Width: 894
-Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7631,7 +7629,6 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 223
 Width: 894
-Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7646,7 +7643,6 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 224
 Width: 894
-Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -7661,7 +7657,6 @@ EndChar
 StartChar: aring
 Encoding: 229 229 225
 Width: 894
-Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
@@ -8145,7 +8140,6 @@ EndChar
 StartChar: uni01CE
 Encoding: 462 462 254
 Width: 894
-Flags: H
 AnchorPoint: "mark-above" 439 1475 basemark 0
 AnchorPoint: "below" 439 0 basechar 0
 AnchorPoint: "cedilla" 693 0 basechar 0
@@ -9271,7 +9265,6 @@ EndChar
 StartChar: amacron
 Encoding: 257 257 329
 Width: 894
-Flags: H
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
@@ -9290,7 +9283,6 @@ EndChar
 StartChar: abreve
 Encoding: 259 259 331
 Width: 894
-Flags: H
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
@@ -9309,7 +9301,6 @@ EndChar
 StartChar: uni1EA1
 Encoding: 7841 7841 333
 Width: 894
-Flags: H
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
@@ -9642,43 +9633,41 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 364
-Width: 765
+Width: 595
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 16 45 N 1 0 0 1 0 0 2
+SplineSet
+534 449 m 1,0,-1
+ 61 449 l 1,1,-1
+ 61 558 l 1,2,-1
+ 534 558 l 1,3,-1
+ 534 449 l 1,0,-1
+EndSplineSet
 EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 365
-Width: 765
+Width: 595
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 16 45 N 1 0 0 1 0 0 2
+Refer: 364 8208 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: endash
 Encoding: 8211 8211 366
-Width: 778
-Flags: W
-HStem: 449 109<68 710>
-VStem: 68 642<449 558>
+Width: 765
+Flags: HW
 LayerCount: 2
 Fore
-SplineSet
-710 449 m 25,0,-1
- 68 449 l 1,1,-1
- 68 558 l 1,2,-1
- 710 558 l 1,3,-1
- 710 449 l 25,0,-1
-EndSplineSet
+Refer: 16 45 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 367
 Width: 1556
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9693,7 +9682,7 @@ EndChar
 StartChar: bullet
 Encoding: 8226 8226 368
 Width: 466
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
