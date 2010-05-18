@@ -1,4 +1,4 @@
-SplineFontDB: 2.0
+SplineFontDB: 3.0
 FontName: Molengo
 FullName: Molengo
 FamilyName: Molengo
@@ -10,7 +10,9 @@ UnderlinePosition: -196
 UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
-Order2: 1
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
 XUID: [1021 786 1613055102 314323]
 FSType: 0
@@ -18,7 +20,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1183382695
+ModificationTime: 1274186544
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +56,7 @@ Lookup: 1 0 0 "Dotless Single Substitution"  {"Dotless Single Substitution looku
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin"  {"'mark' topright in Latin"  "'mark' above in Latin"  "'mark' ogonek in Latin"  "'mark' cedilla in Latin"  "'mark' below in Latin"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Latin"  {"'mkmk' mark-above in Latin"  "'mkmk' mark-below in Latin"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 kerning class 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+DEI: 91125
 KernClass2: 2 7 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 0" 
  1 T
  1 a
@@ -100,26 +103,595 @@ ContextSub2: class "'ccmp' Contextual Alternates in Latin lookup 0-1"  4 1 1 4
  1
   SeqLookup: 0 "Dotless Single Substitution" 
 EndFPST
-TtfTable: prep 288
-[fQO3!<<*#!('">6:4)G#!`>W6:/!a6jH+H6F.(#$33CZZO6a>!('#Y%LERN6:/!i!tPK#6;+Nh
-:eS;$!)d$'YlOlc=g.oqBWqL^7'H_]BWqO_7'HnbBWq^d7'HqcBWqae7'HtdBWqdf7'I"eBWqgg
-7'I%fBWqjh7'I(gBWqmi7'I+hBWqpj7'I.iBWqsk6pMG.*^:]2-XRp%-;Y[Y-X\<@$ZHM>'Q=e+
-.W?tY-]\Ln#`fRY&t]E$#XAom&YB]_%F>U3-f?BA-Q@+l'Fu,_-Q`^<$m,]r#TjX#&hb1W$U>CZ
-#;6?9&MFb]$U4k\#X8nc&l0H3'Mes0#Yu%.&mklN#[\0N&oS"n#deL^D\=17
-EndTtf
-TtfTable: fpgm 220
-YQ-5Z!!#AcYQZ7s(pH^SYlOhl<3QNNGo<hO*3fPF6WC8n,C)GV1E<Y%!(0_i"XA;@YU1?p"9:eg
-YQZ7sI'=J.Ylt+p<3QNNH@2q**3f\J6W@0l!CM$5/[,7,5S*ns!<WK0#7(YF#n%1P%hM)p6UF.,
-6UF.,6UF.,6UEB/!\CPl,=8UM,=8UL,=8UK,=8X<!(*n(6a.:m;HU.;6a.:mYS8<KYSABL=g/T-
-+<[m(6WGA8(IM2+=<OgN6a-T!YQQ1;=g.p7+KuSJ;Rlb],C(Fa
-EndTtf
-TtfTable: cvt  118
-!!*&es6]l_!42_h!%e2E!20CC!.Y'W!5JSm!0$tAs6]l\!20CC!.Y'j!4i05!29I6!F,`,"2"aS
-"=jWnrr<5?rY,OG"`FQq"BGNh!:0k]!l=q[!*TIl!+Z($!Up*G"h4XP!pp'L"*t#l!#5U="4dGP
-EndTtf
-TtfTable: maxp 32
-!!*'"!,)@E!!N?M!!3-%!#Yc%!!<3$!<<-C!!3-$
-EndTtf
+TtTable: prep
+PUSHB_8
+ 2
+ 0
+ 3
+ 1
+ 0
+ 0
+ 1
+ 0
+WS
+WS
+RS
+WS
+RS
+WS
+PUSHB_4
+ 6
+ 64
+ 5
+ 64
+WS
+WS
+PUSHB_4
+ 8
+ 68
+ 7
+ 68
+WS
+WS
+PUSHB_4
+ 12
+ 0
+ 10
+ 0
+WS
+WS
+PUSHB_4
+ 11
+ 0
+ 9
+ 0
+WS
+WS
+PUSHB_4
+ 14
+ 9
+ 13
+ 9
+WS
+WS
+PUSHB_4
+ 16
+ 3
+ 15
+ 3
+WS
+WS
+MPPEM
+PUSHB_1
+ 9
+LT
+MPPEM
+PUSHW_1
+ 1024
+GT
+OR
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHB_1
+ 1
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 1
+SWAP
+WCVTP
+PUSHB_1
+ 2
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 2
+SWAP
+WCVTP
+PUSHB_1
+ 7
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 7
+SWAP
+WCVTP
+PUSHB_1
+ 8
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 8
+SWAP
+WCVTP
+PUSHB_1
+ 9
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 9
+SWAP
+WCVTP
+PUSHB_1
+ 10
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 10
+SWAP
+WCVTP
+PUSHB_1
+ 11
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 11
+SWAP
+WCVTP
+PUSHB_1
+ 12
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 12
+SWAP
+WCVTP
+PUSHB_1
+ 13
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 13
+SWAP
+WCVTP
+PUSHB_1
+ 14
+RCVT
+ROUND[Grey]
+PUSHB_1
+ 14
+SWAP
+WCVTP
+NPUSHB
+ 20
+ 31
+ 30
+ 63
+ 30
+ 64
+ 39
+ 95
+ 30
+ 95
+ 38
+ 80
+ 28
+ 80
+ 39
+ 96
+ 39
+ 112
+ 11
+ 112
+ 12
+NPUSHB
+ 20
+ 112
+ 21
+ 112
+ 42
+ 112
+ 45
+ 112
+ 39
+ 143
+ 7
+ 143
+ 8
+ 143
+ 17
+ 143
+ 18
+ 159
+ 7
+ 159
+ 8
+NPUSHB
+ 15
+ 159
+ 17
+ 159
+ 18
+ 208
+ 13
+ 208
+ 14
+ 208
+ 39
+ 224
+ 39
+ 240
+ 39
+ 27
+DELTAC1
+NPUSHB
+ 20
+ 15
+ 27
+ 0
+ 39
+ 31
+ 11
+ 31
+ 12
+ 31
+ 7
+ 31
+ 8
+ 31
+ 17
+ 31
+ 18
+ 47
+ 27
+ 47
+ 11
+NPUSHB
+ 20
+ 47
+ 7
+ 47
+ 8
+ 47
+ 17
+ 47
+ 18
+ 63
+ 11
+ 63
+ 7
+ 63
+ 8
+ 63
+ 17
+ 63
+ 18
+ 79
+ 27
+NPUSHB
+ 20
+ 79
+ 7
+ 79
+ 8
+ 79
+ 17
+ 79
+ 18
+ 95
+ 7
+ 95
+ 8
+ 95
+ 17
+ 95
+ 18
+ 111
+ 7
+ 111
+ 8
+PUSHB_5
+ 111
+ 17
+ 111
+ 18
+ 32
+DELTAC2
+EndTTInstrs
+TtTable: fpgm
+PUSHB_1
+ 0
+FDEF
+PUSHB_2
+ 0
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+JROF
+RTG
+PUSHB_1
+ 77
+JMPR
+PUSHB_2
+ 1
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+JROF
+RTHG
+PUSHB_1
+ 64
+JMPR
+PUSHB_2
+ 2
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+JROF
+RTDG
+PUSHB_1
+ 51
+JMPR
+PUSHB_2
+ 3
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+JROF
+RDTG
+PUSHB_1
+ 38
+JMPR
+PUSHB_2
+ 4
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+JROF
+RUTG
+PUSHB_1
+ 25
+JMPR
+PUSHB_2
+ 5
+ 0
+RS
+EQ
+PUSHB_1
+ 5
+SWAP
+ROFF
+RUTG
+PUSHB_1
+ 12
+JMPR
+PUSHB_2
+ 6
+ 0
+RS
+EQ
+IF
+PUSHB_1
+ 1
+RS
+SROUND
+EIF
+ENDF
+PUSHB_1
+ 1
+FDEF
+NPUSHB
+ 16
+ 0
+ 2
+ 1
+ 3
+ 5
+ 6
+ 7
+ 8
+ 10
+ 12
+ 9
+ 11
+ 13
+ 14
+ 15
+ 16
+RS
+WS
+RS
+WS
+RS
+WS
+RS
+WS
+RS
+WS
+RS
+WS
+RS
+WS
+RS
+WS
+ENDF
+PUSHB_1
+ 2
+FDEF
+PUSHB_1
+ 23
+SWAP
+WS
+PUSHB_1
+ 22
+SWAP
+WS
+PUSHB_1
+ 21
+SWAP
+WS
+PUSHB_1
+ 20
+SWAP
+WS
+PUSHB_2
+ 4
+ 0
+WS
+PUSHB_1
+ 20
+RS
+PUSHB_1
+ 21
+RS
+GT
+IF
+PUSHB_1
+ 20
+RS
+PUSHB_1
+ 21
+RS
+PUSHB_1
+ 20
+SWAP
+WS
+PUSHB_1
+ 21
+SWAP
+WS
+EIF
+PUSHB_1
+ 20
+RS
+DUP
+DUP
+PUSHB_1
+ 22
+RS
+NEQ
+SWAP
+PUSHB_1
+ 23
+RS
+NEQ
+AND
+IF
+DUP
+PUSHB_1
+ 4
+RS
+PUSHB_1
+ 1
+ADD
+PUSHB_1
+ 4
+SWAP
+WS
+EIF
+PUSHB_1
+ 1
+ADD
+DUP
+PUSHB_1
+ 21
+RS
+GT
+PUSHW_1
+ -37
+SWAP
+JROF
+POP
+ENDF
+EndTTInstrs
+ShortTable: cvt  59
+  0
+  -18
+  -18
+  164
+  180
+  61
+  45
+  161
+  161
+  128
+  128
+  181
+  192
+  139
+  141
+  61
+  -18
+  161
+  161
+  128
+  128
+  200
+  186
+  174
+  162
+  114
+  348
+  938
+  956
+  1049
+  1067
+  1305
+  -256
+  1475
+  -492
+  1464
+  1391
+  1409
+  1110
+  236
+  236
+  1354
+  706
+  117
+  90
+  835
+  100
+  73
+  496
+  222
+  1464
+  793
+  749
+  739
+  890
+  630
+  21
+  942
+  982
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  104
+  102
+  5
+  39
+  2
+  2
+  25
+  64
+  3
+  0
+  256
+  288
+  2
+  1
+EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 1.800;PS 001.008;hotconv 1.0.38" "" "Please refer to the Copyright section for the font trademark attribution notices." "moyogo" "moyogo" "" "" "" "Copyright (c) 2007, Denis Jacquerye <moyogo@gmail.com>,+AAoA-with Reserved Font Name Molengo.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/ofl" "" "Molengo" "Regular" "Molengo" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -127,14 +699,17 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 768 8 5
+WinInfo: 8200 8 5
 AnchorClass2: "mark-below"  "'mkmk' mark-below in Latin" "mark-above"  "'mkmk' mark-above in Latin" "topright"  "'mark' topright in Latin" "ogonek"  "'mark' ogonek in Latin" "cedilla"  "'mark' cedilla in Latin" "below"  "'mark' below in Latin" "above"  "'mark' above in Latin" 
-BeginChars: 65540 364
+BeginChars: 65540 369
+
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 886
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 68 0 m 1,0,-1
  68 1365 l 1,1,-1
  750 1365 l 1,2,-1
@@ -147,30 +722,39 @@ Fore
  136 68 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: .null
-Encoding: 65537 0 1
+Encoding: 0 0 1
 Width: 0
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 EndChar
+
 StartChar: nonmarkingreturn
-Encoding: 65538 12 2
+Encoding: 12 12 2
 Width: 682
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 EndChar
+
 StartChar: space
 Encoding: 32 32 3
 Width: 582
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 EndChar
+
 StartChar: exclam
 Encoding: 33 33 4
 Width: 454
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 107 1392 m 1,0,-1
  347 1392 l 1,1,-1
  283 460 l 1,2,-1
@@ -187,20 +771,26 @@ Fore
  109 53 109 53 109 103 c 256,4,5
 EndSplineSet
 EndChar
+
 StartChar: quotedbl
 Encoding: 34 34 5
 Width: 575
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
+Fore
 Refer: 10 39 N 1 0 0 1 0 0 2
 Refer: 10 39 N 1 0 0 1 297 0 2
 EndChar
+
 StartChar: numbersign
 Encoding: 35 35 6
 Width: 1181
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 524 1475 m 1,0,-1
  652 1475 l 1,1,-1
  554 1011 l 1,2,-1
@@ -237,12 +827,15 @@ Fore
  454 540 l 1,28,-1
 EndSplineSet
 EndChar
+
 StartChar: dollar
 Encoding: 36 36 7
 Width: 966
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 429 683 m 1,0,-1
  429 1040 l 1,1,2
  366 1024 366 1024 326.5 980 c 128,-1,3
@@ -300,12 +893,15 @@ Fore
  625 433 625 433 546 473 c 1,58,-1
 EndSplineSet
 EndChar
+
 StartChar: percent
 Encoding: 37 37 8
 Width: 1566
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 1117 1391 m 1,0,-1
  1245 1391 l 1,1,-1
  458 0 l 1,2,-1
@@ -381,12 +977,15 @@ Fore
  1121 89 1121 89 1153 89 c 128,-1,57
 EndSplineSet
 EndChar
+
 StartChar: ampersand
 Encoding: 38 38 9
 Width: 1466
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 452 714 m 1,0,1
  354 667 354 667 295.5 574.5 c 128,-1,2
  237 482 237 482 237 372 c 0,3,4
@@ -431,12 +1030,15 @@ Fore
  812 1386 812 1386 944 1296 c 1,10,-1
 EndSplineSet
 EndChar
+
 StartChar: quotesingle
 Encoding: 39 39 10
 Width: 264
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 216 1428 m 1,0,-1
  168 980 l 1,1,-1
  64 980 l 1,2,-1
@@ -444,12 +1046,15 @@ Fore
  216 1428 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: parenleft
 Encoding: 40 40 11
 Width: 634
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 271 492 m 256,0,1
  271 352.261 271 352.261 292.753 220.664 c 128,-1,2
  314.507 89.0674 314.507 89.0674 357.294 -33.1572 c 128,-1,3
@@ -471,12 +1076,15 @@ Fore
  271 631.614 271 631.614 271 492 c 256,0,1
 EndSplineSet
 EndChar
+
 StartChar: parenright
 Encoding: 41 41 12
 Width: 634
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 363 492 m 256,0,1
  363 631.614 363 631.614 341.242 763.194 c 128,-1,2
  319.484 894.773 319.484 894.773 276.711 1017.01 c 128,-1,3
@@ -498,12 +1106,15 @@ Fore
  363 352.261 363 352.261 363 492 c 256,0,1
 EndSplineSet
 EndChar
+
 StartChar: asterisk
 Encoding: 42 42 13
 Width: 849
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 454 953 m 1,0,-1
  603 704 l 1,1,-1
  477 645 l 1,2,-1
@@ -522,12 +1133,15 @@ Fore
  454 953 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: plus
 Encoding: 43 43 14
 Width: 1130
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 620 558 m 5,0,-1
  1069 558 l 5,1,-1
  1069 449 l 5,2,-1
@@ -543,12 +1157,15 @@ Fore
  620 558 l 5,0,-1
 EndSplineSet
 EndChar
+
 StartChar: comma
 Encoding: 44 44 15
 Width: 450
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 205 -27 m 0,0,1
  205 -15 205 -15 189.5 -4.5 c 128,-1,2
  174 6 174 6 156 14.5 c 128,-1,3
@@ -566,12 +1183,15 @@ Fore
  205 -98 205 -98 205 -27 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 765
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 690 449 m 1,0,-1
  61 449 l 1,1,-1
  61 558 l 1,2,-1
@@ -579,12 +1199,15 @@ Fore
  690 449 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: period
 Encoding: 46 46 17
 Width: 450
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 107 103 m 256,0,1
  107 153 107 153 141.5 188.5 c 128,-1,2
  176 224 176 224 225 224 c 260,3,4
@@ -596,12 +1219,15 @@ Fore
  107 53 107 53 107 103 c 256,0,1
 EndSplineSet
 EndChar
+
 StartChar: slash
 Encoding: 47 47 18
 Width: 645
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 493 1475 m 1,0,-1
  621 1475 l 1,1,-1
  152 0 l 1,2,-1
@@ -609,12 +1235,15 @@ Fore
  493 1475 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: zero
 Encoding: 48 48 19
 Width: 1231
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 616 111 m 256,0,1
  667 111 667 111 718.5 123.5 c 128,-1,2
  770 136 770 136 823.5 166.5 c 128,-1,3
@@ -659,12 +1288,15 @@ Fore
  542 1067 542 1067 616 1067 c 260,24,25
 EndSplineSet
 EndChar
+
 StartChar: one
 Encoding: 49 49 20
 Width: 581
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 436 1049 m 1,0,-1
  436 0 l 1,1,-1
  275 0 l 1,2,-1
@@ -675,12 +1307,15 @@ Fore
  436 1049 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: two
 Encoding: 50 50 21
 Width: 919
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 400 938 m 0,0,1
  280 938 280 938 150 854 c 1,2,-1
  90 959 l 1,3,4
@@ -708,12 +1343,15 @@ Fore
  497 938 497 938 400 938 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: three
 Encoding: 51 51 22
 Width: 841
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 788 81 m 0,0,1
  788 -6 788 -6 756 -84.5 c 128,-1,2
  724 -163 724 -163 666 -222 c 128,-1,3
@@ -760,12 +1398,15 @@ Fore
  788 160 788 160 788 81 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: four
 Encoding: 52 52 23
 Width: 995
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 591 259 m 1,0,-1
  591 822 l 1,1,-1
  232 259 l 1,2,-1
@@ -784,12 +1425,15 @@ Fore
  62 236 l 1,3,-1
 EndSplineSet
 EndChar
+
 StartChar: five
 Encoding: 53 53 24
 Width: 835
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 120 1049 m 1,0,-1
  716 1049 l 1,1,-1
  716 921 l 1,2,-1
@@ -817,12 +1461,15 @@ Fore
  120 1049 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: six
 Encoding: 54 54 25
 Width: 1013
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 522 111 m 0,0,1
  624 111 624 111 700.5 184 c 128,-1,2
  777 257 777 257 781 387 c 0,3,4
@@ -860,12 +1507,15 @@ Fore
  720 -18 720 -18 525 -18 c 0,17,18
 EndSplineSet
 EndChar
+
 StartChar: seven
 Encoding: 55 55 26
 Width: 787
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 379 636 m 6,0,-1
  544 921 l 5,1,-1
  35 921 l 5,2,-1
@@ -879,12 +1529,15 @@ Fore
  301 499 301 499 379 636 c 6,0,-1
 EndSplineSet
 EndChar
+
 StartChar: eight
 Encoding: 56 56 27
 Width: 952
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 673 1012 m 0,0,1
  673 1057 673 1057 651.5 1091 c 128,-1,2
  630 1125 630 1125 597 1142.5 c 128,-1,3
@@ -953,12 +1606,15 @@ Fore
  284 652 284 652 316 672 c 1,37,38
 EndSplineSet
 EndChar
+
 StartChar: nine
 Encoding: 57 57 28
 Width: 1013
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 490 938 m 0,0,1
  388 938 388 938 311.5 865 c 128,-1,2
  235 792 235 792 231 662 c 0,3,4
@@ -996,28 +1652,37 @@ Fore
  292 1067 292 1067 487 1067 c 4,17,18
 EndSplineSet
 EndChar
+
 StartChar: colon
 Encoding: 58 58 29
 Width: 450
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
+Fore
 Refer: 17 46 N 1 0 0 1 0 651 2
 Refer: 17 46 N 1 0 0 1 0 0 2
 EndChar
+
 StartChar: semicolon
 Encoding: 59 59 30
 Width: 450
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
+Fore
 Refer: 15 44 N 1 0 0 1 0 0 2
 Refer: 17 46 N 1 0 0 1 0 651 2
 EndChar
+
 StartChar: less
 Encoding: 60 60 31
 Width: 967
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 0 525 m 5,0,-1
  800 1155 l 5,1,-1
  879 1071 l 5,2,-1
@@ -1027,12 +1692,15 @@ Fore
  0 525 l 5,0,-1
 EndSplineSet
 EndChar
+
 StartChar: equal
 Encoding: 61 61 32
 Width: 1052
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 991 630 m 1,0,-1
  61 630 l 1,1,-1
  61 738 l 1,2,-1
@@ -1045,12 +1713,15 @@ Fore
  991 294 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: greater
 Encoding: 62 62 33
 Width: 967
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 967 525 m 1,0,-1
  167 -105 l 1,1,-1
  88 -21 l 1,2,-1
@@ -1060,12 +1731,15 @@ Fore
  967 525 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: question
 Encoding: 63 63 34
 Width: 864
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 302 103 m 256,0,1
  302 153 302 153 336.5 188.5 c 128,-1,2
  371 224 371 224 420 224 c 256,3,4
@@ -1104,12 +1778,15 @@ Fore
  108 1380 l 1,12,13
 EndSplineSet
 EndChar
+
 StartChar: at
 Encoding: 64 64 35
 Width: 1994
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 1930 608 m 0,0,1
  1930 511 1930 511 1906.5 418.5 c 128,-1,2
  1883 326 1883 326 1837 248 c 128,-1,3
@@ -1195,6 +1872,7 @@ Fore
  1217 828 1217 828 1135 828 c 0,83,84
 EndSplineSet
 EndChar
+
 StartChar: A
 Encoding: 65 65 36
 Width: 1328
@@ -1205,7 +1883,9 @@ AnchorPoint: "cedilla" 1166 0 basechar 0 13
 AnchorPoint: "below" 664 0 basechar 0 14
 AnchorPoint: "above" 664 1409 basechar 0 11
 AnchorPoint: "ogonek" 1166 0 basechar 0 13
+LayerCount: 2
 Fore
+SplineSet
 933 404 m 1,0,-1
  385 404 l 1,1,-1
  235 0 l 1,2,-1
@@ -1225,6 +1905,7 @@ Fore
 664 0 m 25,14,-1
 EndSplineSet
 EndChar
+
 StartChar: B
 Encoding: 66 66 37
 Width: 1116
@@ -1235,7 +1916,9 @@ AnchorPoint: "ogonek" 636 0 basechar 0 56
 AnchorPoint: "below" 540 0 basechar 0 57
 AnchorPoint: "cedilla" 636 0 basechar 0 56
 AnchorPoint: "topright" 892 1053 basechar 0 55
+LayerCount: 2
 Fore
+SplineSet
 361 1252 m 1,0,-1
  361 795 l 1,1,-1
  427 795 l 2,2,3
@@ -1278,6 +1961,7 @@ Fore
 540 0 m 25,57,-1
 EndSplineSet
 EndChar
+
 StartChar: C
 Encoding: 67 67 38
 Width: 1255
@@ -1288,7 +1972,9 @@ AnchorPoint: "cedilla" 660 0 basechar 0 39
 AnchorPoint: "below" 660 0 basechar 0 39
 AnchorPoint: "ogonek" 1080 153 basechar 0 38
 AnchorPoint: "above" 660 1409 basechar 0 36
+LayerCount: 2
 Fore
+SplineSet
 693 1409 m 0,0,1
  789 1409 789 1409 855 1401.5 c 128,-1,2
  921 1394 921 1394 976 1373.5 c 128,-1,3
@@ -1324,6 +2010,7 @@ Fore
 660 0 m 25,39,-1
 EndSplineSet
 EndChar
+
 StartChar: D
 Encoding: 68 68 39
 Width: 1375
@@ -1334,7 +2021,9 @@ AnchorPoint: "cedilla" 620 0 basechar 0 34
 AnchorPoint: "below" 620 0 basechar 0 34
 AnchorPoint: "ogonek" 620 0 basechar 0 34
 AnchorPoint: "above" 620 1409 basechar 0 32
+LayerCount: 2
 Fore
+SplineSet
 584 -18 m 0,0,1
  367 -18 367 -18 180 13 c 1,2,-1
  180 1372 l 1,3,4
@@ -1366,6 +2055,7 @@ Fore
 620 0 m 25,34,-1
 EndSplineSet
 EndChar
+
 StartChar: E
 Encoding: 69 69 40
 Width: 1077
@@ -1376,7 +2066,9 @@ AnchorPoint: "cedilla" 568 0 basechar 0 15
 AnchorPoint: "below" 568 0 basechar 0 15
 AnchorPoint: "ogonek" 908 0 basechar 0 12
 AnchorPoint: "above" 568 1409 basechar 0 13
+LayerCount: 2
 Fore
+SplineSet
 361 644 m 1,0,-1
  361 140 l 1,1,-1
  975 140 l 1,2,-1
@@ -1396,6 +2088,7 @@ Fore
 568 0 m 25,15,-1
 EndSplineSet
 EndChar
+
 StartChar: F
 Encoding: 70 70 41
 Width: 999
@@ -1406,7 +2099,9 @@ AnchorPoint: "cedilla" 270 0 basechar 0 12
 AnchorPoint: "below" 270 0 basechar 0 12
 AnchorPoint: "ogonek" 270 0 basechar 0 12
 AnchorPoint: "above" 580 1409 basechar 0 10
+LayerCount: 2
 Fore
+SplineSet
 361 644 m 1,0,-1
  361 0 l 1,1,-1
  180 0 l 1,2,-1
@@ -1423,6 +2118,7 @@ Fore
 270 0 m 25,12,-1
 EndSplineSet
 EndChar
+
 StartChar: G
 Encoding: 71 71 42
 Width: 1435
@@ -1433,7 +2129,9 @@ AnchorPoint: "cedilla" 740 0 basechar 0 38
 AnchorPoint: "below" 740 0 basechar 0 38
 AnchorPoint: "ogonek" 740 0 basechar 0 38
 AnchorPoint: "above" 740 1409 basechar 0 36
+LayerCount: 2
 Fore
+SplineSet
 49 696 m 0,0,1
  49 907 49 907 135.5 1068 c 128,-1,2
  222 1229 222 1229 386 1319 c 128,-1,3
@@ -1468,6 +2166,7 @@ Fore
 740 0 m 25,38,-1
 EndSplineSet
 EndChar
+
 StartChar: H
 Encoding: 72 72 43
 Width: 1364
@@ -1478,7 +2177,9 @@ AnchorPoint: "above" 682 1409 basechar 0 12
 AnchorPoint: "below" 682 0 basechar 0 15
 AnchorPoint: "cedilla" 1093 0 basechar 0 14
 AnchorPoint: "topright" 1096 1053 basechar 0 13
+LayerCount: 2
 Fore
+SplineSet
 1184 1390 m 1,0,-1
  1184 0 l 1,1,-1
  1003 0 l 1,2,-1
@@ -1498,6 +2199,7 @@ Fore
 682 0 m 25,15,-1
 EndSplineSet
 EndChar
+
 StartChar: I
 Encoding: 73 73 44
 Width: 541
@@ -1508,7 +2210,9 @@ AnchorPoint: "ogonek" 270 0 basechar 0 6
 AnchorPoint: "below" 270 0 basechar 0 6
 AnchorPoint: "cedilla" 270 0 basechar 0 6
 AnchorPoint: "topright" 270 1053 basechar 0 5
+LayerCount: 2
 Fore
+SplineSet
 361 1391 m 1,0,-1
  361 0 l 1,1,-1
  180 0 l 1,2,-1
@@ -1519,6 +2223,7 @@ Fore
 270 0 m 25,6,-1
 EndSplineSet
 EndChar
+
 StartChar: J
 Encoding: 74 74 45
 Width: 541
@@ -1529,7 +2234,9 @@ AnchorPoint: "cedilla" 60 -492 basechar 0 18
 AnchorPoint: "below" 180 -492 basechar 0 17
 AnchorPoint: "ogonek" 60 -492 basechar 0 18
 AnchorPoint: "above" 270 1409 basechar 0 15
+LayerCount: 2
 Fore
+SplineSet
 361 1391 m 1,0,-1
  361 140 l 2,1,2
  359 74 359 74 359 32.5 c 128,-1,3
@@ -1550,6 +2257,7 @@ Fore
 60 -492 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: K
 Encoding: 75 75 46
 Width: 1115
@@ -1560,7 +2268,9 @@ AnchorPoint: "cedilla" 997 0 basechar 0 13
 AnchorPoint: "below" 620 0 basechar 0 14
 AnchorPoint: "above" 620 1409 basechar 0 11
 AnchorPoint: "ogonek" 997 0 basechar 0 13
+LayerCount: 2
 Fore
+SplineSet
 361 0 m 1,0,-1
  180 0 l 1,1,-1
  180 1391 l 1,2,-1
@@ -1579,6 +2289,7 @@ Fore
 620 0 m 25,14,-1
 EndSplineSet
 EndChar
+
 StartChar: L
 Encoding: 76 76 47
 Width: 1010
@@ -1589,7 +2300,9 @@ AnchorPoint: "ogonek" 580 0 basechar 0 8
 AnchorPoint: "below" 580 0 basechar 0 8
 AnchorPoint: "cedilla" 580 0 basechar 0 8
 AnchorPoint: "topright" 270 1053 basechar 0 7
+LayerCount: 2
 Fore
+SplineSet
 180 0 m 1,0,-1
  180 1391 l 1,1,-1
  361 1391 l 1,2,-1
@@ -1602,6 +2315,7 @@ Fore
 580 0 m 25,8,-1
 EndSplineSet
 EndChar
+
 StartChar: M
 Encoding: 77 77 48
 Width: 1774
@@ -1612,7 +2326,9 @@ AnchorPoint: "cedilla" 1575 0 basechar 0 15
 AnchorPoint: "below" 886 0 basechar 0 16
 AnchorPoint: "above" 886 1409 basechar 0 13
 AnchorPoint: "ogonek" 1575 0 basechar 0 15
+LayerCount: 2
 Fore
+SplineSet
 893 249 m 1,0,-1
  1323 1392 l 1,1,-1
  1491 1392 l 1,2,-1
@@ -1633,6 +2349,7 @@ Fore
 886 0 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: N
 Encoding: 78 78 49
 Width: 1385
@@ -1643,7 +2360,9 @@ AnchorPoint: "cedilla" 1114 0 basechar 0 12
 AnchorPoint: "below" 692 0 basechar 0 13
 AnchorPoint: "above" 692 1409 basechar 0 10
 AnchorPoint: "ogonek" 1114 0 basechar 0 12
+LayerCount: 2
 Fore
+SplineSet
 1205 1391 m 1,0,-1
  1205 0 l 1,1,-1
  1024 0 l 1,2,-1
@@ -1661,6 +2380,7 @@ Fore
 692 0 m 25,13,-1
 EndSplineSet
 EndChar
+
 StartChar: O
 Encoding: 79 79 50
 Width: 1444
@@ -1671,7 +2391,9 @@ AnchorPoint: "below" 727 0 basechar 0 40
 AnchorPoint: "cedilla" 727 0 basechar 0 40
 AnchorPoint: "ogonek" 727 0 basechar 0 40
 AnchorPoint: "topright" 1263 1053 basechar 0 39
+LayerCount: 2
 Fore
+SplineSet
 727 1409 m 0,0,1
  856 1409 856 1409 965.5 1373 c 128,-1,2
  1075 1337 1075 1337 1154.5 1272 c 128,-1,3
@@ -1709,6 +2431,7 @@ Fore
 727 0 m 25,40,-1
 EndSplineSet
 EndChar
+
 StartChar: P
 Encoding: 80 80 51
 Width: 1083
@@ -1719,7 +2442,9 @@ AnchorPoint: "ogonek" 270 0 basechar 0 28
 AnchorPoint: "below" 270 0 basechar 0 28
 AnchorPoint: "cedilla" 270 0 basechar 0 28
 AnchorPoint: "topright" 950 1053 basechar 0 27
+LayerCount: 2
 Fore
+SplineSet
 515 1409 m 0,0,1
  631 1409 631 1409 722.5 1385.5 c 128,-1,2
  814 1362 814 1362 871.5 1323 c 128,-1,3
@@ -1747,6 +2472,7 @@ Fore
 270 0 m 25,28,-1
 EndSplineSet
 EndChar
+
 StartChar: Q
 Encoding: 81 81 52
 Width: 1449
@@ -1757,7 +2483,9 @@ AnchorPoint: "ogonek" 727 0 basechar 0 52
 AnchorPoint: "cedilla" 727 0 basechar 0 52
 AnchorPoint: "below" 727 0 basechar 0 52
 AnchorPoint: "above" 727 1409 basechar 0 0
+LayerCount: 2
 Fore
+SplineSet
 727 1409 m 0,0,1
  856 1409 856 1409 965.5 1373 c 128,-1,2
  1075 1337 1075 1337 1154.5 1272 c 128,-1,3
@@ -1805,6 +2533,7 @@ Fore
 727 0 m 25,52,-1
 EndSplineSet
 EndChar
+
 StartChar: R
 Encoding: 82 82 53
 Width: 1045
@@ -1815,7 +2544,9 @@ AnchorPoint: "above" 548 1409 basechar 0 24
 AnchorPoint: "below" 548 0 basechar 0 27
 AnchorPoint: "cedilla" 997 0 basechar 0 26
 AnchorPoint: "topright" 900 1053 basechar 0 25
+LayerCount: 2
 Fore
+SplineSet
 1079 0 m 1,0,-1
  878 0 l 1,1,-1
  361 628 l 1,2,-1
@@ -1842,6 +2573,7 @@ Fore
 548 0 m 29,27,-1
 EndSplineSet
 EndChar
+
 StartChar: S
 Encoding: 83 83 54
 Width: 1007
@@ -1852,7 +2584,9 @@ AnchorPoint: "cedilla" 504 0 basechar 0 60
 AnchorPoint: "below" 504 0 basechar 0 60
 AnchorPoint: "above" 504 1409 basechar 0 58
 AnchorPoint: "ogonek" 504 0 basechar 0 60
+LayerCount: 2
 Fore
+SplineSet
 157 253 m 1,0,1
  185 233 185 233 208.5 214 c 128,-1,2
  232 195 232 195 262 178.5 c 128,-1,3
@@ -1905,6 +2639,7 @@ Fore
 504 0 m 25,60,-1
 EndSplineSet
 EndChar
+
 StartChar: T
 Encoding: 84 84 55
 Width: 1183
@@ -1915,7 +2650,9 @@ AnchorPoint: "ogonek" 591 0 basechar 0 10
 AnchorPoint: "below" 591 0 basechar 0 10
 AnchorPoint: "cedilla" 591 0 basechar 0 10
 AnchorPoint: "topright" 1008 1053 basechar 0 9
+LayerCount: 2
 Fore
+SplineSet
 57 1391 m 1,0,-1
  1126 1391 l 1,1,-1
  1126 1252 l 1,2,-1
@@ -1930,6 +2667,7 @@ Fore
 591 0 m 25,10,-1
 EndSplineSet
 EndChar
+
 StartChar: U
 Encoding: 85 85 56
 Width: 1310
@@ -1940,7 +2678,9 @@ AnchorPoint: "below" 655 0 basechar 0 17
 AnchorPoint: "cedilla" 655 0 basechar 0 17
 AnchorPoint: "ogonek" 655 0 basechar 0 17
 AnchorPoint: "topright" 1048 1053 basechar 0 18
+LayerCount: 2
 Fore
+SplineSet
 361 486 m 2,0,1
  361 299 361 299 447 211 c 128,-1,2
  533 123 533 123 681 123 c 0,3,4
@@ -1960,6 +2700,7 @@ Fore
 655 1392 m 25,19,-1
 EndSplineSet
 EndChar
+
 StartChar: V
 Encoding: 86 86 57
 Width: 1328
@@ -1970,7 +2711,9 @@ AnchorPoint: "above" 664 1409 basechar 0 7
 AnchorPoint: "below" 664 0 basechar 0 9
 AnchorPoint: "cedilla" 664 0 basechar 0 9
 AnchorPoint: "topright" 1048 1053 basechar 0 8
+LayerCount: 2
 Fore
+SplineSet
 669 248 m 1,0,-1
  1093 1391 l 1,1,-1
  1261 1391 l 1,2,-1
@@ -1984,6 +2727,7 @@ Fore
 664 0 m 25,9,-1
 EndSplineSet
 EndChar
+
 StartChar: W
 Encoding: 87 87 58
 Width: 2027
@@ -1994,7 +2738,9 @@ AnchorPoint: "cedilla" 1424 0 basechar 0 16
 AnchorPoint: "below" 1013 0 basechar 0 15
 AnchorPoint: "above" 1013 1409 basechar 0 13
 AnchorPoint: "ogonek" 1424 0 basechar 0 16
+LayerCount: 2
 Fore
+SplineSet
 1792 1391 m 1,0,-1
  1960 1391 l 1,1,-1
  1499 0 l 1,2,-1
@@ -2015,6 +2761,7 @@ Fore
 1424 0 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: X
 Encoding: 88 88 59
 Width: 1288
@@ -2025,7 +2772,9 @@ AnchorPoint: "cedilla" 1098 0 basechar 0 12
 AnchorPoint: "below" 644 0 basechar 0 15
 AnchorPoint: "above" 644 1409 basechar 0 13
 AnchorPoint: "ogonek" 1098 0 basechar 0 12
+LayerCount: 2
 Fore
+SplineSet
 108 1392 m 1,0,-1
  319 1392 l 1,1,-1
  662 854 l 1,2,-1
@@ -2045,6 +2794,7 @@ Fore
 644 0 m 29,15,-1
 EndSplineSet
 EndChar
+
 StartChar: Y
 Encoding: 89 89 60
 Width: 1241
@@ -2055,7 +2805,9 @@ AnchorPoint: "cedilla" 620 0 basechar 0 11
 AnchorPoint: "below" 620 0 basechar 0 11
 AnchorPoint: "ogonek" 620 0 basechar 0 11
 AnchorPoint: "above" 620 1409 basechar 0 9
+LayerCount: 2
 Fore
+SplineSet
 1014 1391 m 1,0,-1
  1182 1391 l 1,1,-1
  711 618 l 1,2,-1
@@ -2071,6 +2823,7 @@ Fore
 620 0 m 25,11,-1
 EndSplineSet
 EndChar
+
 StartChar: Z
 Encoding: 90 90 61
 Width: 1259
@@ -2081,7 +2834,9 @@ AnchorPoint: "above" 601 1409 basechar 0 9
 AnchorPoint: "below" 601 0 basechar 0 11
 AnchorPoint: "cedilla" 1048 0 basechar 0 8
 AnchorPoint: "topright" 808 1053 basechar 0 10
+LayerCount: 2
 Fore
+SplineSet
 87 1391 m 1,0,-1
  1116 1391 l 1,1,-1
  320 139 l 1,2,-1
@@ -2097,12 +2852,15 @@ Fore
 601 0 m 25,11,-1
 EndSplineSet
 EndChar
+
 StartChar: bracketleft
 Encoding: 91 91 62
 Width: 581
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 100 -490 m 1,0,-1
  100 1475 l 1,1,-1
  522 1475 l 1,2,-1
@@ -2114,12 +2872,15 @@ Fore
  100 -490 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: backslash
 Encoding: 92 92 63
 Width: 645
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 152 1475 m 1,0,-1
  621 0 l 1,1,-1
  493 0 l 1,2,-1
@@ -2127,12 +2888,15 @@ Fore
  152 1475 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: bracketright
 Encoding: 93 93 64
 Width: 581
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 522 -490 m 1,0,-1
  100 -490 l 1,1,-1
  100 -362 l 1,2,-1
@@ -2144,12 +2908,15 @@ Fore
  522 -490 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: asciicircum
 Encoding: 94 94 65
 Width: 1085
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 600 1409 m 1,0,-1
  1015 828 l 1,1,-1
  915 795 l 1,2,-1
@@ -2160,12 +2927,15 @@ Fore
  600 1409 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: underscore
 Encoding: 95 95 66
 Width: 1048
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 983 -297 m 1,0,-1
  65 -297 l 1,1,-1
  65 -188 l 1,2,-1
@@ -2173,12 +2943,15 @@ Fore
  983 -297 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: grave
 Encoding: 96 96 67
 Width: 491
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 10 1475 m 1,0,-1
  198 1475 l 1,1,-1
  360 1100 l 1,2,-1
@@ -2186,66 +2959,67 @@ Fore
  10 1475 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: a
 Encoding: 97 97 68
 Width: 894
 GlyphClass: 2
-Flags: MW
-AnchorPoint: "above" 439 956 basechar 0 55
-AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "cedilla" 693 0 basechar 0 53
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+Flags: HMW
 AnchorPoint: "topright" 774 828 basechar 0 56
+AnchorPoint: "ogonek" 720 0 basechar 0 55
+AnchorPoint: "cedilla" 693 0 basechar 0 53
+AnchorPoint: "below" 439 0 basechar 0 54
+AnchorPoint: "above" 439 956 basechar 0 52
+LayerCount: 2
 Fore
-612 481 m 1,0,1
- 557 458 557 458 502.5 437 c 128,-1,2
- 448 416 448 416 397 390 c 128,-1,3
- 346 364 346 364 307.5 338 c 128,-1,4
- 269 312 269 312 245.5 279 c 128,-1,5
- 222 246 222 246 222 210 c 0,6,7
- 222 113 222 113 361 113 c 0,8,9
- 412 113 412 113 456 129 c 128,-1,10
- 500 145 500 145 528 168.5 c 128,-1,11
- 556 192 556 192 576 220 c 128,-1,12
- 596 248 596 248 604 272 c 128,-1,13
- 612 296 612 296 612 312 c 2,14,-1
- 612 481 l 1,0,1
-117 866 m 1,15,16
- 209 912 209 912 289 934 c 128,-1,17
- 369 956 369 956 484 956 c 0,18,19
- 603 956 603 956 688.5 870 c 128,-1,20
- 774 784 774 784 774 664 c 2,21,-1
- 774 209 l 2,22,23
- 774 126 774 126 781 87.5 c 128,-1,24
- 788 49 788 49 807 0 c 1,25,-1
- 646 0 l 1,26,27
- 626 28 626 28 619 57.5 c 128,-1,28
- 612 87 612 87 612 156 c 1,29,30
- 560 58 560 58 489 17.5 c 128,-1,31
- 418 -23 418 -23 319 -23 c 0,32,33
- 211 -23 211 -23 139.5 34 c 128,-1,34
- 68 91 68 91 68 200 c 0,35,36
- 68 234 68 234 78 264.5 c 128,-1,37
- 88 295 88 295 110 322.5 c 128,-1,38
- 132 350 132 350 155 372.5 c 128,-1,39
- 178 395 178 395 216.5 418.5 c 128,-1,40
- 255 442 255 442 285.5 459 c 128,-1,41
- 316 476 316 476 365.5 497.5 c 128,-1,42
- 415 519 415 519 446 531.5 c 128,-1,43
- 477 544 477 544 531 565.5 c 128,-1,44
- 585 587 585 587 612 598 c 1,45,-1
- 613 655 l 2,46,47
- 605 828 605 828 430 828 c 0,48,49
- 357 828 357 828 295 811 c 128,-1,50
- 233 794 233 794 150 752 c 1,51,-1
- 117 866 l 1,15,16
-720 0 m 25,52,-1
+SplineSet
+611 416 m 1,0,-1
+ 605 416 l 2,1,2
+ 497 416 497 416 413 397.5 c 128,-1,3
+ 329 379 329 379 275.5 338.5 c 128,-1,4
+ 222 298 222 298 222 239 c 0,5,6
+ 222 190 222 190 260 148 c 128,-1,7
+ 298 106 298 106 376 106 c 0,8,9
+ 596 106 596 106 611 331 c 1,10,-1
+ 611 416 l 1,0,-1
+145 890 m 1,11,12
+ 325 953 325 953 444 953 c 0,13,14
+ 555 953 555 953 638 896 c 128,-1,15
+ 721 839 721 839 750 727 c 0,16,17
+ 766 664 766 664 766 467 c 2,18,-1
+ 766 160 l 2,19,20
+ 766 72 766 72 780 0 c 1,21,-1
+ 624 0 l 9,22,23
+ 610 44 610 44 611 100 c 1,24,25
+ 586 70 586 70 556 48 c 0,26,27
+ 462 -21 462 -21 356 -21 c 0,28,29
+ 292 -21 292 -21 241 -3 c 128,-1,30
+ 190 15 190 15 160 42.5 c 128,-1,31
+ 130 70 130 70 110.5 106 c 128,-1,32
+ 91 142 91 142 83.5 173.5 c 128,-1,33
+ 76 205 76 205 76 235 c 0,34,35
+ 76 295 76 295 103.5 345 c 128,-1,36
+ 131 395 131 395 178.5 428 c 128,-1,37
+ 226 461 226 461 281 482 c 128,-1,38
+ 336 503 336 503 399 515 c 0,39,40
+ 474 529 474 529 593 529 c 2,41,-1
+ 611 529 l 1,42,-1
+ 611 633 l 2,43,44
+ 611 664 611 664 609.5 683.5 c 128,-1,45
+ 608 703 608 703 598 734 c 128,-1,46
+ 588 765 588 765 569 783 c 128,-1,47
+ 550 801 550 801 512 815 c 128,-1,48
+ 474 829 474 829 420 829 c 0,49,50
+ 292 829 292 829 153 765 c 1,51,-1
+ 145 890 l 1,11,12
+439 956 m 25,52,-1
 693 0 m 25,53,-1
 439 0 m 25,54,-1
-439 956 m 25,55,-1
+720 0 m 25,55,-1
 774 828 m 25,56,-1
 EndSplineSet
 EndChar
+
 StartChar: b
 Encoding: 98 98 69
 Width: 1059
@@ -2256,7 +3030,9 @@ AnchorPoint: "topright" 841 828 basechar 0 35
 AnchorPoint: "above" 244 1475 basechar 0 36
 AnchorPoint: "below" 555 0 basechar 0 34
 AnchorPoint: "cedilla" 555 0 basechar 0 34
+LayerCount: 2
 Fore
+SplineSet
 594 828 m 0,0,1
  431 827 431 827 325 648 c 1,2,-1
  325 148 l 1,3,4
@@ -2290,6 +3066,7 @@ Fore
 244 1475 m 25,36,-1
 EndSplineSet
 EndChar
+
 StartChar: c
 Encoding: 99 99 70
 Width: 888
@@ -2300,7 +3077,9 @@ AnchorPoint: "cedilla" 516 0 basechar 0 29
 AnchorPoint: "below" 486 0 basechar 0 28
 AnchorPoint: "above" 486 956 basechar 0 26
 AnchorPoint: "topright" 773 828 basechar 0 27
+LayerCount: 2
 Fore
+SplineSet
 61 469 m 256,0,1
  61 690 61 690 181.5 823 c 128,-1,2
  302 956 302 956 508 956 c 0,3,4
@@ -2326,6 +3105,7 @@ Fore
 516 0 m 25,29,-1
 EndSplineSet
 EndChar
+
 StartChar: d
 Encoding: 100 100 71
 Width: 1063
@@ -2336,7 +3116,9 @@ AnchorPoint: "below" 482 0 basechar 0 31
 AnchorPoint: "ogonek" 816 0 basechar 0 33
 AnchorPoint: "cedilla" 482 0 basechar 0 31
 AnchorPoint: "above" 816 1475 basechar 0 30
+LayerCount: 2
 Fore
+SplineSet
 465 -18 m 0,0,1
  349 -18 349 -18 255 46 c 128,-1,2
  161 110 161 110 111 212.5 c 128,-1,3
@@ -2367,6 +3149,7 @@ Fore
 816 0 m 25,33,-1
 EndSplineSet
 EndChar
+
 StartChar: e
 Encoding: 101 101 72
 Width: 939
@@ -2377,7 +3160,9 @@ AnchorPoint: "above" 495 956 basechar 0 39
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 AnchorPoint: "cedilla" 495 0 basechar 0 42
 AnchorPoint: "topright" 773 828 basechar 0 40
+LayerCount: 2
 Fore
+SplineSet
 500 828 m 0,0,1
  361 828 361 828 292 744 c 0,2,3
  244 686 244 686 229 580 c 1,4,-1
@@ -2415,6 +3200,7 @@ Fore
 495 0 m 25,42,-1
 EndSplineSet
 EndChar
+
 StartChar: f
 Encoding: 102 102 73
 Width: 675
@@ -2425,7 +3211,9 @@ AnchorPoint: "below" 302 0 basechar 0 25
 AnchorPoint: "above" 564 1475 basechar 0 27
 AnchorPoint: "topright" 580 828 basechar 0 26
 AnchorPoint: "ogonek" 302 0 basechar 0 25
+LayerCount: 2
 Fore
+SplineSet
 383 0 m 1,0,-1
  222 0 l 1,1,-1
  222 810 l 1,2,-1
@@ -2453,6 +3241,7 @@ Fore
 564 1475 m 25,27,-1
 EndSplineSet
 EndChar
+
 StartChar: g
 Encoding: 103 103 74
 Width: 980
@@ -2463,7 +3252,9 @@ AnchorPoint: "cedilla" 516 -492 basechar 0 93
 AnchorPoint: "ogonek" 516 -492 basechar 0 93
 AnchorPoint: "above" 516 956 basechar 0 94
 AnchorPoint: "below" 495 -492 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 492 827 m 256,0,1
  435 827 435 827 392 806.5 c 128,-1,2
  349 786 349 786 325 752 c 128,-1,3
@@ -2542,6 +3333,7 @@ Fore
 892 828 m 25,95,-1
 EndSplineSet
 EndChar
+
 StartChar: h
 Encoding: 104 104 75
 Width: 1121
@@ -2552,7 +3344,9 @@ AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 25
 AnchorPoint: "ogonek" 876 0 basechar 0 25
 AnchorPoint: "topright" 907 828 basechar 0 26
+LayerCount: 2
 Fore
+SplineSet
 164 0 m 1,0,-1
  164 1475 l 1,1,-1
  325 1475 l 1,2,-1
@@ -2580,6 +3374,7 @@ Fore
 244 1475 m 25,27,-1
 EndSplineSet
 EndChar
+
 StartChar: i
 Encoding: 105 105 76
 Width: 547
@@ -2590,19 +3385,25 @@ AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "topright" 302 828 basechar 0 7
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 103 775 S 1 0 0 1 302 0 6 6 13
 Substitution2: "Dotless Single Substitution lookup-1" dotlessi
 EndChar
+
 StartChar: j
 Encoding: 106 106 77
 Width: 547
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
+Fore
 Refer: 99 567 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 302 0 2
 Substitution2: "Dotless Single Substitution lookup-1" uni0237
 EndChar
+
 StartChar: k
 Encoding: 107 107 78
 Width: 935
@@ -2613,7 +3414,9 @@ AnchorPoint: "ogonek" 555 0 basechar 0 12
 AnchorPoint: "cedilla" 555 0 basechar 0 12
 AnchorPoint: "below" 555 0 basechar 0 11
 AnchorPoint: "above" 244 1475 basechar 0 14
+LayerCount: 2
 Fore
+SplineSet
 325 0 m 1,0,-1
  164 0 l 1,1,-1
  164 1475 l 1,2,-1
@@ -2632,6 +3435,7 @@ Fore
 244 1475 m 29,14,-1
 EndSplineSet
 EndChar
+
 StartChar: l
 Encoding: 108 108 79
 Width: 593
@@ -2642,7 +3446,9 @@ AnchorPoint: "below" 344 0 basechar 0 14
 AnchorPoint: "cedilla" 344 0 basechar 0 14
 AnchorPoint: "ogonek" 344 0 basechar 0 14
 AnchorPoint: "topright" 244 828 basechar 0 15
+LayerCount: 2
 Fore
+SplineSet
 325 1475 m 1,0,-1
  325 256 l 2,1,2
  325 179 325 179 355.5 145.5 c 128,-1,3
@@ -2659,6 +3465,7 @@ Fore
 244 1475 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: m
 Encoding: 109 109 80
 Width: 1645
@@ -2669,7 +3476,9 @@ AnchorPoint: "above" 825 956 basechar 0 36
 AnchorPoint: "below" 825 0 basechar 0 35
 AnchorPoint: "cedilla" 1403 0 basechar 0 38
 AnchorPoint: "ogonek" 1403 0 basechar 0 38
+LayerCount: 2
 Fore
+SplineSet
 164 0 m 1,0,-1
  164 938 l 1,1,-1
  325 938 l 1,2,-1
@@ -2702,6 +3511,7 @@ Fore
 1403 0 m 25,38,-1
 EndSplineSet
 EndChar
+
 StartChar: n
 Encoding: 110 110 81
 Width: 1121
@@ -2712,7 +3522,9 @@ AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "above" 555 956 basechar 0 25
+LayerCount: 2
 Fore
+SplineSet
 796 507 m 2,0,1
  796 678 796 678 736 753 c 128,-1,2
  676 828 676 828 566 828 c 0,3,4
@@ -2740,6 +3552,7 @@ Fore
 876 0 m 25,27,-1
 EndSplineSet
 EndChar
+
 StartChar: o
 Encoding: 111 111 82
 Width: 1012
@@ -2750,7 +3563,9 @@ AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "above" 506 956 basechar 0 44
+LayerCount: 2
 Fore
+SplineSet
 222 469 m 256,0,1
  222 372 222 372 246.5 299.5 c 128,-1,2
  271 227 271 227 312.5 187.5 c 128,-1,3
@@ -2794,6 +3609,7 @@ Fore
 506 0 m 25,46,-1
 EndSplineSet
 EndChar
+
 StartChar: p
 Encoding: 112 112 83
 Width: 1063
@@ -2804,7 +3620,9 @@ AnchorPoint: "below" 244 -492 basechar 0 32
 AnchorPoint: "above" 555 956 basechar 0 30
 AnchorPoint: "topright" 841 828 basechar 0 31
 AnchorPoint: "ogonek" 244 -492 basechar 0 32
+LayerCount: 2
 Fore
+SplineSet
 329 154 m 1,0,1
  409 110 409 110 520 110 c 0,2,3
  575 110 575 110 631.5 138.5 c 128,-1,4
@@ -2834,6 +3652,7 @@ Fore
 244 -492 m 25,32,-1
 EndSplineSet
 EndChar
+
 StartChar: q
 Encoding: 113 113 84
 Width: 1060
@@ -2844,7 +3663,9 @@ AnchorPoint: "topright" 816 828 basechar 0 35
 AnchorPoint: "above" 555 956 basechar 0 34
 AnchorPoint: "below" 816 -492 basechar 0 36
 AnchorPoint: "cedilla" 816 -492 basechar 0 36
+LayerCount: 2
 Fore
+SplineSet
 454 -18 m 0,0,1
  376 -18 376 -18 307 9.5 c 128,-1,2
  238 37 238 37 182 92 c 128,-1,3
@@ -2878,6 +3699,7 @@ Fore
 816 -492 m 25,36,-1
 EndSplineSet
 EndChar
+
 StartChar: r
 Encoding: 114 114 85
 Width: 830
@@ -2888,7 +3710,9 @@ AnchorPoint: "below" 244 0 basechar 0 20
 AnchorPoint: "cedilla" 244 0 basechar 0 20
 AnchorPoint: "ogonek" 244 0 basechar 0 20
 AnchorPoint: "topright" 728 828 basechar 0 22
+LayerCount: 2
 Fore
+SplineSet
 164 0 m 1,0,-1
  164 938 l 1,1,-1
  325 938 l 1,2,-1
@@ -2911,6 +3735,7 @@ Fore
 728 828 m 29,22,-1
 EndSplineSet
 EndChar
+
 StartChar: s
 Encoding: 115 115 86
 Width: 782
@@ -2921,7 +3746,9 @@ AnchorPoint: "ogonek" 400 0 basechar 0 38
 AnchorPoint: "cedilla" 400 0 basechar 0 38
 AnchorPoint: "below" 400 0 basechar 0 38
 AnchorPoint: "above" 400 956 basechar 0 39
+LayerCount: 2
 Fore
+SplineSet
 396 956 m 0,0,1
  486 956 486 956 556 932.5 c 128,-1,2
  626 909 626 909 664 879 c 1,3,-1
@@ -2954,6 +3781,7 @@ Fore
 597 828 m 25,40,-1
 EndSplineSet
 EndChar
+
 StartChar: t
 Encoding: 116 116 87
 Width: 669
@@ -2964,7 +3792,9 @@ AnchorPoint: "cedilla" 372 0 basechar 0 22
 AnchorPoint: "below" 372 0 basechar 0 22
 AnchorPoint: "topright" 510 828 basechar 0 24
 AnchorPoint: "above" 254 956 basechar 0 23
+LayerCount: 2
 Fore
+SplineSet
 335 1188 m 1,0,-1
  335 938 l 1,1,-1
  564 938 l 1,2,-1
@@ -2989,6 +3819,7 @@ Fore
 510 828 m 25,24,-1
 EndSplineSet
 EndChar
+
 StartChar: u
 Encoding: 117 117 88
 Width: 1121
@@ -2999,7 +3830,9 @@ AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 907 828 basechar 0 26
+LayerCount: 2
 Fore
+SplineSet
 325 431 m 2,0,1
  325 260 325 260 385 185 c 128,-1,2
  445 110 445 110 555 110 c 0,3,4
@@ -3027,6 +3860,7 @@ Fore
 876 0 m 25,27,-1
 EndSplineSet
 EndChar
+
 StartChar: v
 Encoding: 118 118 89
 Width: 984
@@ -3037,7 +3871,9 @@ AnchorPoint: "below" 492 0 basechar 0 7
 AnchorPoint: "cedilla" 492 0 basechar 0 7
 AnchorPoint: "ogonek" 492 0 basechar 0 7
 AnchorPoint: "topright" 846 828 basechar 0 9
+LayerCount: 2
 Fore
+SplineSet
 801 938 m 1,0,-1
  963 938 l 1,1,-1
  546 0 l 1,2,-1
@@ -3051,6 +3887,7 @@ Fore
 846 828 m 25,9,-1
 EndSplineSet
 EndChar
+
 StartChar: w
 Encoding: 119 119 90
 Width: 1512
@@ -3061,7 +3898,9 @@ AnchorPoint: "ogonek" 1068 0 basechar 0 16
 AnchorPoint: "cedilla" 1068 0 basechar 0 16
 AnchorPoint: "below" 756 0 basechar 0 13
 AnchorPoint: "above" 756 956 basechar 0 14
+LayerCount: 2
 Fore
+SplineSet
 1329 938 m 1,0,-1
  1491 938 l 1,1,-1
  1124 0 l 1,2,-1
@@ -3082,6 +3921,7 @@ Fore
 1068 0 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: x
 Encoding: 120 120 91
 Width: 945
@@ -3092,7 +3932,9 @@ AnchorPoint: "ogonek" 790 0 basechar 0 15
 AnchorPoint: "cedilla" 790 0 basechar 0 15
 AnchorPoint: "below" 472 0 basechar 0 12
 AnchorPoint: "above" 472 956 basechar 0 13
+LayerCount: 2
 Fore
+SplineSet
 61 938 m 1,0,-1
  247 938 l 1,1,-1
  482 592 l 1,2,-1
@@ -3112,6 +3954,7 @@ Fore
 790 0 m 29,15,-1
 EndSplineSet
 EndChar
+
 StartChar: y
 Encoding: 121 121 92
 Width: 1027
@@ -3122,7 +3965,9 @@ AnchorPoint: "below" 515 -492 basechar 0 24
 AnchorPoint: "cedilla" 170 -492 basechar 0 27
 AnchorPoint: "ogonek" 170 -492 basechar 0 27
 AnchorPoint: "topright" 880 828 basechar 0 26
+LayerCount: 2
 Fore
+SplineSet
 24 938 m 1,0,-1
  197 938 l 1,1,-1
  520 207 l 1,2,-1
@@ -3150,6 +3995,7 @@ Fore
 170 -492 m 25,27,-1
 EndSplineSet
 EndChar
+
 StartChar: z
 Encoding: 122 122 93
 Width: 972
@@ -3160,7 +4006,9 @@ AnchorPoint: "below" 508 0 basechar 0 8
 AnchorPoint: "cedilla" 820 0 basechar 0 11
 AnchorPoint: "ogonek" 820 0 basechar 0 11
 AnchorPoint: "topright" 738 828 basechar 0 10
+LayerCount: 2
 Fore
+SplineSet
 111 938 m 1,0,-1
  889 938 l 1,1,-1
  340 128 l 1,2,-1
@@ -3176,12 +4024,15 @@ Fore
 820 0 m 25,11,-1
 EndSplineSet
 EndChar
+
 StartChar: braceleft
 Encoding: 123 123 94
 Width: 667
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 214 492 m 1,0,1
  281 470 281 470 320.5 437 c 128,-1,2
  360 404 360 404 383.5 339.5 c 128,-1,3
@@ -3220,12 +4071,15 @@ Fore
  281 514 281 514 214 492 c 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: bar
 Encoding: 124 124 95
 Width: 310
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 210 1477 m 1,0,-1
  210 -488 l 1,1,-1
  100 -488 l 1,2,-1
@@ -3233,12 +4087,15 @@ Fore
  210 1477 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: braceright
 Encoding: 125 125 96
 Width: 667
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 453 492 m 1,0,1
  386 514 386 514 346.5 547 c 128,-1,2
  307 580 307 580 283.5 644.5 c 128,-1,3
@@ -3277,12 +4134,15 @@ Fore
  386 470 386 470 453 492 c 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: asciitilde
 Encoding: 126 126 97
 Width: 1144
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 167 423 m 1,0,-1
  59 489 l 1,1,2
  205 695 205 695 375 695 c 0,3,4
@@ -3298,6 +4158,7 @@ Fore
  252 531 252 531 167 423 c 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: dotlessi
 Encoding: 305 305 98
 Width: 547
@@ -3308,7 +4169,9 @@ AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "above" 302 956 basechar 0 6
+LayerCount: 2
 Fore
+SplineSet
 383 938 m 1,0,-1
  383 0 l 1,1,-1
  222 0 l 1,2,-1
@@ -3321,6 +4184,7 @@ Fore
 302 0 m 29,8,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0237
 Encoding: 567 567 99
 Width: 547
@@ -3331,7 +4195,9 @@ AnchorPoint: "below" 222 -492 basechar 0 21
 AnchorPoint: "cedilla" 222 -492 basechar 0 21
 AnchorPoint: "ogonek" 222 -492 basechar 0 21
 AnchorPoint: "topright" 302 828 basechar 0 20
+LayerCount: 2
 Fore
+SplineSet
 383 938 m 1,0,-1
  383 111 l 2,1,2
  383 48 383 48 381 5.5 c 128,-1,3
@@ -3353,6 +4219,7 @@ Fore
 222 -492 m 25,21,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0251
 Encoding: 593 593 100
 Width: 1016
@@ -3363,7 +4230,9 @@ AnchorPoint: "ogonek" 848 0 basechar 0 45
 AnchorPoint: "cedilla" 848 0 basechar 0 45
 AnchorPoint: "below" 555 0 basechar 0 46
 AnchorPoint: "above" 555 956 basechar 0 48
+LayerCount: 2
 Fore
+SplineSet
 735 156 m 1,0,1
  717 129 717 129 712 122 c 128,-1,2
  707 115 707 115 690 91.5 c 128,-1,3
@@ -3407,6 +4276,7 @@ Fore
 555 956 m 29,48,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0259
 Encoding: 601 601 101
 Width: 939
@@ -3417,14 +4287,19 @@ AnchorPoint: "cedilla" 450 0 basechar 0 40
 AnchorPoint: "ogonek" 450 0 basechar 0 40
 AnchorPoint: "above" 450 956 basechar 0 41
 AnchorPoint: "below" 450 0 basechar 0 40
+LayerCount: 2
+Fore
 Refer: 255 477 N 1 0 0 1 0 0 2
 EndChar
+
 StartChar: uni0261
 Encoding: 609 609 102
 Width: 1060
 GlyphClass: 2
 Flags: MW
+LayerCount: 2
 Fore
+SplineSet
 454 -18 m 0,0,1
  376 -18 376 -18 307 9.5 c 128,-1,2
  238 37 238 37 182 92 c 128,-1,3
@@ -3464,6 +4339,7 @@ Fore
  418.302 109.991 418.302 109.991 463.951 109.991 c 0,32,33
 EndSplineSet
 EndChar
+
 StartChar: uni0307
 Encoding: 775 775 103
 Width: 0
@@ -3472,7 +4348,9 @@ Flags: MW
 AnchorPoint: "above" 0 956 mark 0 13
 AnchorPoint: "mark-above" 0 1475 basemark 0 12
 AnchorPoint: "mark-above" 0 1120 mark 0 14
+LayerCount: 2
 Fore
+SplineSet
 -118 1309 m 256,0,1
  -118 1359 -118 1359 -83.5 1394.5 c 128,-1,2
  -49 1430 -49 1430 0 1430 c 256,3,4
@@ -3487,15 +4365,17 @@ Fore
 0 1120 m 25,14,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0308
 Encoding: 776 776 104
 Width: 0
-Flags: MWO
-TeX: 0 0 0 0
+Flags: MW
 AnchorPoint: "mark-above" 0 1120 mark 0 26
 AnchorPoint: "mark-above" 0 1475 basemark 0 25
 AnchorPoint: "above" 0 956 mark 0 24
+LayerCount: 2
 Fore
+SplineSet
 -354 1309 m 256,0,1
  -354 1359 -354 1359 -319.5 1394.5 c 128,-1,2
  -285 1430 -285 1430 -236 1430 c 256,3,4
@@ -3519,22 +4399,26 @@ Fore
 0 1120 m 25,26,-1
 EndSplineSet
 EndChar
+
 StartChar: dieresis
 Encoding: 168 168 105
 Width: 944
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 104 776 N 1 0 0 1 472 0 2
 EndChar
+
 StartChar: gravecomb
 Encoding: 768 768 106
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 956 mark 0 5
 AnchorPoint: "mark-above" 0 1475 basemark 0 4
 AnchorPoint: "above" 0 956 mark 0 5
+LayerCount: 2
 Fore
+SplineSet
 -249 1475 m 25,0,-1
  -61 1475 l 1,1,-1
  82 1144 l 1,2,-1
@@ -3544,15 +4428,17 @@ Fore
 0 956 m 25,5,-1
 EndSplineSet
 EndChar
+
 StartChar: acutecomb
 Encoding: 769 769 107
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 956 mark 0 5
 AnchorPoint: "mark-above" 0 1475 basemark 0 4
 AnchorPoint: "above" 0 956 mark 0 5
+LayerCount: 2
 Fore
+SplineSet
 249 1475 m 25,0,-1
  10 1100 l 1,1,-1
  -82 1144 l 1,2,-1
@@ -3562,15 +4448,17 @@ Fore
 0 956 m 25,5,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0302
 Encoding: 770 770 108
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 8
 AnchorPoint: "mark-above" 0 1475 basemark 0 7
 AnchorPoint: "mark-above" 0 956 mark 0 8
+LayerCount: 2
 Fore
+SplineSet
 9.10383e-15 1348.98 m 1,0,-1
  -234 1100 l 1,1,-1
  -309 1149 l 1,2,-1
@@ -3583,15 +4471,17 @@ Fore
 0 956 m 25,8,-1
 EndSplineSet
 EndChar
+
 StartChar: tildecomb
 Encoding: 771 771 109
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 1035 mark 0 26
 AnchorPoint: "mark-above" 0 1410 basemark 0 24
 AnchorPoint: "above" 0 956 mark 0 25
+LayerCount: 2
 Fore
+SplineSet
 -272 1107.3 m 9,0,-1
  -342 1166.7 l 1,1,2
  -316.036 1217.6 -316.036 1217.6 -284.846 1254.7 c 128,-1,3
@@ -3616,16 +4506,18 @@ Fore
 0 1035 m 25,26,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0254
 Encoding: 596 596 110
 Width: 921
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "cedilla" 429 0 basechar 0 30
 AnchorPoint: "below" 429 0 basechar 0 30
 AnchorPoint: "above" 429 956 basechar 0 32
 AnchorPoint: "topright" 707 828 basechar 0 31
+LayerCount: 2
 Fore
+SplineSet
 860 469 m 0,0,1
  860 248 860 248 739.5 115 c 128,-1,2
  619 -18 619 -18 413 -18 c 0,3,4
@@ -3654,16 +4546,18 @@ Fore
 429 956 m 29,32,-1
 EndSplineSet
 EndChar
+
 StartChar: uni025B
 Encoding: 603 603 111
 Width: 822
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 448.5 956 basechar 0
 AnchorPoint: "below" 448.5 0 basechar 0
 AnchorPoint: "cedilla" 478.5 0 basechar 0
 AnchorPoint: "topright" 668.5 828 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 741 884 m 9,0,-1
  680 768 l 1,1,2
  642 790 642 790 582 809 c 128,-1,3
@@ -3700,17 +4594,19 @@ Fore
  708 911 708 911 741 884 c 9,0,-1
 EndSplineSet
 EndChar
+
 StartChar: Eng
 Encoding: 330 330 112
 Width: 1490
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 755 -492 basechar 0 48
 AnchorPoint: "above" 755 1409 basechar 0 46
 AnchorPoint: "below" 755 -492 basechar 0 48
 AnchorPoint: "cedilla" 755 -492 basechar 0 48
 AnchorPoint: "topright" 1170 1053 basechar 0 47
+LayerCount: 2
 Fore
+SplineSet
 1127 684 m 18,0,1
  1127 985 1127 985 1028 1128 c 128,-1,2
  929 1271 929 1271 753 1271 c 0,3,4
@@ -3756,17 +4652,19 @@ Fore
 755 -492 m 25,48,-1
 EndSplineSet
 EndChar
+
 StartChar: eng
 Encoding: 331 331 113
 Width: 1121
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 956 basechar 0 40
 AnchorPoint: "below" 555 -492 basechar 0 42
 AnchorPoint: "cedilla" 555 -492 basechar 0 42
 AnchorPoint: "ogonek" 555 -492 basechar 0 42
 AnchorPoint: "topright" 795 828 basechar 0 41
+LayerCount: 2
 Fore
+SplineSet
 796 68 m 10,0,-1
  796 507 l 2,1,2
  796 678 796 678 736 753 c 128,-1,3
@@ -3807,14 +4705,16 @@ Fore
 555 -492 m 25,42,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0327
 Encoding: 807 807 114
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-below" 0 -492 basemark 0 18
 AnchorPoint: "cedilla" 0 0 mark 0 19
+LayerCount: 2
 Fore
+SplineSet
 -48 36 m 9,0,-1
  45 36 l 1,1,2
  3 -36 3 -36 3 -106 c 1,3,4
@@ -3832,15 +4732,17 @@ Fore
 0 0 m 25,19,-1
 EndSplineSet
 EndChar
+
 StartChar: uni030C
 Encoding: 780 780 115
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 8
 AnchorPoint: "mark-above" 0 1475 basemark 0 7
 AnchorPoint: "mark-above" 0 956 mark 0 8
+LayerCount: 2
 Fore
+SplineSet
 0 1200.02 m 1,0,-1
  234 1449 l 1,1,-1
  309 1400 l 1,2,-1
@@ -3853,15 +4755,17 @@ Fore
 0 956 m 25,8,-1
 EndSplineSet
 EndChar
+
 StartChar: dotbelowcomb
 Encoding: 803 803 116
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-below" 0 -349 basemark 0 12
 AnchorPoint: "mark-below" 0 0 mark 0 13
 AnchorPoint: "below" 0 0 mark 0 13
+LayerCount: 2
 Fore
+SplineSet
 -118 -183 m 256,0,1
  -118 -133 -118 -133 -83.5 -97.5 c 128,-1,2
  -49 -62 -49 -62 0 -62 c 256,3,4
@@ -3875,26 +4779,30 @@ Fore
 0 0 m 25,13,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0324
 Encoding: 804 804 117
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0
+LayerCount: 2
+Fore
 Refer: 116 803 N 1 0 0 1 -236 0 2
 Refer: 116 803 N 1 0 0 1 236 0 2
 EndChar
+
 StartChar: uni0253
 Encoding: 595 595 118
 Width: 1059
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "cedilla" 555 0 basechar 0 47
 AnchorPoint: "below" 555 0 basechar 0 47
 AnchorPoint: "above" 555 1475 basechar 0
 AnchorPoint: "topright" 841 828 basechar 0 48
 AnchorPoint: "ogonek" 555 0 basechar 0 47
+LayerCount: 2
 Fore
+SplineSet
 594 828 m 0,0,1
  431 827 431 827 325 648 c 1,2,-1
  325 148 l 1,3,4
@@ -3937,17 +4845,19 @@ Fore
 555 1475 m 25,49,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0190
 Encoding: 400 400 119
 Width: 1001
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 516 1409 basechar 0 49
 AnchorPoint: "below" 516 0 basechar 0 51
 AnchorPoint: "cedilla" 516 0 basechar 0 51
 AnchorPoint: "ogonek" 516 0 basechar 0 51
 AnchorPoint: "topright" 808 1053 basechar 0 50
+LayerCount: 2
 Fore
+SplineSet
 564 122 m 0,0,1
  629 122 629 122 705.5 153.5 c 128,-1,2
  782 185 782 185 834 232 c 1,3,-1
@@ -3991,17 +4901,19 @@ Fore
 516 0 m 25,51,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0186
 Encoding: 390 390 120
 Width: 1255
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1048 1053 basechar 0 31
 AnchorPoint: "ogonek" 584 0 basechar 0 32
 AnchorPoint: "cedilla" 584 0 basechar 0 32
 AnchorPoint: "below" 584 0 basechar 0 32
 AnchorPoint: "above" 584 1409 basechar 0 30
+LayerCount: 2
 Fore
+SplineSet
 549 -18 m 0,0,1
  198 -18 198 -18 61 276 c 1,2,-1
  175.666 340 l 1,3,4
@@ -4030,12 +4942,14 @@ Fore
 584 0 m 25,32,-1
 EndSplineSet
 EndChar
+
 StartChar: afii57929
 Encoding: 700 700 121
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 205 1158 m 4,0,1
  205 1170 205 1170 189.5 1180.5 c 132,-1,3
  174 1191 174 1191 156 1199.5 c 132,-1,5
@@ -4053,12 +4967,14 @@ Fore
  205 1087 205 1087 205 1158 c 4,0,1
 EndSplineSet
 EndChar
+
 StartChar: afii64937
 Encoding: 701 701 122
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 221 1158 m 0,0,1
  221 1087 221 1087 351 963 c 1,2,-1
  269 891 l 1,3,4
@@ -4076,12 +4992,14 @@ Fore
  221 1170 221 1170 221 1158 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: uni02BB
 Encoding: 699 699 123
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 221 1142 m 0,0,1
  221 1130 221 1130 236.5 1119.5 c 128,-1,2
  252 1109 252 1109 270 1100.5 c 128,-1,3
@@ -4099,12 +5017,14 @@ Fore
  221 1213 221 1213 221 1142 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: quoteleft
 Encoding: 8216 8216 124
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 221 1142 m 0,0,1
  221 1130 221 1130 236.5 1119.5 c 0,2,3
  252 1109 252 1109 270 1100.5 c 0,4,5
@@ -4122,12 +5042,14 @@ Fore
  221 1213 221 1213 221 1142 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: quoteright
 Encoding: 8217 8217 125
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 205 1158 m 0,0,1
  205 1170 205 1170 189.5 1180.5 c 0,2,3
  174 1191 174 1191 156 1199.5 c 0,4,5
@@ -4145,20 +5067,24 @@ Fore
  205 1087 205 1087 205 1158 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: quotesinglbase
 Encoding: 8218 8218 126
 Width: 450
 VWidth: 1467
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 125 8217 N 1 0 0 1 0 -1162 2
 EndChar
+
 StartChar: quotereversed
 Encoding: 8219 8219 127
 Width: 450
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 221 1158 m 0,0,1
  221 1087 221 1087 351 963 c 1,2,-1
  269 891 l 1,3,4
@@ -4176,45 +5102,55 @@ Fore
  221 1170 221 1170 221 1158 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: quotedblleft
 Encoding: 8220 8220 128
 Width: 821
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 124 8216 N 1 0 0 1 0 0 2
 Refer: 124 8216 N 1 0 0 1 375 0 2
 EndChar
+
 StartChar: quotedblright
 Encoding: 8221 8221 129
 Width: 821
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 125 8217 N 1 0 0 1 0 0 2
 Refer: 125 8217 N 1 0 0 1 375 0 2
 EndChar
+
 StartChar: quotedblbase
 Encoding: 8222 8222 130
 Width: 821
 VWidth: 886
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 125 8217 N 1 0 0 1 375 -1162 2
 Refer: 125 8217 N 1 0 0 1 0 -1162 2
 EndChar
+
 StartChar: uni201F
 Encoding: 8223 8223 131
 Width: 821
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 127 8219 N 1 0 0 1 0 0 2
 Refer: 127 8219 N 1 0 0 1 375 0 2
 EndChar
+
 StartChar: guillemotleft
 Encoding: 171 171 132
 Width: 978
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 646 525 m 25,0,-1
  873 268 l 1,1,-1
  840 168 l 1,2,-1
@@ -4231,12 +5167,14 @@ Fore
  187 525 l 25,7,-1
 EndSplineSet
 EndChar
+
 StartChar: guillemotright
 Encoding: 187 187 133
 Width: 978
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 332 525 m 25,0,-1
  105 782 l 1,1,-1
  138 882 l 1,2,-1
@@ -4253,17 +5191,19 @@ Fore
  791 525 l 25,6,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0257
 Encoding: 599 599 134
 Width: 1063
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 816 1475 basechar 0 45
 AnchorPoint: "cedilla" 482 0 basechar 0 46
 AnchorPoint: "ogonek" 816 0 basechar 0 48
 AnchorPoint: "below" 482 0 basechar 0 46
 AnchorPoint: "topright" 816 828 basechar 0 47
+LayerCount: 2
 Fore
+SplineSet
 734 924 m 9,0,-1
  734 1016 l 2,1,2
  734 1124 734 1124 752 1206.5 c 128,-1,3
@@ -4305,17 +5245,19 @@ Fore
 816 0 m 25,48,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0256
 Encoding: 598 598 135
 Width: 1063
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 816 1475 basechar 0 46
 AnchorPoint: "cedilla" 1063 -492 basechar 0 48
 AnchorPoint: "ogonek" 1063 -492 basechar 0 48
 AnchorPoint: "below" 482 0 basechar 0 47
 AnchorPoint: "topright" 816 828 basechar 0 49
+LayerCount: 2
 Fore
+SplineSet
 899 68 m 18,0,1
  899 -13 899 -13 906.5 -76.5 c 128,-1,2
  914 -140 914 -140 925.5 -183 c 128,-1,3
@@ -4360,12 +5302,14 @@ Fore
 816 828 m 25,49,-1
 EndSplineSet
 EndChar
+
 StartChar: longs
 Encoding: 383 383 136
 Width: 675
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 383 0 m 25,0,-1
  222 0 l 1,1,-1
  222 810 l 1,2,-1
@@ -4386,12 +5330,14 @@ Fore
  383 0 l 25,0,-1
 EndSplineSet
 EndChar
+
 StartChar: germandbls
 Encoding: 223 223 137
 Width: 1162
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 505 1336 m 0,13,14
  416 1336 416 1336 370.5 1269 c 128,-1,16
  325 1202 325 1202 325 1082 c 2,17,-1
@@ -4437,12 +5383,14 @@ Fore
  736 1336 736 1336 505 1336 c 0,13,14
 EndSplineSet
 EndChar
+
 StartChar: uni0181
 Encoding: 385 385 138
 Width: 1116
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 180 1202 m 1,0,0
  -22 1125 -22 1125 -22 1018 c 0,1,2
  -22 953 -22 953 0 896 c 1,3,-1
@@ -4488,12 +5436,14 @@ Fore
  361 655 l 1,8,-1
 EndSplineSet
 EndChar
+
 StartChar: uni018E
 Encoding: 398 398 139
 Width: 1077
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 716 747 m 1,0,-1
  716 1252 l 1,1,-1
  102 1251 l 1,2,-1
@@ -4509,17 +5459,19 @@ Fore
  716 747 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni018F
 Encoding: 399 399 140
 Width: 1333
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1188 1053 basechar 0 42
 AnchorPoint: "ogonek" 652 0 basechar 0 43
 AnchorPoint: "cedilla" 652 0 basechar 0 43
 AnchorPoint: "below" 652 0 basechar 0 43
 AnchorPoint: "above" 652 1409 basechar 0 41
+LayerCount: 2
 Fore
+SplineSet
 646 -18 m 0,0,1
  515 -18 515 -18 406.5 21 c 128,-1,2
  298 60 298 60 215 137.5 c 128,-1,3
@@ -4560,12 +5512,14 @@ Fore
 652 0 m 25,43,-1
 EndSplineSet
 EndChar
+
 StartChar: uni018A
 Encoding: 394 394 141
 Width: 1375
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 544 1409 m 0,5,6
  663 1409 663 1409 777 1379 c 128,-1,8
  891 1349 891 1349 991 1288.5 c 128,-1,10
@@ -4603,12 +5557,14 @@ Fore
  439 1270 439 1270 361 1252 c 1,9,-1
 EndSplineSet
 EndChar
+
 StartChar: uni01B3
 Encoding: 435 435 142
 Width: 1307
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 985.282 1068 m 2,0,-1
  711 617.642 l 1,1,-1
  711 0 l 1,2,-1
@@ -4636,12 +5592,14 @@ Fore
  1001.61 1094.81 1001.61 1094.81 985.282 1068 c 2,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni01B4
 Encoding: 436 436 143
 Width: 1130
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 853 598 m 2,0,-1
  592 18 l 2,1,2
  499 -188 499 -188 430.5 -299 c 128,-1,4
@@ -4683,12 +5641,14 @@ Fore
  862 619 862 619 853 598 c 2,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0198
 Encoding: 408 408 144
 Width: 1161
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 1103 1 m 5,0,-1
  892 1 l 1,1,-1
  361 679 l 1,2,-1
@@ -4721,12 +5681,14 @@ Fore
  1103 1 l 5,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0199
 Encoding: 409 409 145
 Width: 936
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 325 0 m 5,0,-1
  164 0 l 5,1,-1
  164 1020 l 6,2,3
@@ -4750,17 +5712,19 @@ Fore
  325 0 l 5,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni028B
 Encoding: 651 651 146
 Width: 1121
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 492 956 basechar 0 29
 AnchorPoint: "below" 492 0 basechar 0 27
 AnchorPoint: "cedilla" 492 0 basechar 0 27
 AnchorPoint: "ogonek" 492 0 basechar 0 27
 AnchorPoint: "topright" 765 828 basechar 0 28
+LayerCount: 2
 Fore
+SplineSet
 164 938 m 25,0,-1
  325 938 l 1,1,-1
  325 366 l 2,2,3
@@ -4788,17 +5752,19 @@ Fore
 492 956 m 25,29,-1
 EndSplineSet
 EndChar
+
 StartChar: uni028C
 Encoding: 652 652 147
 Width: 984
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "topright" 846 828 basechar 0 8
 AnchorPoint: "ogonek" 876 0 basechar 0 10
 AnchorPoint: "cedilla" 876 0 basechar 0 10
 AnchorPoint: "below" 492 0 basechar 0 7
 AnchorPoint: "above" 492 956 basechar 0 9
+LayerCount: 2
 Fore
+SplineSet
 486 672 m 1,0,-1
  183 0 l 25,1,-1
  21 0 l 1,2,-1
@@ -4813,17 +5779,19 @@ Fore
 876 0 m 29,10,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0245
 Encoding: 581 581 148
 Width: 1328
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 1166 0 basechar 0 9
 AnchorPoint: "above" 664 1409 basechar 0 7
 AnchorPoint: "below" 664 0 basechar 0 10
 AnchorPoint: "cedilla" 1166 0 basechar 0 9
 AnchorPoint: "topright" 786 1053 basechar 0 8
+LayerCount: 2
 Fore
+SplineSet
 659 1143 m 1,0,-1
  235 0 l 1,1,-1
  67 0 l 1,2,-1
@@ -4838,17 +5806,19 @@ Fore
 664 0 m 25,10,-1
 EndSplineSet
 EndChar
+
 StartChar: Eth
 Encoding: 208 208 149
 Width: 1375
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 620 1409 basechar 0 40
 AnchorPoint: "ogonek" 620 0 basechar 0 42
 AnchorPoint: "below" 620 0 basechar 0 42
 AnchorPoint: "cedilla" 620 0 basechar 0 42
 AnchorPoint: "topright" 1135 1053 basechar 0 41
+LayerCount: 2
 Fore
+SplineSet
 584 -18 m 0,0,1
  367 -18 367 -18 180 13 c 1,2,-1
  180 655.731 l 1,3,-1
@@ -4888,12 +5858,14 @@ Fore
 620 0 m 29,42,-1
 EndSplineSet
 EndChar
+
 StartChar: exclamdown
 Encoding: 161 161 150
 Width: 442
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 339 946 m 256,0,1
  339 896 339 896 304.5 860.5 c 128,-1,2
  270 825 270 825 221 825 c 256,3,4
@@ -4910,12 +5882,14 @@ Fore
  341 -343 l 25,12,-1
 EndSplineSet
 EndChar
+
 StartChar: questiondown
 Encoding: 191 191 151
 Width: 863
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 763.997 -408 m 17,0,1
  733.541 -426.883 733.541 -426.883 717.368 -435.413 c 128,-1,2
  701.194 -443.943 701.194 -443.943 660.908 -460.415 c 128,-1,3
@@ -4956,14 +5930,16 @@ Fore
  569.998 919.19 569.998 919.19 569.997 869 c 256,36,37
 EndSplineSet
 EndChar
+
 StartChar: Oslash
 Encoding: 216 216 152
 Width: 1444
 Flags: W
-TeX: 0 0 0 0
 HStem: -102 141<237.8 1060.7> 1187 138<248.2 1071.1>
 VStem: -23 192<196.5 1040.2> 1142 189<216 1022>
+LayerCount: 2
 Fore
+SplineSet
 727 1271 m 0,0,1
  573 1271 573 1271 460.5 1196 c 0,2,3
  348 1121 348 1121 292.5 994 c 0,4,5
@@ -5002,12 +5978,14 @@ Fore
  1210 933.111 1210 933.111 1099.84 1086.64 c 1,45,-1
 EndSplineSet
 EndChar
+
 StartChar: oslash
 Encoding: 248 248 153
 Width: 1012
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 61 469 m 0,0,1
  61 576 61 576 86.5 661 c 128,-1,3
  112 746 112 746 154.5 800.5 c 128,-1,5
@@ -5047,12 +6025,14 @@ Fore
  695.553 753.288 l 1,47,48
 EndSplineSet
 EndChar
+
 StartChar: multiply
 Encoding: 215 215 154
 Width: 1130
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 566 581 m 1,0,-1
  883 899 l 1,1,-1
  960 821 l 1,2,-1
@@ -5068,12 +6048,14 @@ Fore
  566 581 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0283
 Encoding: 643 643 155
 Width: 572
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 131 688 m 18,0,0
  109 749 109 749 84 856 c 128,-1,1
  59 963 59 963 59 1020 c 0,2,3
@@ -5107,12 +6089,14 @@ Fore
  131 688 l 18,0,0
 EndSplineSet
 EndChar
+
 StartChar: uni01A9
 Encoding: 425 425 156
 Width: 1040
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 55 1 m 1,0,-1
  583 696 l 1,1,-1
  55 1392 l 1,2,-1
@@ -5126,17 +6110,19 @@ Fore
  55 1 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni01B2
 Encoding: 434 434 157
 Width: 1325
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 656 1409 basechar 0 33
 AnchorPoint: "below" 656 0 basechar 0 31
 AnchorPoint: "cedilla" 656 0 basechar 0 31
 AnchorPoint: "ogonek" 656 0 basechar 0 31
 AnchorPoint: "topright" 964 1160 basechar 0 32
+LayerCount: 2
 Fore
+SplineSet
 681 -18 m 0,0,1
  180 -18 180 -18 180 438 c 2,2,-1
  180 1391 l 1,3,-1
@@ -5168,17 +6154,19 @@ Fore
 656 1409 m 25,33,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0269
 Encoding: 617 617 158
 Width: 593
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 244 828 basechar 0 15
 AnchorPoint: "ogonek" 344 0 basechar 0 14
 AnchorPoint: "cedilla" 344 0 basechar 0 14
 AnchorPoint: "below" 344 0 basechar 0 14
 AnchorPoint: "above" 244 956 basechar 0 16
+LayerCount: 2
 Fore
+SplineSet
 324.998 938 m 1,0,-1
  325 256 l 2,1,2
  325 179 325 179 355.5 145.5 c 128,-1,3
@@ -5195,12 +6183,14 @@ Fore
 244 956 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0263
 Encoding: 611 611 159
 Width: 1040
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 516.253 -41.9496 m 1,0,1
  462 -175.812 462 -175.812 462 -276 c 0,2,3
  462 -330 462 -330 475 -348.5 c 128,-1,4
@@ -5226,15 +6216,17 @@ Fore
  361.381 -38.1778 361.381 -38.1778 437.823 136.343 c 1,11,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0306
 Encoding: 774 774 160
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 956 mark 0 19
 AnchorPoint: "mark-above" 0 1475 basemark 0 18
 AnchorPoint: "above" 0 956 mark 0 19
+LayerCount: 2
 Fore
+SplineSet
 0 1130 m 256,0,1
  -64 1130 -64 1130 -116 1147.5 c 128,-1,2
  -168 1165 -168 1165 -200.5 1190.5 c 128,-1,3
@@ -5254,15 +6246,17 @@ Fore
 0 956 m 25,19,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0311
 Encoding: 785 785 161
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 19
 AnchorPoint: "mark-above" 0 1475 basemark 0 18
 AnchorPoint: "mark-above" 0 956 mark 0 19
+LayerCount: 2
 Fore
+SplineSet
 0 1440 m 256,0,1
  64 1440 64 1440 116 1422.5 c 128,-1,2
  168 1405 168 1405 200.5 1379.5 c 128,-1,3
@@ -5282,15 +6276,17 @@ Fore
 0 956 m 25,19,-1
 EndSplineSet
 EndChar
+
 StartChar: hookabovecomb
 Encoding: 777 777 162
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 956 mark 0 34
 AnchorPoint: "mark-above" 0 1475 basemark 0 33
 AnchorPoint: "above" 0 956 mark 0 34
+LayerCount: 2
 Fore
+SplineSet
 -150 1350 m 17,0,1
  -130 1382 -130 1382 -88.5 1411 c 128,-1,2
  -47 1440 -47 1440 11 1440 c 0,3,4
@@ -5321,15 +6317,17 @@ Fore
 0 956 m 25,34,-1
 EndSplineSet
 EndChar
+
 StartChar: uni030A
 Encoding: 778 778 163
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 25
 AnchorPoint: "mark-above" 0 1475 basemark 0 24
 AnchorPoint: "mark-above" 0 956 mark 0 25
+LayerCount: 2
 Fore
+SplineSet
 -95 1220 m 256,0,1
  -95 1181 -95 1181 -67 1153.5 c 128,-1,2
  -39 1126 -39 1126 0 1126 c 256,3,4
@@ -5352,15 +6350,17 @@ Fore
 0 956 m 25,25,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0304
 Encoding: 772 772 164
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "mark-above" 0 1170 mark 0 6
 AnchorPoint: "mark-above" 0 1379 basemark 0 4
 AnchorPoint: "above" 0 956 mark 0 5
+LayerCount: 2
 Fore
+SplineSet
 314 1250 m 25,0,-1
  -314 1250 l 1,1,-1
  -314 1359 l 1,2,-1
@@ -5371,13 +6371,15 @@ Fore
 0 1170 m 25,6,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0326
 Encoding: 806 806 165
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -26 -282 m 4,0,1
  -26 -275 -26 -275 -40.5 -267 c 132,-1,2
  -55 -259 -55 -259 -72 -251 c 132,-1,3
@@ -5393,13 +6395,15 @@ Fore
  -26 -318 -26 -318 -26 -282 c 4,0,1
 EndSplineSet
 EndChar
+
 StartChar: uni0325
 Encoding: 805 805 166
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -95 -242 m 256,0,1
  -95 -281 -95 -281 -67 -308.5 c 128,-1,2
  -39 -336 -39 -336 0 -336 c 256,3,4
@@ -5420,13 +6424,15 @@ Fore
  -180 -316 -180 -316 -180 -242 c 256,12,13
 EndSplineSet
 EndChar
+
 StartChar: uni0328
 Encoding: 808 808 167
 Width: 0
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 0 0 mark 0 18
+LayerCount: 2
 Fore
+SplineSet
 48 36 m 17,0,1
  -65 -113 -65 -113 -65 -194 c 0,2,3
  -65 -248 -65 -248 -38.5 -270 c 128,-1,4
@@ -5443,15 +6449,17 @@ Fore
 0 0 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0331
 Encoding: 817 817 168
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0 5
 AnchorPoint: "mark-below" 0 0 mark 0 5
 AnchorPoint: "mark-below" 0 -349 basemark 0 4
+LayerCount: 2
 Fore
+SplineSet
 -314 -109 m 25,0,-1
  314 -109 l 1,1,-1
  314 -218 l 1,2,-1
@@ -5461,15 +6469,17 @@ Fore
 0 0 m 25,5,-1
 EndSplineSet
 EndChar
+
 StartChar: uni030B
 Encoding: 779 779 169
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 9
 AnchorPoint: "mark-above" 0 1475 basemark 0 8
 AnchorPoint: "mark-above" 0 956 mark 0 9
+LayerCount: 2
 Fore
+SplineSet
 22 1475 m 25,0,-1
  -217 1100 l 1,1,-1
  -309 1144 l 1,2,-1
@@ -5484,15 +6494,17 @@ Fore
 0 956 m 25,9,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0312
 Encoding: 786 786 170
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 18
 AnchorPoint: "mark-above" 0 1475 basemark 0 17
 AnchorPoint: "mark-above" 0 956 mark 0 18
+LayerCount: 2
 Fore
+SplineSet
 34 1254 m 0,0,1
  34 1247 34 1247 48.5 1239 c 128,-1,2
  63 1231 63 1231 80 1223 c 128,-1,3
@@ -5510,25 +6522,29 @@ Fore
 0 956 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0313
 Encoding: 787 787 171
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 18
 AnchorPoint: "mark-above" 0 1475 basemark 0 17
 AnchorPoint: "mark-above" 0 956 mark 0 18
+LayerCount: 2
+Fore
 Refer: 173 789 N 1 0 0 1 0 0 2
 EndChar
+
 StartChar: uni0314
 Encoding: 788 788 172
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 18
 AnchorPoint: "mark-above" 0 1475 basemark 0 17
 AnchorPoint: "mark-above" 0 956 mark 0 18
+LayerCount: 2
 Fore
+SplineSet
 34 1210 m 0,0,1
  34 1174 34 1174 120 1106 c 1,2,-1
  38 1034 l 1,3,4
@@ -5546,15 +6562,17 @@ Fore
 0 956 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0315
 Encoding: 789 789 173
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 18
 AnchorPoint: "mark-above" 0 1475 basemark 0 17
 AnchorPoint: "mark-above" 0 956 mark 0 18
+LayerCount: 2
 Fore
+SplineSet
 -26 1210 m 0,0,1
  -26 1217 -26 1217 -40.5 1225 c 128,-1,2
  -55 1233 -55 1233 -72 1241 c 128,-1,3
@@ -5572,12 +6590,14 @@ Fore
 0 956 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: divide
 Encoding: 247 247 174
 Width: 1130
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 1069 449 m 25,0,-1
  61 449 l 1,1,-1
  61 558 l 1,2,-1
@@ -5603,12 +6623,14 @@ Fore
  447 128 447 128 447 178 c 256,16,17
 EndSplineSet
 EndChar
+
 StartChar: eth
 Encoding: 240 240 175
 Width: 1012
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 222 469 m 0,0,1
  222 372 222 372 246.5 299.5 c 128,-1,2
  271 227 271 227 312.5 187.5 c 128,-1,3
@@ -5651,12 +6673,14 @@ Fore
  637.007 956 637.007 956 707.175 930.639 c 1,18,19
 EndSplineSet
 EndChar
+
 StartChar: AE
 Encoding: 198 198 176
 Width: 1818
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 1102 644 m 1,0,-1
  1102 139 l 1,1,-1
  1716 140 l 1,2,-1
@@ -5680,17 +6704,19 @@ Fore
  921 544 l 1,16,-1
 EndSplineSet
 EndChar
+
 StartChar: ae
 Encoding: 230 230 177
 Width: 1444
 Flags: MW
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1230 820 basechar 0 80
 AnchorPoint: "below" 718 0 basechar 0 78
 AnchorPoint: "ogonek" 1320 93 basechar 0 82
 AnchorPoint: "cedilla" 1080 0 basechar 0 79
 AnchorPoint: "above" 718 956 basechar 0 81
+LayerCount: 2
 Fore
+SplineSet
 117 866 m 1,0,1
  209 912 209 912 289 934 c 128,-1,2
  369 956 369 956 484 956 c 0,3,4
@@ -5761,12 +6787,14 @@ Fore
 1320 93 m 25,82,-1
 EndSplineSet
 EndChar
+
 StartChar: OE
 Encoding: 338 338 178
 Width: 1832
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 672 1271 m 0,0,1
  535 1271 535 1271 435.5 1196 c 0,2,3
  336 1121 336 1121 286.5 994 c 0,4,5
@@ -5807,17 +6835,19 @@ Fore
  1288 644 l 1,28,-1
 EndSplineSet
 EndChar
+
 StartChar: oe
 Encoding: 339 339 179
 Width: 1666
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 1447 0 basechar 0
 AnchorPoint: "cedilla" 1222 0 basechar 0
 AnchorPoint: "topright" 1445 828 basechar 0
 AnchorPoint: "below" 882 0 basechar 0
 AnchorPoint: "above" 882 956 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 956 580 m 1,0,-1
  1441 580 l 1,1,2
  1432 689 1432 689 1375.5 758.5 c 128,-1,3
@@ -5879,13 +6909,15 @@ Fore
  61 362 61 362 61 469 c 128,-1,24
 EndSplineSet
 EndChar
+
 StartChar: uni0329
 Encoding: 809 809 180
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -54 -422 m 29,0,-1
  -54 -62 l 5,1,-1
  54 -62 l 5,2,-1
@@ -5893,12 +6925,14 @@ Fore
  -54 -422 l 29,0,-1
 EndSplineSet
 EndChar
+
 StartChar: Thorn
 Encoding: 222 222 181
 Width: 1083
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 843 695.5 m 256,0,1
  843 844.239 843 844.239 745.823 909.869 c 128,-1,2
  648.646 975.5 648.646 975.5 427 975.5 c 2,3,-1
@@ -5923,17 +6957,19 @@ Fore
  361 275.5 l 1,9,-1
 EndSplineSet
 EndChar
+
 StartChar: thorn
 Encoding: 254 254 182
 Width: 1063
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 244 -492 basechar 0 30
 AnchorPoint: "topright" 841 828 basechar 0 31
 AnchorPoint: "above" 244 1475 basechar 0 32
 AnchorPoint: "below" 244 -492 basechar 0 30
 AnchorPoint: "cedilla" 244 -492 basechar 0 30
+LayerCount: 2
 Fore
+SplineSet
 329 154 m 1,0,1
  409 110 409 110 520 110 c 0,2,3
  575 110 575 110 631.5 138.5 c 128,-1,4
@@ -5963,12 +6999,14 @@ Fore
 244 1475 m 25,32,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0191
 Encoding: 401 401 183
 Width: 999
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 180 1391 m 17,0,0
  975 1391 l 1,1,-1
  975 1252 l 1,2,-1
@@ -6001,14 +7039,16 @@ Fore
  180 1391 l 17,0,0
 EndSplineSet
 EndChar
+
 StartChar: florin
 Encoding: 402 402 184
 Width: 675
 Flags: W
-TeX: 0 0 0 0
 HStem: 810 128<2063 2229>
 VStem: 1902 161<-91.1221 810>
+LayerCount: 2
 Fore
+SplineSet
 383 30 m 18,0,0
  383 -74 383 -74 364.5 -157 c 0,1,2
  346 -240 346 -240 318.5 -293 c 0,3,4
@@ -6047,13 +7087,15 @@ Fore
  383 30 l 18,0,0
 EndSplineSet
 EndChar
+
 StartChar: uni0310
 Encoding: 784 784 185
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 0 828 mark 0
+LayerCount: 2
 Fore
+SplineSet
 269 1158 m 1,0,1
  269 1170 269 1170 253.5 1180.5 c 128,-1,2
  238 1191 238 1191 220 1199.5 c 128,-1,3
@@ -6071,13 +7113,15 @@ Fore
  191.702 958.651 191.702 958.651 269 1158 c 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: uni02DE
 Encoding: 734 734 186
 Width: 576
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 0 828 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -42 858 m 9,0,-1
  -42 765 l 1,1,2
  30 807 30 807 100 807 c 1,3,4
@@ -6093,15 +7137,17 @@ Fore
  41 931 41 931 -42 858 c 9,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni030D
 Encoding: 781 781 187
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 5
 AnchorPoint: "mark-above" 0 1475 basemark 0 4
 AnchorPoint: "mark-above" 0 956 mark 0 5
+LayerCount: 2
 Fore
+SplineSet
 -54 1101 m 25,0,-1
  -54 1461 l 1,1,-1
  54 1461 l 1,2,-1
@@ -6111,15 +7157,17 @@ Fore
 0 956 m 25,5,-1
 EndSplineSet
 EndChar
+
 StartChar: uni030E
 Encoding: 782 782 188
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 0 956 mark 0 9
 AnchorPoint: "mark-above" 0 1475 basemark 0 8
 AnchorPoint: "mark-above" 0 956 mark 0 9
+LayerCount: 2
 Fore
+SplineSet
 108 1101 m 25,0,-1
  108 1461 l 1,1,-1
  216 1461 l 1,2,-1
@@ -6134,14 +7182,16 @@ Fore
 0 956 m 25,9,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0194
 Encoding: 404 404 189
 Width: 1241
 Flags: W
-TeX: 0 0 0 0
 HStem: 0 21G<530 711> 1371 20G<59 237 1014 1182>
 VStem: 530 181<0 741>
+LayerCount: 2
 Fore
+SplineSet
 704.174 169.078 m 1,0,1
  750.584 63.0445 750.584 63.0445 786.99 -15.5696 c 128,-1,2
  823.396 -94.1837 823.396 -94.1837 845.698 -167.575 c 128,-1,3
@@ -6168,12 +7218,14 @@ Fore
  680 -206.464 680 -206.464 621.107 -49.7889 c 1,20,21
 EndSplineSet
 EndChar
+
 StartChar: uni019D
 Encoding: 413 413 190
 Width: 1385
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 180 1391 m 17,0,0
  361 1391 l 1,1,-1
  1024 347.918 l 1,2,-1
@@ -6206,18 +7258,21 @@ Fore
  180 1391 l 17,0,0
 EndSplineSet
 EndChar
+
 StartChar: uni00A0
 Encoding: 160 160 191
 Width: 582
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 EndChar
+
 StartChar: paragraph
 Encoding: 182 182 192
 Width: 960
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 552 0 m 25,0,-1
  552 1049 l 1,1,-1
  662 1049 l 1,2,-1
@@ -6243,17 +7298,19 @@ Fore
  332 467.5 l 17,12,13
 EndSplineSet
 EndChar
+
 StartChar: uni0272
 Encoding: 626 626 193
 Width: 1121
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 956 basechar 0
 AnchorPoint: "below" 555 0 basechar 0
 AnchorPoint: "cedilla" 827 0 basechar 0
 AnchorPoint: "ogonek" 854 0 basechar 0
 AnchorPoint: "topright" 907 828 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 164 938 m 25,0,-1
  325 938 l 1,1,-1
  325 766 l 1,2,3
@@ -6291,513 +7348,627 @@ Fore
  164 938 l 25,0,-1
 EndSplineSet
 EndChar
+
 StartChar: Agrave
 Encoding: 192 192 194
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 664 453 6 11 5
 EndChar
+
 StartChar: Aacute
 Encoding: 193 193 195
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 664 453 6 11 5
 EndChar
+
 StartChar: Acircumflex
 Encoding: 194 194 196
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 664 453 6 11 8
 EndChar
+
 StartChar: Atilde
 Encoding: 195 195 197
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 664 453 6 11 25 O
 EndChar
+
 StartChar: Adieresis
 Encoding: 196 196 198
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 192 453 6 11 24
 EndChar
+
 StartChar: Aring
 Encoding: 197 197 199
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 163 778 N 1 0 0 1 664 453 6 11 25 O
 EndChar
+
 StartChar: Ccedilla
 Encoding: 199 199 200
 Width: 1255
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 38 67 N 1 0 0 1 0 0 3
 Refer: 114 807 S 1 0 0 1 660 0 6 39 19
 EndChar
+
 StartChar: Egrave
 Encoding: 200 200 201
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 106 768 S 1 0 0 1 568 453 6 13 5
 EndChar
+
 StartChar: Eacute
 Encoding: 201 201 202
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 568 453 6 13 5
 EndChar
+
 StartChar: Ecircumflex
 Encoding: 202 202 203
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 568 453 6 13 8
 EndChar
+
 StartChar: Edieresis
 Encoding: 203 203 204
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 96 453 6 13 24
 EndChar
+
 StartChar: Igrave
 Encoding: 204 204 205
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 270 453 6 4 5
 EndChar
+
 StartChar: Iacute
 Encoding: 205 205 206
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 107 769 S 1 0 0 1 270 453 6 4 5
 EndChar
+
 StartChar: Icircumflex
 Encoding: 206 206 207
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 108 770 S 1 0 0 1 270 453 6 4 8
 EndChar
+
 StartChar: Idieresis
 Encoding: 207 207 208
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 -202 453 6 4 24
 EndChar
+
 StartChar: Ntilde
 Encoding: 209 209 209
 Width: 1385
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 49 78 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 692 453 6 10 25 O
 EndChar
+
 StartChar: Ograve
 Encoding: 210 210 210
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 727 453 6 0 5
 EndChar
+
 StartChar: Oacute
 Encoding: 211 211 211
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 107 769 S 1 0 0 1 727 453 6 0 5
 EndChar
+
 StartChar: Ocircumflex
 Encoding: 212 212 212
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 108 770 S 1 0 0 1 727 453 6 0 8
 EndChar
+
 StartChar: Otilde
 Encoding: 213 213 213
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 109 771 S 1 0 0 1 727 453 6 0 25
 EndChar
+
 StartChar: Odieresis
 Encoding: 214 214 214
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 105 168 S 1 0 0 1 255 453 6 0 24
 EndChar
+
 StartChar: Ugrave
 Encoding: 217 217 215
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 655 436 6 19 5
 EndChar
+
 StartChar: Uacute
 Encoding: 218 218 216
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 655 436 6 19 5
 EndChar
+
 StartChar: Ucircumflex
 Encoding: 219 219 217
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 655 436 6 19 8
 EndChar
+
 StartChar: Udieresis
 Encoding: 220 220 218
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 183 436 6 19 24
 EndChar
+
 StartChar: Yacute
 Encoding: 221 221 219
 Width: 1241
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 620 453 6 9 5
 EndChar
+
 StartChar: agrave
 Encoding: 224 224 220
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 439 1475 basechar 0 61
+AnchorPoint: "above" 720 519 basechar 0 61
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 106 768 N 1 0 0 1 439 0 6 55 5 O
+Refer: 106 768 N 1 0 0 1 720 -956 6 55 5 O
 EndChar
+
 StartChar: aacute
 Encoding: 225 225 221
 Width: 894
-TeX: 0 0 0 0
-AnchorPoint: "above" 439 1475 basechar 0 61
+Flags: H
+AnchorPoint: "above" 720 519 basechar 0 61
 AnchorPoint: "below" 439 0 basechar 0 54
 AnchorPoint: "cedilla" 693 0 basechar 0 53
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "topright" 774 828 basechar 0 56
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 107 769 N 1 0 0 1 439 0 6 55 5 O
+Refer: 107 769 N 1 0 0 1 720 -956 6 55 5 O
 EndChar
+
 StartChar: acircumflex
 Encoding: 226 226 222
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 439 1475 basechar 0 64
+AnchorPoint: "above" 720 519 basechar 0 64
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 108 770 N 1 0 0 1 439 0 6 55 8
+Refer: 108 770 N 1 0 0 1 720 -956 6 55 8
 EndChar
+
 StartChar: atilde
 Encoding: 227 227 223
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 439 1410 basechar 0 81
+AnchorPoint: "above" 720 454 basechar 0 81
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 109 771 N 1 0 0 1 439 0 6 55 25 O
+Refer: 109 771 N 1 0 0 1 720 -956 6 55 25 O
 EndChar
+
 StartChar: adieresis
 Encoding: 228 228 224
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 439 1475 basechar 0 82
+AnchorPoint: "above" 720 519 basechar 0 82
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 105 168 N 1 0 0 1 -33 0 6 55 24 O
+Refer: 105 168 N 1 0 0 1 248 -956 6 55 24 O
 EndChar
+
 StartChar: aring
 Encoding: 229 229 225
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
-AnchorPoint: "ogonek" 720 0 basechar 0 52
+AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 439 1475 basechar 0 81
+AnchorPoint: "above" 720 519 basechar 0 81
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 163 778 N 1 0 0 1 439 0 6 55 25 O
+Refer: 163 778 N 1 0 0 1 720 -956 6 55 25 O
 EndChar
+
 StartChar: ccedilla
 Encoding: 231 231 226
 Width: 888
-TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 27
 AnchorPoint: "above" 486 956 basechar 0 26
 AnchorPoint: "mark-below" 516 -492 basemark 0 48
+LayerCount: 2
+Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 114 807 N 1 0 0 1 516 0 6 29 19
 EndChar
+
 StartChar: egrave
 Encoding: 232 232 227
 Width: 939
-TeX: 0 0 0 0
 AnchorPoint: "ogonek" 740 0 basechar 0 41
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "above" 495 1475 basechar 0 47
 AnchorPoint: "below" 495 0 basechar 0 42
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 495 0 6 39 5
 EndChar
+
 StartChar: eacute
 Encoding: 233 233 228
 Width: 939
-TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
 AnchorPoint: "above" 495 1475 basechar 0 47
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 495 0 6 39 5
 EndChar
+
 StartChar: ecircumflex
 Encoding: 234 234 229
 Width: 939
-TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
 AnchorPoint: "above" 495 1475 basechar 0 50
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 495 0 6 39 8
 EndChar
+
 StartChar: edieresis
 Encoding: 235 235 230
 Width: 939
-TeX: 0 0 0 0
 AnchorPoint: "below" 495 0 basechar 0 42
 AnchorPoint: "above" 495 1475 basechar 0 68
 AnchorPoint: "topright" 773 828 basechar 0 40
 AnchorPoint: "ogonek" 740 0 basechar 0 41
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 23 0 6 39 24
 EndChar
+
 StartChar: igrave
 Encoding: 236 236 231
 Width: 547
-TeX: 0 0 0 0
 AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "above" 302 1475 basechar 0 13
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 302 0 6 6 5
 EndChar
+
 StartChar: iacute
 Encoding: 237 237 232
 Width: 547
-TeX: 0 0 0 0
 AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "above" 302 1475 basechar 0 13
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 302 0 6 6 5
 EndChar
+
 StartChar: icircumflex
 Encoding: 238 238 233
 Width: 547
-TeX: 0 0 0 0
 AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "above" 302 1475 basechar 0 16
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 302 0 6 6 8
 EndChar
+
 StartChar: idieresis
 Encoding: 239 239 234
 Width: 547
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 302 828 basechar 0 7
 AnchorPoint: "ogonek" 302 0 basechar 0 8
 AnchorPoint: "cedilla" 302 0 basechar 0 8
 AnchorPoint: "below" 302 0 basechar 0 8
 AnchorPoint: "above" 302 1475 basechar 0 34
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 -170 0 6 6 24
 EndChar
+
 StartChar: ntilde
 Encoding: 241 241 235
 Width: 1121
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 1410 basechar 0 52
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 795 828 basechar 0 26
+LayerCount: 2
+Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 555 0 6 25 25 O
 EndChar
+
 StartChar: ograve
 Encoding: 242 242 236
 Width: 1012
-TeX: 0 0 0 0
 AnchorPoint: "above" 506 1475 basechar 0 51
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "topright" 773 828 basechar 0 45
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 506 0 6 44 5
 EndChar
+
 StartChar: oacute
 Encoding: 243 243 237
 Width: 1012
-TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "above" 506 1475 basechar 0 51
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 506 0 6 44 5
 EndChar
+
 StartChar: ocircumflex
 Encoding: 244 244 238
 Width: 1012
-TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "above" 506 1475 basechar 0 54
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 506 0 6 44 8
 EndChar
+
 StartChar: otilde
 Encoding: 245 245 239
 Width: 1012
-TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "above" 506 1410 basechar 0 71
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 506 0 6 44 25 O
 EndChar
+
 StartChar: odieresis
 Encoding: 246 246 240
 Width: 1012
-TeX: 0 0 0 0
 AnchorPoint: "topright" 773 828 basechar 0 45
 AnchorPoint: "ogonek" 506 0 basechar 0 46
 AnchorPoint: "cedilla" 506 0 basechar 0 46
 AnchorPoint: "below" 506 0 basechar 0 46
 AnchorPoint: "above" 506 1475 basechar 0 72
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 34 0 6 44 24
 EndChar
+
 StartChar: ugrave
 Encoding: 249 249 241
 Width: 1121
-TeX: 0 0 0 0
 AnchorPoint: "topright" 907 828 basechar 0 26
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "above" 555 1475 basechar 0 32
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 106 768 N 1 0 0 1 555 0 6 25 5
 EndChar
+
 StartChar: uacute
 Encoding: 250 250 242
 Width: 1121
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 1475 basechar 0 32
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 907 828 basechar 0 26
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 555 0 6 25 5
 EndChar
+
 StartChar: ucircumflex
 Encoding: 251 251 243
 Width: 1121
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 1475 basechar 0 35
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 907 828 basechar 0 26
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 555 0 6 25 8
 EndChar
+
 StartChar: udieresis
 Encoding: 252 252 244
 Width: 1121
-TeX: 0 0 0 0
 AnchorPoint: "above" 555 1475 basechar 0 53
 AnchorPoint: "below" 555 0 basechar 0 24
 AnchorPoint: "cedilla" 876 0 basechar 0 27
 AnchorPoint: "ogonek" 876 0 basechar 0 27
 AnchorPoint: "topright" 907 828 basechar 0 26
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 1
 Refer: 105 168 N 1 0 0 1 83 0 4 25 24
 EndChar
+
 StartChar: yacute
 Encoding: 253 253 245
 Width: 1027
-TeX: 0 0 0 0
 AnchorPoint: "topright" 880 828 basechar 0 26
 AnchorPoint: "ogonek" 170 -492 basechar 0 27
 AnchorPoint: "cedilla" 170 -492 basechar 0 27
 AnchorPoint: "below" 515 -492 basechar 0 24
 AnchorPoint: "above" 515 1475 basechar 0 32
+LayerCount: 2
+Fore
 Refer: 92 121 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 515 0 6 25 5
 EndChar
+
 StartChar: ydieresis
 Encoding: 255 255 246
 Width: 1027
-TeX: 0 0 0 0
 AnchorPoint: "topright" 880 828 basechar 0 26
 AnchorPoint: "ogonek" 170 -492 basechar 0 27
 AnchorPoint: "cedilla" 170 -492 basechar 0 27
 AnchorPoint: "below" 515 -492 basechar 0 24
 AnchorPoint: "above" 515 1475 basechar 0 53
+LayerCount: 2
+Fore
 Refer: 92 121 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 43 0 6 25 24
 EndChar
+
 StartChar: Euro
 Encoding: 8364 8364 247
 Width: 1398
 Flags: MW
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 877 1305 m 0,0,1
  953.115 1305 953.115 1305 1019.52 1295.46 c 128,-1,2
  1085.93 1285.91 1085.93 1285.91 1128.63 1273.74 c 128,-1,3
@@ -6844,12 +8015,14 @@ Fore
  722.795 1305 722.795 1305 877 1305 c 0,0,1
 EndSplineSet
 EndChar
+
 StartChar: sterling
 Encoding: 163 163 248
 Width: 1052
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 200 869 m 4,0,1
  200 1002 200 1002 297.5 1090 c 132,-1,3
  395 1178 395 1178 552 1178 c 4,4,5
@@ -6885,12 +8058,14 @@ Fore
  200 781 200 781 200 869 c 4,0,1
 EndSplineSet
 EndChar
+
 StartChar: currency
 Encoding: 164 164 249
 Width: 1130
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 453.745 504.09 m 4,0,1
  453.745 458.026 453.745 458.026 486.342 425.428 c 0,2,3
  518.939 392.83 518.939 392.83 565 392.83 c 0,4,5
@@ -6923,12 +8098,14 @@ Fore
  374.553 389.91 l 5,16,17
 EndSplineSet
 EndChar
+
 StartChar: brokenbar
 Encoding: 166 166 250
 Width: 310
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 210 298 m 1,0,-1
  210 -488 l 1,1,-1
  100 -488 l 1,2,-1
@@ -6941,48 +8118,57 @@ Fore
  210 1477 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni022A
 Encoding: 554 554 251
 Width: 1444
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 EndChar
+
 StartChar: uni022F
 Encoding: 559 559 252
 Width: 1012
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 EndChar
+
 StartChar: uni01CD
 Encoding: 461 461 253
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 664 453 6 11 8
 EndChar
+
 StartChar: uni01CE
 Encoding: 462 462 254
 Width: 894
-TeX: 0 0 0 0
+Flags: H
 AnchorPoint: "mark-above" 439 1475 basemark 0
 AnchorPoint: "below" 439 0 basechar 0
 AnchorPoint: "cedilla" 693 0 basechar 0
 AnchorPoint: "ogonek" 720 0 basechar 0
 AnchorPoint: "topright" 774 828 basechar 0
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 439 0 2
 EndChar
+
 StartChar: uni01DD
 Encoding: 477 477 255
 Width: 939
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 450 0 basechar 0 40
 AnchorPoint: "above" 450 956 basechar 0 41
 AnchorPoint: "ogonek" 450 0 basechar 0 40
 AnchorPoint: "cedilla" 450 0 basechar 0 40
 AnchorPoint: "topright" 680 828 basechar 0 39
+LayerCount: 2
 Fore
+SplineSet
 433 110 m 0,0,1
  572 110 572 110 641 194 c 0,2,3
  689 252 689 252 704 358 c 1,4,-1
@@ -7019,82 +8205,104 @@ Fore
 450 956 m 25,41,-1
 EndSplineSet
 EndChar
+
 StartChar: uni1EB8
 Encoding: 7864 7864 256
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 568 0 6 15 13
 EndChar
+
 StartChar: uni1EB9
 Encoding: 7865 7865 257
 Width: 939
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 495 0 6 42 13
 EndChar
+
 StartChar: uni1ECA
 Encoding: 7882 7882 258
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 270 0 6 6 13
 EndChar
+
 StartChar: uni1ECB
 Encoding: 7883 7883 259
 Width: 547
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 76 105 N 1 0 0 1 0 -4.5 3
 Refer: 116 803 S 1 0 0 1 302 -4.5 6 8 13
 EndChar
+
 StartChar: uni1ECC
 Encoding: 7884 7884 260
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 727 0 6 40 13
 EndChar
+
 StartChar: uni1ECD
 Encoding: 7885 7885 261
 Width: 1012
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 506 0 6 46 13
 EndChar
+
 StartChar: uni1EE4
 Encoding: 7908 7908 262
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 655 0 6 17 13
 EndChar
+
 StartChar: uni1EE5
 Encoding: 7909 7909 263
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 555 0 6 24 13
 EndChar
+
 StartChar: uni1E62
 Encoding: 7778 7778 264
 Width: 1007
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 504 0 6 60 13
 EndChar
+
 StartChar: uni1E63
 Encoding: 7779 7779 265
 Width: 782
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 86 115 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 400 0 6 38 13
 EndChar
+
 StartChar: uni20B5
 Encoding: 8373 8373 266
 Width: 1146
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 654 1176 m 0,0,1
  788 1176 788 1176 893.5 1138.5 c 128,-1,2
  999 1101 999 1101 1062 1054 c 1,3,-1
@@ -7128,12 +8336,14 @@ Fore
  379.762 174.218 379.762 174.218 515 131.817 c 1,34,-1
 EndSplineSet
 EndChar
+
 StartChar: uni20A6
 Encoding: 8358 8358 267
 Width: 1305
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 Fore
+SplineSet
 944 349.572 m 1,0,-1
  944 476 l 1,1,-1
  866.12 476 l 1,2,-1
@@ -7183,73 +8393,91 @@ Fore
  944 689 l 1,38,-1
 EndSplineSet
 EndChar
+
 StartChar: uni01CF
 Encoding: 463 463 268
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 270 453 6 4 8
 EndChar
+
 StartChar: uni01D0
 Encoding: 464 464 269
 Width: 547
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 302 0 6 6 8
 EndChar
+
 StartChar: uni01D1
 Encoding: 465 465 270
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 727 453 6 0 8
 EndChar
+
 StartChar: uni01D2
 Encoding: 466 466 271
 Width: 1012
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 506 0 6 44 8
 EndChar
+
 StartChar: uni01D3
 Encoding: 467 467 272
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 655 436 6 19 8
 EndChar
+
 StartChar: uni01D4
 Encoding: 468 468 273
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 555 0 6 25 8
 EndChar
+
 StartChar: Ecaron
 Encoding: 282 282 274
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 568 453 6 13 8
 EndChar
+
 StartChar: ecaron
 Encoding: 283 283 275
 Width: 939
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 495 0 6 39 8
 EndChar
+
 StartChar: uni0196
 Encoding: 406 406 276
 Width: 696
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 270 1053 basechar 0 17
 AnchorPoint: "cedilla" 361 0 basechar 0 18
 AnchorPoint: "below" 361 0 basechar 0 18
 AnchorPoint: "ogonek" 361 0 basechar 0 18
 AnchorPoint: "above" 270 1409 basechar 0 16
+LayerCount: 2
 Fore
+SplineSet
 361 1392 m 1,0,-1
  361 334 l 2,1,2
  361 123 361 123 496 123 c 0,3,4
@@ -7268,31 +8496,35 @@ Fore
 361 0 m 25,18,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0268
 Encoding: 616 616 277
 Width: 605
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 302 828 basechar 0 15
 AnchorPoint: "ogonek" 302 0 basechar 0 16
 AnchorPoint: "cedilla" 302 0 basechar 0 16
 AnchorPoint: "below" 302 0 basechar 0 16
 AnchorPoint: "above" 302 1475 basechar 0 28
+LayerCount: 2
+Fore
 Refer: 278 -1 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 302 0 2
 Substitution2: "Dotless Single Substitution lookup-1" uni0268.dotless
 EndChar
+
 StartChar: uni0268.dotless
 Encoding: 65539 -1 278
 Width: 605
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 302 956 basechar 0 14
 AnchorPoint: "below" 302 0 basechar 0 16
 AnchorPoint: "cedilla" 302 0 basechar 0 16
 AnchorPoint: "ogonek" 302 0 basechar 0 16
 AnchorPoint: "topright" 302 828 basechar 0 15
+LayerCount: 2
 Fore
+SplineSet
 222 558 m 1,0,-1
  222 810 l 1,1,-1
  56 810 l 1,2,-1
@@ -7313,29 +8545,33 @@ Fore
 302 0 m 25,16,-1
 EndSplineSet
 EndChar
+
 StartChar: Idotaccent
 Encoding: 304 304 279
 Width: 541
-TeX: 0 0 0 0
 AnchorPoint: "topright" 270 1053 basechar 0 5
 AnchorPoint: "cedilla" 270 0 basechar 0 6
 AnchorPoint: "below" 270 0 basechar 0 6
 AnchorPoint: "ogonek" 270 0 basechar 0 6
 AnchorPoint: "above" 270 1928 basechar 0 18
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 103 775 S 1 0 0 1 270 453 6 4 13
 EndChar
+
 StartChar: uni2C6D
 Encoding: 11373 11373 280
 Width: 1319
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1048 1053 basechar 0 41
 AnchorPoint: "ogonek" 1048 0 basechar 0 42
 AnchorPoint: "cedilla" 684 0 basechar 0 39
 AnchorPoint: "below" 684 0 basechar 0 39
 AnchorPoint: "above" 684 1409 basechar 0 40
+LayerCount: 2
 Fore
+SplineSet
 958 411 m 9,0,-1
  958 1208.58 l 1,1,2
  916.012 1238.7 916.012 1238.7 853.217 1253.94 c 128,-1,3
@@ -7375,118 +8611,148 @@ Fore
 1048 0 m 25,42,-1
 EndSplineSet
 EndChar
+
 StartChar: Edotaccent
 Encoding: 278 278 281
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 568 453 6 13 13
 EndChar
+
 StartChar: edotaccent
 Encoding: 279 279 282
 Width: 939
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 495 0 6 39 13
 EndChar
+
 StartChar: Emacron
 Encoding: 274 274 283
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 568 453 6 13 5
 EndChar
+
 StartChar: emacron
 Encoding: 275 275 284
 Width: 939
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 164 772 S 1 0 0 1 495 0 6 39 5
 EndChar
+
 StartChar: uni1E18
 Encoding: 7704 7704 285
 Width: 1077
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 568 0 6 15 13
 EndChar
+
 StartChar: uni1E19
 Encoding: 7705 7705 286
 Width: 939
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 495 0 6 42 13
 EndChar
+
 StartChar: Itilde
 Encoding: 296 296 287
 Width: 541
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 270 453 6 4 25
 EndChar
+
 StartChar: itilde
 Encoding: 297 297 288
 Width: 547
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 98 305 N 1 0 0 1 0 0 3
 Refer: 109 771 S 1 0 0 1 302 0 6 6 25
 EndChar
+
 StartChar: uni1EBC
 Encoding: 7868 7868 289
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 568 453 6 13 25
 EndChar
+
 StartChar: uni1EBD
 Encoding: 7869 7869 290
 Width: 939
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 109 771 S 1 0 0 1 495 0 6 39 25
 EndChar
+
 StartChar: uni0228
 Encoding: 552 552 291
 Width: 1077
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 114 807 N 1 0 0 1 568 0 6 15 19
 EndChar
+
 StartChar: uni0229
 Encoding: 553 553 292
 Width: 939
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 114 807 N 1 0 0 1 495 0 6 42 19
 EndChar
+
 StartChar: Omacron
 Encoding: 332 332 293
 Width: 1444
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 727 453 6 0 5
 EndChar
+
 StartChar: omacron
 Encoding: 333 333 294
 Width: 1012
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 82 111 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 506 0 6 44 5
 EndChar
+
 StartChar: uni0197
 Encoding: 407 407 295
 Width: 663
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 331 1053 basechar 0 13
 AnchorPoint: "cedilla" 331 0 basechar 0 14
 AnchorPoint: "below" 331 0 basechar 0 14
 AnchorPoint: "ogonek" 331 0 basechar 0 14
 AnchorPoint: "above" 331 1409 basechar 0 12
+LayerCount: 2
 Fore
+SplineSet
 241 664 m 1,0,-1
  61 664 l 1,1,-1
  61 803 l 1,2,-1
@@ -7505,17 +8771,19 @@ Fore
 331 0 m 25,14,-1
 EndSplineSet
 EndChar
+
 StartChar: uni019F
 Encoding: 415 415 296
 Width: 1444
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1263 1053 basechar 0 43
 AnchorPoint: "ogonek" 727 0 basechar 0 44
 AnchorPoint: "cedilla" 727 0 basechar 0 44
 AnchorPoint: "below" 727 0 basechar 0 44
 AnchorPoint: "above" 727 1409 basechar 0 45
+LayerCount: 2
 Fore
+SplineSet
 727 1409 m 0,0,1
  856 1409 856 1409 965.5 1373 c 128,-1,2
  1075 1337 1075 1337 1154.5 1272 c 128,-1,3
@@ -7559,43 +8827,51 @@ Fore
 727 1409 m 25,45,-1
 EndSplineSet
 EndChar
+
 StartChar: Obreve
 Encoding: 334 334 297
 Width: 1444
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 EndChar
+
 StartChar: obreve
 Encoding: 335 335 298
 Width: 1012
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
 EndChar
+
 StartChar: Utilde
 Encoding: 360 360 299
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 655 436 6 19 25
 EndChar
+
 StartChar: utilde
 Encoding: 361 361 300
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 555 0 6 25 25
 EndChar
+
 StartChar: uni0289
 Encoding: 649 649 301
 Width: 1237
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 965 828 basechar 0 38
 AnchorPoint: "ogonek" 934 0 basechar 0 39
 AnchorPoint: "cedilla" 934 0 basechar 0 39
 AnchorPoint: "below" 613 0 basechar 0 36
 AnchorPoint: "above" 613 956 basechar 0 37
+LayerCount: 2
 Fore
+SplineSet
 383 431 m 2,0,1
  383 260 383 260 443 185 c 128,-1,2
  503 110 503 110 613 110 c 0,3,4
@@ -7636,17 +8912,19 @@ Fore
 934 0 m 25,39,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0244
 Encoding: 580 580 302
 Width: 1432
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 1109 1053 basechar 0 32
 AnchorPoint: "ogonek" 716 0 basechar 0 31
 AnchorPoint: "cedilla" 716 0 basechar 0 31
 AnchorPoint: "below" 716 0 basechar 0 31
 AnchorPoint: "above" 716 1392 basechar 0 33
+LayerCount: 2
 Fore
+SplineSet
 422 486 m 2,0,1
  422 384 422 384 447.5 311 c 128,-1,2
  473 238 473 238 519.5 198 c 128,-1,3
@@ -7681,31 +8959,37 @@ Fore
 716 1392 m 25,33,-1
 EndSplineSet
 EndChar
+
 StartChar: uni1E76
 Encoding: 7798 7798 303
 Width: 1310
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 2
 Refer: 305 813 S 1 0 0 1 655 0 6 17 8
 EndChar
+
 StartChar: uni1E77
 Encoding: 7799 7799 304
 Width: 1121
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 2
 Refer: 305 813 S 1 0 0 1 555 0 6 24 8
 EndChar
+
 StartChar: uni032D
 Encoding: 813 813 305
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0 8
 AnchorPoint: "mark-below" 0 0 mark 0 8
 AnchorPoint: "mark-below" 0 -483 basemark 0 7
+LayerCount: 2
 Fore
+SplineSet
 0 -209.02 m 1,0,-1
  -234 -458 l 1,1,-1
  -309 -409 l 1,2,-1
@@ -7718,15 +9002,17 @@ Fore
 0 0 m 25,8,-1
 EndSplineSet
 EndChar
+
 StartChar: uni032C
 Encoding: 812 812 306
 Width: 0
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "below" 0 0 mark 0 8
 AnchorPoint: "mark-below" 0 0 mark 0 8
 AnchorPoint: "mark-below" 0 -483 basemark 0 7
+LayerCount: 2
 Fore
+SplineSet
 0 -357.98 m 1,0,-1
  234 -109 l 1,1,-1
  309 -158 l 1,2,-1
@@ -7739,17 +9025,19 @@ Fore
 0 0 m 25,8,-1
 EndSplineSet
 EndChar
+
 StartChar: dcroat
 Encoding: 273 273 307
 Width: 1124
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "above" 816 1475 basechar 0 38
 AnchorPoint: "cedilla" 482 0 basechar 0 39
 AnchorPoint: "ogonek" 816 0 basechar 0 41
 AnchorPoint: "below" 482 0 basechar 0 39
 AnchorPoint: "topright" 816 828 basechar 0 40
+LayerCount: 2
 Fore
+SplineSet
 734 784 m 1,0,1
  651 828 651 828 543 828 c 0,2,3
  488 828 488 828 431.5 799.5 c 128,-1,4
@@ -7788,397 +9076,510 @@ Fore
 816 0 m 25,41,-1
 EndSplineSet
 EndChar
+
 StartChar: uni1E13
 Encoding: 7699 7699 308
 Width: 1063
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 71 100 N 1 0 0 1 0 0 2
 Refer: 305 813 S 1 0 0 1 482 0 6 31 8
 EndChar
+
 StartChar: uni1E12
 Encoding: 7698 7698 309
 Width: 1375
 Flags: W
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 39 68 N 1 0 0 1 0 0 2
 Refer: 305 813 N 1 0 0 1 620 0 6 34 8
 EndChar
+
 StartChar: Gcircumflex
 Encoding: 284 284 310
 Width: 1435
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 740 453 6 36 8
 EndChar
+
 StartChar: gcircumflex
 Encoding: 285 285 311
 Width: 980
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 74 103 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 516 0 6 94 8
 EndChar
+
 StartChar: uni1E3C
 Encoding: 7740 7740 312
 Width: 1010
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 580 0 6 8 8
 EndChar
+
 StartChar: uni1E3D
 Encoding: 7741 7741 313
 Width: 593
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 79 108 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 344 0 6 14 8
 EndChar
+
 StartChar: uni1E44
 Encoding: 7748 7748 314
 Width: 1385
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 49 78 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 692 453 6 10 13
 EndChar
+
 StartChar: uni1E45
 Encoding: 7749 7749 315
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 555 0 6 25 13
 EndChar
+
 StartChar: uni1E4B
 Encoding: 7755 7755 316
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 555 0 6 24 8
 EndChar
+
 StartChar: uni1E4A
 Encoding: 7754 7754 317
 Width: 1385
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 49 78 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 692 0 6 13 8
 EndChar
+
 StartChar: Scaron
 Encoding: 352 352 318
 Width: 1007
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 504 453 6 58 8
 EndChar
+
 StartChar: scaron
 Encoding: 353 353 319
 Width: 782
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 86 115 N 1 0 0 1 0 0 3
 Refer: 115 780 S 1 0 0 1 400 0 6 39 8
 EndChar
+
 StartChar: uni1E70
 Encoding: 7792 7792 320
 Width: 1183
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 591 0 6 10 8
 EndChar
+
 StartChar: uni1E71
 Encoding: 7793 7793 321
 Width: 669
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 87 116 N 1 0 0 1 0 0 3
 Refer: 305 813 N 1 0 0 1 372 0 6 22 8
 EndChar
+
 StartChar: Wcircumflex
 Encoding: 372 372 322
 Width: 2027
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 58 87 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 1013 453 6 13 8
 EndChar
+
 StartChar: wcircumflex
 Encoding: 373 373 323
 Width: 1512
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 90 119 N 1 0 0 1 0 0 3
 Refer: 108 770 N 1 0 0 1 756 0 6 14 8
 EndChar
+
 StartChar: wdieresis
 Encoding: 7813 7813 324
 Width: 1512
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 90 119 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 284 0 6 14 24
 EndChar
+
 StartChar: Wdieresis
 Encoding: 7812 7812 325
 Width: 2027
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 58 87 N 1 0 0 1 0 0 3
 Refer: 105 168 N 1 0 0 1 541 453 6 13 24
 EndChar
+
 StartChar: uni1EF9
 Encoding: 7929 7929 326
 Width: 1027
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 92 121 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 515 0 6 25 25
 EndChar
+
 StartChar: uni1EF8
 Encoding: 7928 7928 327
 Width: 1241
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 109 771 N 1 0 0 1 620 453 6 9 25
 EndChar
+
 StartChar: Amacron
 Encoding: 256 256 328
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 S 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 664 453 6 11 5
 EndChar
+
 StartChar: amacron
 Encoding: 257 257 329
 Width: 894
-TeX: 0 0 0 0
+Flags: H
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 164 772 N 1 0 0 1 439 0 6 55 5
+Refer: 164 772 N 1 0 0 1 720 -956 6 55 5
 EndChar
+
 StartChar: Abreve
 Encoding: 258 258 330
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 160 774 N 1 0 0 1 664 453 6 11 19
 EndChar
+
 StartChar: abreve
 Encoding: 259 259 331
 Width: 894
-TeX: 0 0 0 0
+Flags: H
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 160 774 N 1 0 0 1 439 0 6 55 19
+Refer: 160 774 N 1 0 0 1 720 -956 6 55 19
 EndChar
+
 StartChar: uni1EA0
 Encoding: 7840 7840 332
 Width: 1328
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 664 0 6 14 13
 EndChar
+
 StartChar: uni1EA1
 Encoding: 7841 7841 333
 Width: 894
-TeX: 0 0 0 0
+Flags: H
+LayerCount: 2
+Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 439 0 6 54 13
 EndChar
+
 StartChar: uni1E04
 Encoding: 7684 7684 334
 Width: 1116
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 37 66 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 540 0 6 57 13
 EndChar
+
 StartChar: uni1E05
 Encoding: 7685 7685 335
 Width: 1059
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 69 98 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 555 0 6 34 13
 EndChar
+
 StartChar: Cacute
 Encoding: 262 262 336
 Width: 1255
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 38 67 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 660 453 6 36 5
 EndChar
+
 StartChar: cacute
 Encoding: 263 263 337
 Width: 888
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 486 0 6 26 5
 EndChar
+
 StartChar: Ccaron
 Encoding: 268 268 338
 Width: 1255
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 38 67 N 1 0 0 1 0 0 3
 Refer: 115 780 S 1 0 0 1 660 453 6 36 8
 EndChar
+
 StartChar: ccaron
 Encoding: 269 269 339
 Width: 888
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 115 780 N 1 0 0 1 486 0 6 26 8
 EndChar
+
 StartChar: uni1E0E
 Encoding: 7694 7694 340
 Width: 1375
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
 Refer: 168 817 N 1 0 0 1 620 0 6 34 5
 EndChar
+
 StartChar: uni1E0F
 Encoding: 7695 7695 341
 Width: 1063
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 71 100 N 1 0 0 1 0 0 3
 Refer: 168 817 N 1 0 0 1 482 0 6 31 5
 EndChar
+
 StartChar: uni1E0C
 Encoding: 7692 7692 342
 Width: 1375
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 620 0 6 34 13
 EndChar
+
 StartChar: uni1E0D
 Encoding: 7693 7693 343
 Width: 1063
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 71 100 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 482 0 6 31 13
 EndChar
+
 StartChar: uni1E24
 Encoding: 7716 7716 344
 Width: 1364
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 43 72 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 682 0 6 15 13
 EndChar
+
 StartChar: uni1E25
 Encoding: 7717 7717 345
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 75 104 N 1 0 0 1 0 0 3
 Refer: 116 803 S 1 0 0 1 555 0 6 24 13
 EndChar
+
 StartChar: uni1E36
 Encoding: 7734 7734 346
 Width: 1010
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 580 0 6 8 13
 EndChar
+
 StartChar: uni1E37
 Encoding: 7735 7735 347
 Width: 593
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 79 108 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 344 0 6 14 13
 EndChar
+
 StartChar: uni1E46
 Encoding: 7750 7750 348
 Width: 1385
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 49 78 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 692 0 6 13 13
 EndChar
+
 StartChar: uni1E47
 Encoding: 7751 7751 349
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 555 0 6 24 13
 EndChar
+
 StartChar: uni1E54
 Encoding: 7764 7764 350
 Width: 1083
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 51 80 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 540 453 6 26 5
 EndChar
+
 StartChar: uni1E55
 Encoding: 7765 7765 351
 Width: 1063
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 83 112 N 1 0 0 1 0 0 3
 Refer: 107 769 N 1 0 0 1 555 0 6 30 5
 EndChar
+
 StartChar: uni1E6E
 Encoding: 7790 7790 352
 Width: 1183
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
 Refer: 168 817 N 1 0 0 1 591 0 6 10 5
 EndChar
+
 StartChar: uni1E6F
 Encoding: 7791 7791 353
 Width: 669
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 87 116 N 1 0 0 1 0 0 3
 Refer: 168 817 N 1 0 0 1 372 0 6 22 5
 EndChar
+
 StartChar: uni1E6C
 Encoding: 7788 7788 354
 Width: 1183
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 591 0 6 10 13
 EndChar
+
 StartChar: uni1E6D
 Encoding: 7789 7789 355
 Width: 669
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 87 116 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 372 0 6 22 13
 EndChar
+
 StartChar: Umacron
 Encoding: 362 362 356
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 655 436 6 19 5
 EndChar
+
 StartChar: umacron
 Encoding: 363 363 357
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 164 772 N 1 0 0 1 555 0 6 25 5
 EndChar
+
 StartChar: Uhungarumlaut
 Encoding: 368 368 358
 Width: 1310
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 169 779 N 1 0 0 1 655 436 6 19 9
 EndChar
+
 StartChar: uhungarumlaut
 Encoding: 369 369 359
 Width: 1121
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 88 117 N 1 0 0 1 0 0 3
 Refer: 169 779 N 1 0 0 1 555 0 6 25 9
 EndChar
+
 StartChar: uni1E92
 Encoding: 7826 7826 360
 Width: 1259
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 601 0 6 11 13
 EndChar
+
 StartChar: uni1E93
 Encoding: 7827 7827 361
 Width: 972
-TeX: 0 0 0 0
+LayerCount: 2
+Fore
 Refer: 93 122 N 1 0 0 1 0 0 3
 Refer: 116 803 N 1 0 0 1 508 0 6 8 13
 EndChar
+
 StartChar: uni01B5
 Encoding: 437 437 362
 Width: 1259
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 808 1053 basechar 0 18
 AnchorPoint: "cedilla" 1048 0 basechar 0 16
 AnchorPoint: "below" 601 0 basechar 0 19
 AnchorPoint: "above" 601 1409 basechar 0 17
 AnchorPoint: "ogonek" 1048 0 basechar 0 16
+LayerCount: 2
 Fore
+SplineSet
 653.981 664 m 1,0,-1
  320.336 139 l 1,1,-1
  1116 139 l 1,2,-1
@@ -8202,17 +9603,19 @@ Fore
 601 0 m 25,19,-1
 EndSplineSet
 EndChar
+
 StartChar: uni01B6
 Encoding: 438 438 363
 Width: 972
 Flags: W
-TeX: 0 0 0 0
 AnchorPoint: "topright" 738 828 basechar 0 18
 AnchorPoint: "ogonek" 820 0 basechar 0 19
 AnchorPoint: "cedilla" 820 0 basechar 0 19
 AnchorPoint: "below" 508 0 basechar 0 16
 AnchorPoint: "above" 508 956 basechar 0 17
+LayerCount: 2
 Fore
+SplineSet
 111 938 m 1,0,-1
  889 938 l 1,1,-1
  631.345 558 l 1,2,-1
@@ -8234,6 +9637,75 @@ Fore
 508 956 m 25,17,-1
 738 828 m 25,18,-1
 820 0 m 25,19,-1
+EndSplineSet
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 364
+Width: 765
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 16 45 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 365
+Width: 765
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 16 45 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 366
+Width: 778
+Flags: W
+HStem: 449 109<68 710>
+VStem: 68 642<449 558>
+LayerCount: 2
+Fore
+SplineSet
+710 449 m 25,0,-1
+ 68 449 l 1,1,-1
+ 68 558 l 1,2,-1
+ 710 558 l 1,3,-1
+ 710 449 l 25,0,-1
+EndSplineSet
+EndChar
+
+StartChar: emdash
+Encoding: 8212 8212 367
+Width: 1556
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1488 449 m 25,0,-1
+ 68 449 l 1,1,-1
+ 68 558 l 1,2,-1
+ 1488 558 l 1,3,-1
+ 1488 449 l 25,0,-1
+EndSplineSet
+EndChar
+
+StartChar: bullet
+Encoding: 8226 8226 368
+Width: 466
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+63 504 m 128,-1,1
+ 63 576 63 576 113 627 c 128,-1,2
+ 163 678 163 678 233 678 c 128,-1,3
+ 303 678 303 678 353 627 c 128,-1,4
+ 403 576 403 576 403 504 c 128,-1,5
+ 403 432 403 432 353 381 c 128,-1,6
+ 303 330 303 330 233 330 c 128,-1,7
+ 163 330 163 330 113 381 c 128,-1,0
+ 63 432 63 432 63 504 c 128,-1,1
 EndSplineSet
 EndChar
 EndChars
