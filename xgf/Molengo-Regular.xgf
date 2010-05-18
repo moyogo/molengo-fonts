@@ -581,7 +581,7 @@
   </glyph>
 
 <!-- em dash U+2014 -->
-  <glyph ps-name="uni2014">
+  <glyph ps-name="emdash">
       <constant name="left-top" value="2"/>
       <constant name="right-bottom" value="0"/>
       <constant name="last" value="3"/>

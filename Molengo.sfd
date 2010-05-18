@@ -20,7 +20,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1182169782
-ModificationTime: 1274187076
+ModificationTime: 1274187699
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -700,7 +700,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8200 8 5
+WinInfo: 88 8 5
 AnchorClass2: "mark-below"  "'mkmk' mark-below in Latin" "mark-above"  "'mkmk' mark-above in Latin" "topright"  "'mark' topright in Latin" "ogonek"  "'mark' ogonek in Latin" "cedilla"  "'mark' cedilla in Latin" "below"  "'mark' below in Latin" "above"  "'mark' above in Latin" 
 BeginChars: 65540 369
 
@@ -7587,21 +7587,23 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 220
 Width: 894
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 720 519 basechar 0 61
+AnchorPoint: "above" 439 1475 basechar 0 61
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 106 768 N 1 0 0 1 720 -956 6 55 5 O
+Refer: 106 768 N 1 0 0 1 439 0 6 52 5
 EndChar
 
 StartChar: aacute
 Encoding: 225 225 221
 Width: 894
-AnchorPoint: "above" 720 519 basechar 0 61
+Flags: H
+AnchorPoint: "above" 439 1475 basechar 0 61
 AnchorPoint: "below" 439 0 basechar 0 54
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "ogonek" 439 956 basechar 0 52
@@ -7609,63 +7611,67 @@ AnchorPoint: "topright" 774 828 basechar 0 56
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 107 769 N 1 0 0 1 720 -956 6 55 5 O
+Refer: 107 769 N 1 0 0 1 439 0 6 52 5
 EndChar
 
 StartChar: acircumflex
 Encoding: 226 226 222
 Width: 894
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 720 519 basechar 0 64
+AnchorPoint: "above" 439 1475 basechar 0 64
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 108 770 N 1 0 0 1 720 -956 6 55 8
+Refer: 108 770 N 1 0 0 1 439 0 6 52 8
 EndChar
 
 StartChar: atilde
 Encoding: 227 227 223
 Width: 894
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 720 454 basechar 0 81
+AnchorPoint: "above" 439 1410 basechar 0 81
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 109 771 N 1 0 0 1 720 -956 6 55 25 O
+Refer: 109 771 N 1 0 0 1 439 0 6 52 25
 EndChar
 
 StartChar: adieresis
 Encoding: 228 228 224
 Width: 894
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 720 519 basechar 0 82
+AnchorPoint: "above" 439 1475 basechar 0 82
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 105 168 N 1 0 0 1 248 -956 6 55 24 O
+Refer: 105 168 N 1 0 0 1 -33 0 6 52 24
 EndChar
 
 StartChar: aring
 Encoding: 229 229 225
 Width: 894
+Flags: H
 AnchorPoint: "topright" 774 828 basechar 0 56
 AnchorPoint: "ogonek" 439 956 basechar 0 52
 AnchorPoint: "cedilla" 693 0 basechar 0 53
 AnchorPoint: "below" 439 0 basechar 0 54
-AnchorPoint: "above" 720 519 basechar 0 81
+AnchorPoint: "above" 439 1475 basechar 0 81
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 163 778 N 1 0 0 1 720 -956 6 55 25 O
+Refer: 163 778 N 1 0 0 1 439 0 6 52 25
 EndChar
 
 StartChar: ccedilla
@@ -9265,10 +9271,11 @@ EndChar
 StartChar: amacron
 Encoding: 257 257 329
 Width: 894
+Flags: H
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 164 772 N 1 0 0 1 720 -956 6 55 5
+Refer: 164 772 N 1 0 0 1 439 0 6 52 5
 EndChar
 
 StartChar: Abreve
@@ -9283,10 +9290,11 @@ EndChar
 StartChar: abreve
 Encoding: 259 259 331
 Width: 894
+Flags: H
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
-Refer: 160 774 N 1 0 0 1 720 -956 6 55 19
+Refer: 160 774 N 1 0 0 1 439 0 6 52 19
 EndChar
 
 StartChar: uni1EA0
@@ -9634,7 +9642,7 @@ EndChar
 StartChar: uni2010
 Encoding: 8208 8208 364
 Width: 595
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9649,7 +9657,7 @@ EndChar
 StartChar: uni2011
 Encoding: 8209 8209 365
 Width: 595
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 364 8208 N 1 0 0 1 0 0 2
@@ -9658,7 +9666,7 @@ EndChar
 StartChar: endash
 Encoding: 8211 8211 366
 Width: 765
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 16 45 N 1 0 0 1 0 0 3
