@@ -4,8 +4,8 @@
 -->
 <xgridfit xmlns="http://xgridfit.sourceforge.net/Xgridfit2">
 
-  <infile>Molengo.sfd</infile>
-  <outfile>Molengo.ttf</outfile>
+  <infile>Molengo-Regular.sfd</infile>
+  <outfile>Molengo-Regular.ttf</outfile>
   <!-- Points in the twilight zone should come here -->
   <constant name="left-sidebearing" value="last + 1"/>
   <constant name="right-sidebearing" value="left-sidebearing + 1"/>
