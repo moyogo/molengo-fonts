@@ -1,9 +1,166 @@
 
+languagesystem cyrl dflt;
 languagesystem DFLT dflt;
+languagesystem grek dflt;
 languagesystem latn dflt;
 
 # GSUB 
 
+
+lookup smcpLowercasetoSingleSmallCapit {
+  lookupflag 0;
+    sub \a by \A.c2sc ;
+    sub \b by \B.c2sc ;
+    sub \c by \C.c2sc ;
+    sub \d by \D.c2sc ;
+    sub \e by \E.c2sc ;
+    sub \f by \F.c2sc ;
+    sub \g by \G.c2sc ;
+    sub \h by \H.c2sc ;
+    sub \i by \I.c2sc ;
+    sub \j by \J.c2sc ;
+    sub \k by \K.c2sc ;
+    sub \l by \L.c2sc ;
+    sub \m by \M.c2sc ;
+    sub \n by \N.c2sc ;
+    sub \o by \O.c2sc ;
+    sub \p by \P.c2sc ;
+    sub \q by \Q.c2sc ;
+    sub \r by \R.c2sc ;
+    sub \s by \S.c2sc ;
+    sub \t by \T.c2sc ;
+    sub \u by \U.c2sc ;
+    sub \v by \V.c2sc ;
+    sub \w by \W.c2sc ;
+    sub \x by \X.c2sc ;
+    sub \y by \Y.c2sc ;
+    sub \z by \Z.c2sc ;
+    sub \eng by \Eng.c2sc ;
+    sub \oslash by \Oslash.c2sc ;
+    sub \eth by \Eth.c2sc ;
+    sub \ae by \AE.c2sc ;
+    sub \oe by \OE.c2sc ;
+    sub \thorn by \Thorn.c2sc ;
+    sub \dcroat by \Dcroat.c2sc ;
+    sub \hbar by \Hbar.c2sc ;
+    sub \ldot by \Ldot.c2sc ;
+} smcpLowercasetoSingleSmallCapit;
+
+lookup c2scCapitalstoSmallCapitalslook {
+  lookupflag 0;
+    sub \zero by \zero.c2sc ;
+    sub \one by \one.c2sc ;
+    sub \two by \two.c2sc ;
+    sub \three by \three.c2sc ;
+    sub \four by \four.c2sc ;
+    sub \five by \five.c2sc ;
+    sub \six by \six.c2sc ;
+    sub \seven by \seven.c2sc ;
+    sub \eight by \eight.c2sc ;
+    sub \nine by \nine.c2sc ;
+    sub \A by \A.c2sc ;
+    sub \B by \B.c2sc ;
+    sub \C by \C.c2sc ;
+    sub \D by \D.c2sc ;
+    sub \E by \E.c2sc ;
+    sub \F by \F.c2sc ;
+    sub \G by \G.c2sc ;
+    sub \H by \H.c2sc ;
+    sub \I by \I.c2sc ;
+    sub \J by \J.c2sc ;
+    sub \K by \K.c2sc ;
+    sub \L by \L.c2sc ;
+    sub \M by \M.c2sc ;
+    sub \N by \N.c2sc ;
+    sub \O by \O.c2sc ;
+    sub \P by \P.c2sc ;
+    sub \Q by \Q.c2sc ;
+    sub \R by \R.c2sc ;
+    sub \S by \S.c2sc ;
+    sub \T by \T.c2sc ;
+    sub \U by \U.c2sc ;
+    sub \V by \V.c2sc ;
+    sub \W by \W.c2sc ;
+    sub \X by \X.c2sc ;
+    sub \Y by \Y.c2sc ;
+    sub \Z by \Z.c2sc ;
+    sub \Eng by \Eng.c2sc ;
+    sub \Eth by \Eth.c2sc ;
+    sub \Oslash by \Oslash.c2sc ;
+    sub \OE by \OE.c2sc ;
+    sub \Thorn by \Thorn.c2sc ;
+    sub \Dcroat by \Dcroat.c2sc ;
+    sub \Hbar by \Hbar.c2sc ;
+    sub \zero.tnum by \zero.c2sc.tnum ;
+    sub \one.tnum by \one.c2sc.tnum ;
+    sub \two.tnum by \two.c2sc.tnum ;
+    sub \three.tnum by \three.c2sc.tnum ;
+    sub \four.tnum by \four.c2sc.tnum ;
+    sub \five.tnum by \five.c2sc.tnum ;
+    sub \six.tnum by \six.c2sc.tnum ;
+    sub \seven.tnum by \seven.c2sc.tnum ;
+    sub \eight.tnum by \eight.c2sc.tnum ;
+    sub \nine.tnum by \nine.c2sc.tnum ;
+    sub \Ldot by \Ldot.c2sc ;
+} c2scCapitalstoSmallCapitalslook;
+
+lookup tnumTabularNumbers {
+  lookupflag 0;
+    sub \zero by \zero.tnum ;
+    sub \one by \one.tnum ;
+    sub \two by \two.tnum ;
+    sub \three by \three.tnum ;
+    sub \four by \four.tnum ;
+    sub \five by \five.tnum ;
+    sub \six by \six.tnum ;
+    sub \seven by \seven.tnum ;
+    sub \eight by \eight.tnum ;
+    sub \nine by \nine.tnum ;
+    sub \zero.lnum by \zero.lnum.tnum ;
+    sub \one.lnum by \one.lnum.tnum ;
+    sub \two.lnum by \two.lnum.tnum ;
+    sub \three.lnum by \three.lnum.tnum ;
+    sub \four.lnum by \four.lnum.tnum ;
+    sub \five.lnum by \five.lnum.tnum ;
+    sub \six.lnum by \six.lnum.tnum ;
+    sub \seven.lnum by \seven.lnum.tnum ;
+    sub \eight.lnum by \eight.lnum.tnum ;
+    sub \nine.lnum by \nine.lnum.tnum ;
+    sub \zero.c2sc by \zero.c2sc.tnum ;
+    sub \one.c2sc by \one.c2sc.tnum ;
+    sub \two.c2sc by \two.c2sc.tnum ;
+    sub \three.c2sc by \three.c2sc.tnum ;
+    sub \four.c2sc by \four.c2sc.tnum ;
+    sub \five.c2sc by \five.c2sc.tnum ;
+    sub \six.c2sc by \six.c2sc.tnum ;
+    sub \seven.c2sc by \seven.c2sc.tnum ;
+    sub \eight.c2sc by \eight.c2sc.tnum ;
+    sub \nine.c2sc by \nine.c2sc.tnum ;
+} tnumTabularNumbers;
+
+lookup lnumLiningFigures {
+  lookupflag 0;
+    sub \zero by \zero.lnum ;
+    sub \one by \one.lnum ;
+    sub \two by \two.lnum ;
+    sub \three by \three.lnum ;
+    sub \four by \four.lnum ;
+    sub \five by \five.lnum ;
+    sub \six by \six.lnum ;
+    sub \seven by \seven.lnum ;
+    sub \eight by \eight.lnum ;
+    sub \nine by \nine.lnum ;
+    sub \zero.tnum by \zero.lnum.tnum ;
+    sub \one.tnum by \one.lnum.tnum ;
+    sub \two.tnum by \two.lnum.tnum ;
+    sub \three.tnum by \three.lnum.tnum ;
+    sub \four.tnum by \four.lnum.tnum ;
+    sub \five.tnum by \five.lnum.tnum ;
+    sub \six.tnum by \six.lnum.tnum ;
+    sub \seven.tnum by \seven.lnum.tnum ;
+    sub \eight.tnum by \eight.lnum.tnum ;
+    sub \nine.tnum by \nine.lnum.tnum ;
+} lnumLiningFigures;
 
 lookup DotlessSingleSubstitution {
   lookupflag 0;
@@ -14,16 +171,92 @@ lookup DotlessSingleSubstitution {
 
 lookup ccmpContextualAlternatesinLatin {
   lookupflag 0;
-    @cc0_match_1 = [\i \j \uni0268 ];
-    @cc0_match_2 = [\acutecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
+    @cc4_match_1 = [\i \j \uni0268 ];
+    @cc4_match_2 = [\acutecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
 	\hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E \uni0311 
 	\uni0312 \uni0313 \uni0314 \uni0315 ];
-    @cc0_match_3 = [\dotbelowcomb \uni0324 \uni0325 \uni0326 \uni0327 \uni0328 \uni0331 \uni0329 ];
-    sub @cc0_match_1'lookup DotlessSingleSubstitution  @cc0_match_2' ;
-    sub @cc0_match_1'lookup DotlessSingleSubstitution  @cc0_match_3' @cc0_match_2' ;
-    sub @cc0_match_1'lookup DotlessSingleSubstitution  @cc0_match_3' @cc0_match_3' @cc0_match_2' ;
-    sub @cc0_match_1'lookup DotlessSingleSubstitution  @cc0_match_3' @cc0_match_3' @cc0_match_3' @cc0_match_2' ;
+    @cc4_match_3 = [\dotbelowcomb \uni0324 \uni0325 \uni0326 \uni0327 \uni0328 \uni0331 \uni0329 ];
+    sub @cc4_match_1'lookup DotlessSingleSubstitution  @cc4_match_2' ;
+    sub @cc4_match_1'lookup DotlessSingleSubstitution  @cc4_match_3' @cc4_match_2' ;
+    sub @cc4_match_1'lookup DotlessSingleSubstitution  @cc4_match_3' @cc4_match_3' @cc4_match_2' ;
+    sub @cc4_match_1'lookup DotlessSingleSubstitution  @cc4_match_3' @cc4_match_3' @cc4_match_3' @cc4_match_2' ;
 } ccmpContextualAlternatesinLatin;
+
+feature smcp {
+
+ script DFLT;
+     language dflt ;
+      lookup smcpLowercasetoSingleSmallCapit;
+
+ script cyrl;
+     language dflt ;
+      lookup smcpLowercasetoSingleSmallCapit;
+
+ script grek;
+     language dflt ;
+      lookup smcpLowercasetoSingleSmallCapit;
+
+ script latn;
+     language dflt ;
+      lookup smcpLowercasetoSingleSmallCapit;
+} smcp;
+
+feature c2sc {
+
+ script DFLT;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslook;
+
+ script cyrl;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslook;
+
+ script grek;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslook;
+
+ script latn;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslook;
+} c2sc;
+
+feature tnum {
+
+ script DFLT;
+     language dflt ;
+      lookup tnumTabularNumbers;
+
+ script cyrl;
+     language dflt ;
+      lookup tnumTabularNumbers;
+
+ script grek;
+     language dflt ;
+      lookup tnumTabularNumbers;
+
+ script latn;
+     language dflt ;
+      lookup tnumTabularNumbers;
+} tnum;
+
+feature lnum {
+
+ script DFLT;
+     language dflt ;
+      lookup lnumLiningFigures;
+
+ script cyrl;
+     language dflt ;
+      lookup lnumLiningFigures;
+
+ script grek;
+     language dflt ;
+      lookup lnumLiningFigures;
+
+ script latn;
+     language dflt ;
+      lookup lnumLiningFigures;
+} lnum;
 
 feature ccmp {
 
@@ -41,257 +274,488 @@ feature ccmp {
 
 lookup markMarkPositioninginLatin {
   lookupflag 0;
+  markClass [\uni0338 ] <anchor 0 695 contourpoint 4> @center;
+  markClass [\uni0339 ] <anchor 0 469> @center;
+  markClass [\uni0335 \uni0334 ] <anchor 0 469 contourpoint 0> @center;
+  markClass [\uni0337 ] <anchor 0 469 contourpoint 4> @center;
+  pos base [\A ] <anchor 659 695 contourpoint 15> mark @center;
+  pos base [\B ] <anchor 539 695 contourpoint 54> mark @center;
+  pos base [\O \Oslash ] <anchor 727 695 contourpoint 41> mark @center;
+  pos base [\V ] <anchor 659 695 contourpoint 10> mark @center;
+  pos base [\a ] <anchor 439 956 contourpoint 48> mark @center;
+  pos base [\l ] <anchor 244 469 contourpoint 0> mark @center;
+  pos base [\m ] <anchor 825 469 contourpoint 0> mark @center;
+  pos base [\n ] <anchor 555 469 contourpoint 0> mark @center;
+  pos base [\o ] <anchor 506 469 contourpoint 24> mark @center;
+  subtable;
+  subtable;
+  markClass [\gravecomb \acutecomb \uni0340 \uni0341 ] <anchor 0 956 contourpoint 5> @abovelegacy;
+  markClass [\uni0302 ] <anchor 0 956 contourpoint 8> @abovelegacy;
+  markClass [\tildecomb ] <anchor 0 1035 contourpoint 26> @abovelegacy;
+  markClass [\uni0306 ] <anchor 0 956 contourpoint 19> @abovelegacy;
+  markClass [\uni030A ] <anchor 0 1475 contourpoint 24> @abovelegacy;
+  markClass [\uni0304 ] <anchor 0 1120 contourpoint 6> @abovelegacy;
+  markClass [\uni0330 ] <anchor 0 -375 contourpoint 25> @abovelegacy;
+  markClass [\uni1DC4 \uni1DC5 \uni1DC6 \uni1DC7 ] <anchor 0 1120 contourpoint 8> @abovelegacy;
+  subtable;
   markClass [\uni0310 \uni02DE ] <anchor 0 828> @topright;
+  markClass [\uni031B ] <anchor -156 618 contourpoint 16> @topright;
   pos base [\A ] <anchor 786 1053 contourpoint 12> mark @topright;
-  pos base [\B ] <anchor 892 1053 contourpoint 55> mark @topright;
-  pos base [\C ] <anchor 1080 1245 contourpoint 37> mark @topright;
+  pos base [\B ] <anchor 892 1053 contourpoint 56> mark @topright;
+  pos base [\C \afii10035 ] <anchor 1080 1245 contourpoint 37> mark @topright;
   pos base [\D ] <anchor 1135 1053 contourpoint 33> mark @topright;
-  pos base [\E ] <anchor 868 1053 contourpoint 14> mark @topright;
+  pos base [\E \afii10022 \Epsilon ] <anchor 868 1053 contourpoint 14> mark @topright;
   pos base [\F ] <anchor 872 1053 contourpoint 11> mark @topright;
   pos base [\G ] <anchor 1255 1053 contourpoint 37> mark @topright;
-  pos base [\H ] <anchor 1096 1053 contourpoint 13> mark @topright;
-  pos base [\I \Idotaccent ] <anchor 270 1053 contourpoint 5> mark @topright;
-  pos base [\J ] <anchor 270 1053 contourpoint 16> mark @topright;
-  pos base [\K ] <anchor 999 1053 contourpoint 12> mark @topright;
+  pos base [\H \afii10031 \Eta \Xi \afii10040 ] <anchor 1096 1053 contourpoint 13> mark @topright;
+  pos base [\I \Idotaccent \Iota \afii10055 ] <anchor 270 1053 contourpoint 5> mark @topright;
+  pos base [\J \afii10057 ] <anchor 270 1053 contourpoint 16> mark @topright;
+  pos base [\K \Kappa ] <anchor 999 1053 contourpoint 12> mark @topright;
   pos base [\L ] <anchor 270 1053 contourpoint 7> mark @topright;
-  pos base [\M ] <anchor 1455 1053 contourpoint 14> mark @topright;
-  pos base [\N ] <anchor 1114 1053 contourpoint 11> mark @topright;
-  pos base [\O ] <anchor 1263 1053 contourpoint 39> mark @topright;
-  pos base [\P ] <anchor 950 1053 contourpoint 27> mark @topright;
+  pos base [\M \afii10030 \Mu ] <anchor 1455 1053 contourpoint 14> mark @topright;
+  pos base [\N \afii10026 \Nu ] <anchor 1114 1053 contourpoint 11> mark @topright;
+  pos base [\O \Oslash ] <anchor 1263 1053 contourpoint 39> mark @topright;
+  pos base [\P \afii10034 \Rho \afii10046 ] <anchor 950 1053 contourpoint 27> mark @topright;
   pos base [\Q ] <anchor 1263 1053 contourpoint 51> mark @topright;
-  pos base [\R ] <anchor 900 1053 contourpoint 25> mark @topright;
-  pos base [\S ] <anchor 772 1053 contourpoint 59> mark @topright;
-  pos base [\T ] <anchor 1008 1053 contourpoint 9> mark @topright;
+  pos base [\R ] <anchor 900 1053 contourpoint 33> mark @topright;
+  pos base [\S \afii10054 ] <anchor 772 1053 contourpoint 59> mark @topright;
+  pos base [\T \afii10036 \Tau ] <anchor 1008 1053 contourpoint 9> mark @topright;
   pos base [\U ] <anchor 1048 1053 contourpoint 18> mark @topright;
   pos base [\V ] <anchor 1048 1053 contourpoint 8> mark @topright;
   pos base [\W ] <anchor 1772 1053 contourpoint 14> mark @topright;
-  pos base [\X ] <anchor 892 1053 contourpoint 14> mark @topright;
-  pos base [\Y ] <anchor 896 1053 contourpoint 10> mark @topright;
-  pos base [\Z ] <anchor 808 1053 contourpoint 10> mark @topright;
-  pos base [\a \agrave \aacute \acircumflex \atilde \adieresis \aring ] <anchor 774 828 contourpoint 56> mark @topright;
+  pos base [\X \afii10039 \Chi ] <anchor 892 1053 contourpoint 14> mark @topright;
+  pos base [\Y \Upsilon ] <anchor 896 1053 contourpoint 10> mark @topright;
+  pos base [\Z \Zeta ] <anchor 808 1053 contourpoint 10> mark @topright;
+  pos base [\a ] <anchor 774 828 contourpoint 52> mark @topright;
   pos base [\b ] <anchor 841 828 contourpoint 35> mark @topright;
-  pos base [\c \ccedilla ] <anchor 773 828 contourpoint 27> mark @topright;
+  pos base [\c ] <anchor 773 828 contourpoint 23> mark @topright;
   pos base [\d ] <anchor 816 828 contourpoint 32> mark @topright;
-  pos base [\e \egrave \eacute \ecircumflex \edieresis ] <anchor 773 828 contourpoint 40> mark @topright;
+  pos base [\e \afii10070 ] <anchor 773 828 contourpoint 40> mark @topright;
   pos base [\f ] <anchor 580 828 contourpoint 26> mark @topright;
   pos base [\g ] <anchor 892 828 contourpoint 95> mark @topright;
-  pos base [\h \u \ugrave \uacute \ucircumflex \udieresis ] <anchor 907 828 contourpoint 26> mark @topright;
-  pos base [\i \dotlessi \igrave \iacute \icircumflex \idieresis ] <anchor 302 828 contourpoint 7> mark @topright;
+  pos base [\h \u ] <anchor 907 828 contourpoint 26> mark @topright;
+  pos base [\i \dotlessi \afii10103 ] <anchor 302 828 contourpoint 7> mark @topright;
+  pos base [\j \uni0237 \afii10105 ] <anchor 302 828 contourpoint 21> mark @topright;
   pos base [\k ] <anchor 632 828 contourpoint 13> mark @topright;
-  pos base [\l \uni0269 ] <anchor 244 828 contourpoint 15> mark @topright;
-  pos base [\m ] <anchor 1431 828 contourpoint 37> mark @topright;
-  pos base [\n \ntilde ] <anchor 795 828 contourpoint 26> mark @topright;
-  pos base [\o \ograve \oacute \ocircumflex \otilde \odieresis ] <anchor 773 828 contourpoint 45> mark @topright;
-  pos base [\p \thorn ] <anchor 841 828 contourpoint 31> mark @topright;
+  pos base [\l ] <anchor 244 828 contourpoint 16> mark @topright;
+  pos base [\m ] <anchor 1431 828 contourpoint 38> mark @topright;
+  pos base [\n \eta \uni019E ] <anchor 795 828 contourpoint 27> mark @topright;
+  pos base [\o ] <anchor 773 828 contourpoint 26> mark @topright;
+  pos base [\p \thorn \afii10082 ] <anchor 841 828 contourpoint 31> mark @topright;
   pos base [\q ] <anchor 816 828 contourpoint 35> mark @topright;
   pos base [\r ] <anchor 728 828 contourpoint 22> mark @topright;
-  pos base [\s ] <anchor 597 828 contourpoint 40> mark @topright;
+  pos base [\s \afii10102 ] <anchor 597 828 contourpoint 40> mark @topright;
   pos base [\t ] <anchor 510 828 contourpoint 24> mark @topright;
   pos base [\v ] <anchor 846 828 contourpoint 9> mark @topright;
   pos base [\w ] <anchor 1362 828 contourpoint 15> mark @topright;
-  pos base [\x ] <anchor 738 828 contourpoint 14> mark @topright;
-  pos base [\y \yacute \ydieresis ] <anchor 880 828 contourpoint 26> mark @topright;
+  pos base [\x \afii10087 ] <anchor 738 828 contourpoint 14> mark @topright;
+  pos base [\y \afii10085 \lambda \gamma ] <anchor 880 828 contourpoint 26> mark @topright;
   pos base [\z ] <anchor 738 828 contourpoint 10> mark @topright;
-  pos base [\uni0237 ] <anchor 302 828 contourpoint 20> mark @topright;
   pos base [\uni0251 \uni0257 ] <anchor 816 828 contourpoint 47> mark @topright;
-  pos base [\uni0259 \uni01DD ] <anchor 680 828 contourpoint 39> mark @topright;
+  pos base [\uni0259 \uni01DD \afii10846 ] <anchor 680 828 contourpoint 39> mark @topright;
   pos base [\uni0254 ] <anchor 707 828 contourpoint 31> mark @topright;
-  pos base [\uni025B ] <anchor 668 828> mark @topright;
+  pos base [\uni025B \uni025C \afii10073 ] <anchor 642 828 contourpoint 45> mark @topright;
   pos base [\Eng ] <anchor 1170 1053 contourpoint 47> mark @topright;
   pos base [\eng ] <anchor 795 828 contourpoint 41> mark @topright;
   pos base [\uni0253 ] <anchor 841 828 contourpoint 48> mark @topright;
   pos base [\uni0190 ] <anchor 808 1053 contourpoint 50> mark @topright;
   pos base [\uni0186 ] <anchor 1048 1053 contourpoint 31> mark @topright;
   pos base [\uni0256 ] <anchor 816 828 contourpoint 49> mark @topright;
-  pos base [\uni018F ] <anchor 1188 1053 contourpoint 42> mark @topright;
-  pos base [\uni028B ] <anchor 765 828 contourpoint 28> mark @topright;
+  pos base [\longs ] <anchor 580 828 contourpoint 1> mark @topright;
+  pos base [\germandbls \beta ] <anchor 880 828 contourpoint 1> mark @topright;
+  pos base [\uni018F \uni04D8 ] <anchor 1188 1053 contourpoint 42> mark @topright;
+  pos base [\uni01B3 ] <anchor 1307 1053 contourpoint 1> mark @topright;
+  pos base [\uni01B4 ] <anchor 1159 828 contourpoint 4> mark @topright;
+  pos base [\uni028B \upsilon ] <anchor 765 828 contourpoint 28> mark @topright;
   pos base [\uni028C ] <anchor 846 828 contourpoint 8> mark @topright;
-  pos base [\uni0245 ] <anchor 786 1053 contourpoint 8> mark @topright;
+  pos base [\uni0245 \Lambda \Delta ] <anchor 786 1053 contourpoint 8> mark @topright;
   pos base [\Eth ] <anchor 1135 1053 contourpoint 41> mark @topright;
+  pos base [\uni01A9 ] <anchor 816 1053 contourpoint 2> mark @topright;
   pos base [\uni01B2 ] <anchor 964 1160 contourpoint 32> mark @topright;
+  pos base [\uni0269 \iota ] <anchor 244 828 contourpoint 15> mark @topright;
+  pos base [\AE ] <anchor 1609 1053 contourpoint 18> mark @topright;
   pos base [\ae ] <anchor 1230 820> mark @topright;
   pos base [\oe ] <anchor 1445 828> mark @topright;
+  pos base [\uni0191 ] <anchor 872 1053 contourpoint 0> mark @topright;
   pos base [\uni0272 ] <anchor 907 828> mark @topright;
-  pos base [\uni01CE ] <anchor 774 828> mark @topright;
   pos base [\uni0196 ] <anchor 270 1053 contourpoint 17> mark @topright;
   pos base [\uni0268 \uni0268.dotless ] <anchor 302 828 contourpoint 15> mark @topright;
   pos base [\uni2C6D ] <anchor 1048 1053 contourpoint 41> mark @topright;
   pos base [\uni0197 ] <anchor 331 1053 contourpoint 13> mark @topright;
-  pos base [\uni019F ] <anchor 1263 1053 contourpoint 43> mark @topright;
+  pos base [\uni019F \Theta ] <anchor 1263 1053 contourpoint 43> mark @topright;
   pos base [\uni0289 ] <anchor 965 828 contourpoint 38> mark @topright;
   pos base [\uni0244 ] <anchor 1109 1053 contourpoint 32> mark @topright;
   pos base [\dcroat ] <anchor 816 828 contourpoint 40> mark @topright;
   pos base [\uni01B5 ] <anchor 808 1053 contourpoint 18> mark @topright;
   pos base [\uni01B6 ] <anchor 738 828 contourpoint 18> mark @topright;
+  pos base [\uni0275 \afii10195 ] <anchor 773 828 contourpoint 28> mark @topright;
+  pos base [\afii10017 \Alpha ] <anchor 664 1409> mark @topright;
+  pos base [\afii10019 \Beta ] <anchor 540 1409> mark @topright;
+  pos base [\afii10028 ] <anchor 999 1053 contourpoint 1> mark @topright;
+  pos base [\afii10032 \Omicron ] <anchor 880 1271> mark @topright;
+  pos base [\afii10020 \Gamma ] <anchor 928 1053 contourpoint 7> mark @topright;
+  pos base [\afii10033 \Pi ] <anchor 1096 1053 contourpoint 9> mark @topright;
+  pos base [\uni01B1 ] <anchor 1263 1053 contourpoint 45> mark @topright;
+  pos base [\Omega ] <anchor 1263 1053 contourpoint 44> mark @topright;
+  pos base [\uni0182 \afii10018 ] <anchor 892 1053 contourpoint 1> mark @topright;
+  pos base [\epsilon ] <anchor 668 828> mark @topright;
+  pos base [\omicron \afii10080 ] <anchor 506 956> mark @topright;
+  pos base [\uni0220 ] <anchor 1170 1053 contourpoint 33> mark @topright;
+  pos base [\uni0188 ] <anchor 773 828 contourpoint 39> mark @topright;
+  pos base [\uni01A5 ] <anchor 841 828 contourpoint 45> mark @topright;
+  pos base [\uni01A4 ] <anchor 1124 1053 contourpoint 37> mark @topright;
+  pos base [\uni0183 ] <anchor 841 828 contourpoint 37> mark @topright;
+  pos base [\uni0187 ] <anchor 1080 1245> mark @topright;
+  pos base [\uni0266 ] <anchor 907 828 contourpoint 40> mark @topright;
+  pos base [\uni0193 \uni01E4 ] <anchor 1255 1053> mark @topright;
+  pos base [\uni01AC ] <anchor 1008 1053 contourpoint 28> mark @topright;
+  pos base [\uni01AD ] <anchor 510 828 contourpoint 44> mark @topright;
+  pos base [\uni01AE \afii10060 ] <anchor 1008 1053 contourpoint 31> mark @topright;
+  pos base [\uni01B7 ] <anchor 1031 1053 contourpoint 36> mark @topright;
+  pos base [\uni027D ] <anchor 728 828 contourpoint 39> mark @topright;
+  pos base [\uni024D ] <anchor 789 828 contourpoint 31> mark @topright;
+  pos base [\uni024C ] <anchor 1020 1053> mark @topright;
+  pos base [\uni0243 ] <anchor 892 1053 contourpoint 54> mark @topright;
+  pos base [\uni0265 \mu ] <anchor 907 828 contourpoint 25> mark @topright;
+  pos base [\uni0288 ] <anchor 510 828 contourpoint 30> mark @topright;
+  pos base [\uni2C64 ] <anchor 900 1053 contourpoint 46> mark @topright;
+  pos base [\uni2C72 ] <anchor 2158 1053 contourpoint 30> mark @topright;
+  pos base [\uni2C73 ] <anchor 1362 828 contourpoint 36> mark @topright;
+  pos base [\Tbar ] <anchor 1008 1053> mark @topright;
+  pos base [\tbar ] <anchor 510 828> mark @topright;
+  pos base [\uniA78D \afii10041 ] <anchor 1096 1053 contourpoint 0> mark @topright;
+  pos base [\kgreenlandic \uni1D0B ] <anchor 637 828 contourpoint 13> mark @topright;
+  pos base [\afii10076 \kappa ] <anchor 696 828> mark @topright;
+  pos base [\afii10065 ] <anchor 720 0> mark @topright;
+  pos base [\afii10083 ] <anchor 773 828> mark @topright;
+  pos base [\afii10068 ] <anchor 728 828 contourpoint 7> mark @topright;
+  pos base [\uni0262 ] <anchor 821 828> mark @topright;
+  pos base [\alpha ] <anchor 773 828 contourpoint 50> mark @topright;
+  pos base [\rho ] <anchor 841 828 contourpoint 1> mark @topright;
+  pos base [\nu ] <anchor 846 828 contourpoint 16> mark @topright;
+  pos base [\delta ] <anchor 816 828 contourpoint 54> mark @topright;
+  pos base [\Phi \afii10038 ] <anchor 1234 1245 contourpoint 56> mark @topright;
+  pos base [\Psi ] <anchor 1275 1048 contourpoint 1> mark @topright;
+  pos base [\theta ] <anchor 995 828 contourpoint 1> mark @topright;
+  pos base [\sigma ] <anchor 910 828 contourpoint 42> mark @topright;
+  pos base [\tau ] <anchor 843 828 contourpoint 21> mark @topright;
+  pos base [\afii10084 \uni1D1B ] <anchor 823 828 contourpoint 1> mark @topright;
+  pos base [\omega ] <anchor 1276 828 contourpoint 53> mark @topright;
+  pos base [\pi ] <anchor 977 828 contourpoint 26> mark @topright;
+  pos base [\zeta ] <anchor 773 828 contourpoint 58> mark @topright;
+  pos base [\afii10037 ] <anchor 892 1053 contourpoint 10> mark @topright;
+  pos base [\uni0274 ] <anchor 798 828 contourpoint 12> mark @topright;
+  pos base [\afii10074 \uni1D0E ] <anchor 867 828 contourpoint 12> mark @topright;
+  pos base [\sigma1 ] <anchor 773 828 contourpoint 49> mark @topright;
+  pos base [\xi ] <anchor 773 828 contourpoint 69> mark @topright;
+  pos base [\psi \phi1 \uni0278 \afii10086 ] <anchor 982 828 contourpoint 1> mark @topright;
+  pos base [\phi ] <anchor 963 828 contourpoint 1> mark @topright;
+  pos base [\chi ] <anchor 738 828 contourpoint 2> mark @topright;
+  pos base [\afii10053 ] <anchor 1080 1245 contourpoint 46> mark @topright;
+  pos base [\afii10101 \uni03F5 ] <anchor 773 828 contourpoint 31> mark @topright;
+  pos base [\afii10108 \hbar ] <anchor 965 828 contourpoint 34> mark @topright;
+  pos base [\Hbar ] <anchor 1096 1053 contourpoint 25> mark @topright;
+  pos base [\afii10081 ] <anchor 812 828 contourpoint 10> mark @topright;
+  pos base [\afii10079 \afii10193 ] <anchor 812 828 contourpoint 14> mark @topright;
+  pos base [\afii10099 ] <anchor 965 828 contourpoint 49> mark @topright;
+  pos base [\afii10051 ] <anchor 1008 1053 contourpoint 50> mark @topright;
+  pos base [\afii10029 ] <anchor 1096 1053 contourpoint 32> mark @topright;
+  pos base [\uni03F6 \afii10095 ] <anchor 727 828 contourpoint 31> mark @topright;
+  pos base [\afii10090 ] <anchor 1331 828 contourpoint 2> mark @topright;
+  pos base [\afii10042 ] <anchor 1506 1053 contourpoint 15> mark @topright;
+  pos base [\afii10043 ] <anchor 1506 1053 contourpoint 19> mark @topright;
+  pos base [\afii10047 ] <anchor 1120 1245 contourpoint 46> mark @topright;
+  pos base [\afii10088 ] <anchor 812 828 contourpoint 2> mark @topright;
+  pos base [\afii10025 ] <anchor 768 1053 contourpoint 50> mark @topright;
+  pos base [\uni0299 \afii10067 ] <anchor 653 828 contourpoint 56> mark @topright;
+  pos base [\uni1D0D \afii10078 ] <anchor 1027 828 contourpoint 2> mark @topright;
+  pos base [\afii10072 ] <anchor 1112 828 contourpoint 2> mark @topright;
+  pos base [\afii10044 ] <anchor 956 1053 contourpoint 32> mark @topright;
+  pos base [\afii10045 ] <anchor 1344 1053 contourpoint 31> mark @topright;
+  pos base [\afii10048 ] <anchor 1514 1053 contourpoint 51> mark @topright;
+  pos base [\afii10049 ] <anchor 775 1053 contourpoint 32> mark @topright;
+  pos base [\afii10059 ] <anchor 1526 1053> mark @topright;
+  pos base [\afii10145 ] <anchor 1096 1053 contourpoint 14> mark @topright;
+  pos base [\uni0267 ] <anchor 907 828 contourpoint 56> mark @topright;
+  pos base [\uni027E ] <anchor 718 828 contourpoint 18> mark @topright;
+  pos base [\uni0250 ] <anchor 724 828 contourpoint 54> mark @topright;
+  pos base [\uni1D18 \afii10094 \uni1D29 ] <anchor 653 828 contourpoint 26> mark @topright;
+  pos base [\afii10093 ] <anchor 958 828 contourpoint 30> mark @topright;
+  pos base [\uni0252 ] <anchor 804 828 contourpoint 46> mark @topright;
+  pos base [\uni0224 ] <anchor 808 1053 contourpoint 22> mark @topright;
+  pos base [\uni0225 ] <anchor 738 828 contourpoint 22> mark @topright;
+  pos base [\uni1D00 ] <anchor 846 828 contourpoint 14> mark @topright;
+  pos base [\uni1D27 ] <anchor 846 828 contourpoint 10> mark @topright;
+  pos base [\uni1D04 ] <anchor -786 456> mark @topright;
+  pos base [\uni026A ] <anchor 479 828 contourpoint 13> mark @topright;
+  pos base [\uni023A ] <anchor 786 1053 contourpoint 24> mark @topright;
+  pos base [\uniA726 ] <anchor 1096 1053 contourpoint 28> mark @topright;
+  pos base [\uni0249 \uni025F ] <anchor 302 828 contourpoint 26> mark @topright;
+  pos base [\afii10089 ] <anchor 812 828> mark @topright;
   subtable;
   markClass [\uni0307 ] <anchor 0 956 contourpoint 13> @above;
   markClass [\uni0308 ] <anchor 0 956 contourpoint 24> @above;
-  markClass [\gravecomb \acutecomb \uni0304 \uni030D ] <anchor 0 956 contourpoint 5> @above;
+  markClass [\gravecomb \acutecomb \uni0304 \uni030D \uni0340 \uni0341 ] <anchor 0 956 contourpoint 5> @above;
   markClass [\uni0302 \uni030C ] <anchor 0 956 contourpoint 8> @above;
   markClass [\tildecomb \uni030A ] <anchor 0 956 contourpoint 25> @above;
   markClass [\uni0306 \uni0311 ] <anchor 0 956 contourpoint 19> @above;
   markClass [\hookabovecomb ] <anchor 0 956 contourpoint 34> @above;
   markClass [\uni030B \uni030E ] <anchor 0 956 contourpoint 9> @above;
   markClass [\uni0312 \uni0313 \uni0314 \uni0315 ] <anchor 0 956 contourpoint 18> @above;
+  markClass [\uni1DC4 \uni1DC5 \uni1DC6 \uni1DC7 ] <anchor 0 956 contourpoint 7> @above;
   pos base [\A ] <anchor 664 1409 contourpoint 11> mark @above;
-  pos base [\B ] <anchor 540 1409 contourpoint 54> mark @above;
-  pos base [\C ] <anchor 660 1409 contourpoint 36> mark @above;
+  pos base [\B ] <anchor 540 1409 contourpoint 55> mark @above;
+  pos base [\C \afii10035 ] <anchor 660 1409 contourpoint 36> mark @above;
   pos base [\D ] <anchor 620 1409 contourpoint 32> mark @above;
-  pos base [\E ] <anchor 568 1409 contourpoint 13> mark @above;
+  pos base [\E \afii10022 \Epsilon ] <anchor 568 1409 contourpoint 13> mark @above;
   pos base [\F ] <anchor 580 1409 contourpoint 10> mark @above;
   pos base [\G ] <anchor 740 1409 contourpoint 36> mark @above;
-  pos base [\H ] <anchor 682 1409 contourpoint 12> mark @above;
-  pos base [\I ] <anchor 270 1409 contourpoint 4> mark @above;
-  pos base [\J ] <anchor 270 1409 contourpoint 15> mark @above;
-  pos base [\K ] <anchor 620 1409 contourpoint 11> mark @above;
+  pos base [\H \afii10031 \Eta \Xi \afii10040 ] <anchor 682 1409 contourpoint 12> mark @above;
+  pos base [\I \Iota \afii10055 ] <anchor 270 1409 contourpoint 4> mark @above;
+  pos base [\J \afii10057 ] <anchor 270 1409 contourpoint 15> mark @above;
+  pos base [\K \Kappa ] <anchor 620 1409 contourpoint 11> mark @above;
   pos base [\L ] <anchor 270 1409 contourpoint 6> mark @above;
-  pos base [\M ] <anchor 886 1409 contourpoint 13> mark @above;
-  pos base [\N ] <anchor 692 1409 contourpoint 10> mark @above;
-  pos base [\O \Q ] <anchor 727 1409 contourpoint 0> mark @above;
-  pos base [\P ] <anchor 540 1409 contourpoint 26> mark @above;
-  pos base [\R ] <anchor 548 1409 contourpoint 24> mark @above;
-  pos base [\S ] <anchor 504 1409 contourpoint 58> mark @above;
-  pos base [\T ] <anchor 591 1409 contourpoint 8> mark @above;
+  pos base [\M \afii10030 \Mu ] <anchor 886 1409 contourpoint 13> mark @above;
+  pos base [\N \afii10026 \Nu ] <anchor 692 1409 contourpoint 10> mark @above;
+  pos base [\O \Oslash \Omega ] <anchor 727 1409> mark @above;
+  pos base [\P \afii10034 \Rho ] <anchor 540 1409 contourpoint 26> mark @above;
+  pos base [\Q \uni019F \afii10032 \Omicron ] <anchor 727 1409 contourpoint 0> mark @above;
+  pos base [\R ] <anchor 548 1409 contourpoint 32> mark @above;
+  pos base [\S \afii10054 ] <anchor 504 1409 contourpoint 58> mark @above;
+  pos base [\T \afii10036 \Tau ] <anchor 591 1409 contourpoint 8> mark @above;
   pos base [\U ] <anchor 655 1392 contourpoint 19> mark @above;
-  pos base [\V \uni0245 ] <anchor 664 1409 contourpoint 7> mark @above;
+  pos base [\V \uni0245 \Lambda \Delta ] <anchor 664 1409 contourpoint 7> mark @above;
   pos base [\W ] <anchor 1013 1409 contourpoint 13> mark @above;
-  pos base [\X ] <anchor 644 1409 contourpoint 13> mark @above;
-  pos base [\Y ] <anchor 620 1409 contourpoint 9> mark @above;
-  pos base [\Z ] <anchor 601 1409 contourpoint 9> mark @above;
-  pos base [\a ] <anchor 439 956 contourpoint 52> mark @above;
+  pos base [\X \afii10039 \Chi ] <anchor 644 1409 contourpoint 13> mark @above;
+  pos base [\Y \Upsilon ] <anchor 620 1409 contourpoint 9> mark @above;
+  pos base [\Z \Zeta ] <anchor 601 1409 contourpoint 9> mark @above;
+  pos base [\a ] <anchor 439 956 contourpoint 48> mark @above;
   pos base [\b ] <anchor 244 1475 contourpoint 36> mark @above;
-  pos base [\c \ccedilla ] <anchor 486 956 contourpoint 26> mark @above;
+  pos base [\c ] <anchor 486 956 contourpoint 22> mark @above;
   pos base [\d ] <anchor 816 1475 contourpoint 30> mark @above;
-  pos base [\e ] <anchor 495 956 contourpoint 39> mark @above;
+  pos base [\e \afii10070 ] <anchor 495 956 contourpoint 39> mark @above;
   pos base [\f ] <anchor 564 1475 contourpoint 27> mark @above;
   pos base [\g ] <anchor 516 956 contourpoint 94> mark @above;
   pos base [\h ] <anchor 244 1475 contourpoint 27> mark @above;
+  pos base [\j \afii10108 \hbar \afii10105 ] <anchor 302 1475 contourpoint 35> mark @above;
   pos base [\k ] <anchor 244 1475 contourpoint 14> mark @above;
-  pos base [\l ] <anchor 244 1475 contourpoint 16> mark @above;
-  pos base [\m ] <anchor 825 956 contourpoint 36> mark @above;
-  pos base [\n \u ] <anchor 555 956 contourpoint 25> mark @above;
-  pos base [\o ] <anchor 506 956 contourpoint 44> mark @above;
-  pos base [\p ] <anchor 555 956 contourpoint 30> mark @above;
+  pos base [\l ] <anchor 244 1475 contourpoint 17> mark @above;
+  pos base [\m ] <anchor 825 956 contourpoint 37> mark @above;
+  pos base [\n \eta \uni019E ] <anchor 555 956 contourpoint 26> mark @above;
+  pos base [\o ] <anchor 506 956 contourpoint 0> mark @above;
+  pos base [\p \afii10082 ] <anchor 555 956 contourpoint 30> mark @above;
   pos base [\q ] <anchor 555 956 contourpoint 34> mark @above;
   pos base [\r ] <anchor 465 956 contourpoint 21> mark @above;
-  pos base [\s ] <anchor 400 956 contourpoint 39> mark @above;
+  pos base [\s \afii10102 ] <anchor 400 956 contourpoint 39> mark @above;
   pos base [\t ] <anchor 254 956 contourpoint 23> mark @above;
+  pos base [\u ] <anchor 555 956 contourpoint 25> mark @above;
   pos base [\v ] <anchor 492 956 contourpoint 8> mark @above;
   pos base [\w ] <anchor 756 956 contourpoint 14> mark @above;
-  pos base [\x ] <anchor 472 956 contourpoint 13> mark @above;
-  pos base [\y ] <anchor 515 956 contourpoint 25> mark @above;
+  pos base [\x \afii10087 ] <anchor 472 956 contourpoint 13> mark @above;
+  pos base [\y \afii10085 \gamma ] <anchor 515 956 contourpoint 25> mark @above;
   pos base [\z ] <anchor 508 956 contourpoint 9> mark @above;
   pos base [\dotlessi ] <anchor 302 956 contourpoint 6> mark @above;
-  pos base [\uni0237 ] <anchor 302 956 contourpoint 19> mark @above;
+  pos base [\uni0237 ] <anchor 302 956 contourpoint 20> mark @above;
   pos base [\uni0251 ] <anchor 555 956 contourpoint 48> mark @above;
-  pos base [\uni0259 \uni01DD ] <anchor 450 956 contourpoint 41> mark @above;
+  pos base [\uni0259 \uni01DD \afii10846 ] <anchor 450 956 contourpoint 41> mark @above;
   pos base [\uni0254 ] <anchor 429 956 contourpoint 32> mark @above;
-  pos base [\uni025B ] <anchor 448 956> mark @above;
+  pos base [\uni025B \uni025C \afii10073 ] <anchor 378 956 contourpoint 47> mark @above;
   pos base [\Eng ] <anchor 755 1409 contourpoint 46> mark @above;
   pos base [\eng ] <anchor 555 956 contourpoint 40> mark @above;
-  pos base [\uni0253 ] <anchor 555 1475> mark @above;
+  pos base [\uni0253 \uni0266 \uni0267 ] <anchor 555 1475> mark @above;
   pos base [\uni0190 ] <anchor 516 1409 contourpoint 49> mark @above;
   pos base [\uni0186 ] <anchor 584 1409 contourpoint 30> mark @above;
   pos base [\uni0257 ] <anchor 816 1475 contourpoint 45> mark @above;
   pos base [\uni0256 ] <anchor 816 1475 contourpoint 46> mark @above;
-  pos base [\uni018F ] <anchor 652 1409 contourpoint 41> mark @above;
-  pos base [\uni028B ] <anchor 492 956 contourpoint 29> mark @above;
-  pos base [\uni028C ] <anchor 492 956 contourpoint 9> mark @above;
+  pos base [\longs ] <anchor 564 1475 contourpoint 2> mark @above;
+  pos base [\germandbls \beta ] <anchor 532 1475 contourpoint 2> mark @above;
+  pos base [\uni018F \uni04D8 ] <anchor 652 1409 contourpoint 41> mark @above;
+  pos base [\uni01B3 \afii10028 ] <anchor 620 1409 contourpoint 0> mark @above;
+  pos base [\uni01B4 ] <anchor 515 956 contourpoint 3> mark @above;
+  pos base [\uni028B \upsilon ] <anchor 492 956 contourpoint 29> mark @above;
+  pos base [\uni028C \uni1D27 ] <anchor 492 956 contourpoint 9> mark @above;
   pos base [\Eth ] <anchor 620 1409 contourpoint 40> mark @above;
+  pos base [\uni01A9 ] <anchor 533 1409 contourpoint 1> mark @above;
   pos base [\uni01B2 ] <anchor 656 1409 contourpoint 33> mark @above;
-  pos base [\uni0269 ] <anchor 244 956 contourpoint 16> mark @above;
+  pos base [\uni0269 \iota ] <anchor 244 956 contourpoint 16> mark @above;
+  pos base [\AE ] <anchor 1011 1409 contourpoint 17> mark @above;
   pos base [\ae ] <anchor 718 956> mark @above;
   pos base [\oe ] <anchor 882 956> mark @above;
   pos base [\thorn ] <anchor 244 1475 contourpoint 32> mark @above;
+  pos base [\uni0191 ] <anchor 591 1409 contourpoint 1> mark @above;
   pos base [\uni0272 ] <anchor 555 956> mark @above;
-  pos base [\agrave \aacute ] <anchor 439 1475 contourpoint 61> mark @above;
-  pos base [\acircumflex ] <anchor 439 1475 contourpoint 64> mark @above;
-  pos base [\atilde ] <anchor 439 1410 contourpoint 81> mark @above;
-  pos base [\adieresis ] <anchor 439 1475 contourpoint 82> mark @above;
-  pos base [\aring ] <anchor 439 1475 contourpoint 81> mark @above;
-  pos base [\egrave \eacute ] <anchor 495 1475 contourpoint 47> mark @above;
-  pos base [\ecircumflex ] <anchor 495 1475 contourpoint 50> mark @above;
-  pos base [\edieresis ] <anchor 495 1475 contourpoint 68> mark @above;
-  pos base [\igrave \iacute ] <anchor 302 1475 contourpoint 13> mark @above;
-  pos base [\icircumflex ] <anchor 302 1475 contourpoint 16> mark @above;
-  pos base [\idieresis ] <anchor 302 1475 contourpoint 34> mark @above;
-  pos base [\ntilde ] <anchor 555 1410 contourpoint 52> mark @above;
-  pos base [\ograve \oacute ] <anchor 506 1475 contourpoint 51> mark @above;
-  pos base [\ocircumflex ] <anchor 506 1475 contourpoint 54> mark @above;
-  pos base [\otilde ] <anchor 506 1410 contourpoint 71> mark @above;
-  pos base [\odieresis ] <anchor 506 1475 contourpoint 72> mark @above;
-  pos base [\ugrave \uacute ] <anchor 555 1475 contourpoint 32> mark @above;
-  pos base [\ucircumflex ] <anchor 555 1475 contourpoint 35> mark @above;
-  pos base [\udieresis ] <anchor 555 1475 contourpoint 53> mark @above;
-  pos base [\yacute ] <anchor 515 1475 contourpoint 32> mark @above;
-  pos base [\ydieresis ] <anchor 515 1475 contourpoint 53> mark @above;
   pos base [\uni0196 ] <anchor 270 1409 contourpoint 16> mark @above;
   pos base [\uni0268 ] <anchor 184 1259 contourpoint 28> mark @above;
   pos base [\uni0268.dotless ] <anchor 302 956 contourpoint 14> mark @above;
   pos base [\Idotaccent ] <anchor 152 1712 contourpoint 18> mark @above;
   pos base [\uni2C6D ] <anchor 684 1409 contourpoint 40> mark @above;
   pos base [\uni0197 ] <anchor 331 1409 contourpoint 12> mark @above;
-  pos base [\uni019F ] <anchor 727 1409 contourpoint 45> mark @above;
   pos base [\uni0289 ] <anchor 613 956 contourpoint 37> mark @above;
   pos base [\uni0244 ] <anchor 716 1392 contourpoint 33> mark @above;
   pos base [\dcroat ] <anchor 816 1475 contourpoint 38> mark @above;
   pos base [\uni01B5 ] <anchor 601 1409 contourpoint 17> mark @above;
   pos base [\uni01B6 ] <anchor 508 956 contourpoint 17> mark @above;
+  pos base [\uni0275 \afii10195 ] <anchor 506 956 contourpoint 36> mark @above;
+  pos base [\afii10017 \Alpha ] <anchor 436 544> mark @above;
+  pos base [\afii10019 \Beta ] <anchor 669 -18> mark @above;
+  pos base [\afii10020 \Gamma ] <anchor 580 1409 contourpoint 8> mark @above;
+  pos base [\afii10033 \Pi ] <anchor 682 1409 contourpoint 8> mark @above;
+  pos base [\uni01B1 ] <anchor 727 1409 contourpoint 44> mark @above;
+  pos base [\uni0182 \afii10018 ] <anchor 540 1409 contourpoint 0> mark @above;
+  pos base [\epsilon ] <anchor 448 956> mark @above;
+  pos base [\omicron \afii10080 ] <anchor 61 362> mark @above;
+  pos base [\uni0220 ] <anchor 755 1409 contourpoint 32> mark @above;
+  pos base [\uni0188 ] <anchor 486 956 contourpoint 38> mark @above;
+  pos base [\uni01A5 ] <anchor 506 1475 contourpoint 0> mark @above;
+  pos base [\uni01A4 ] <anchor 714 1409 contourpoint 36> mark @above;
+  pos base [\uni0183 ] <anchor 244 1475 contourpoint 38> mark @above;
+  pos base [\uni0187 ] <anchor 660 1409> mark @above;
+  pos base [\uni0193 \uni01E4 ] <anchor 740 1409> mark @above;
+  pos base [\uni01AC ] <anchor 591 1409 contourpoint 27> mark @above;
+  pos base [\uni01AD ] <anchor 516 1475 contourpoint 42> mark @above;
+  pos base [\uni01AE \afii10060 ] <anchor 591 1409 contourpoint 30> mark @above;
+  pos base [\uni01B7 ] <anchor 601 1409 contourpoint 35> mark @above;
+  pos base [\uni027D ] <anchor 465 956 contourpoint 38> mark @above;
+  pos base [\uni024D ] <anchor 526 956 contourpoint 30> mark @above;
+  pos base [\uni024C ] <anchor 668 1409> mark @above;
+  pos base [\uni0243 ] <anchor 540 1409 contourpoint 53> mark @above;
+  pos base [\uni0265 \mu ] <anchor 555 956 contourpoint 24> mark @above;
+  pos base [\uni0288 ] <anchor 254 956 contourpoint 29> mark @above;
+  pos base [\uni2C64 ] <anchor 548 1409 contourpoint 45> mark @above;
+  pos base [\uni2C72 ] <anchor 1013 1409 contourpoint 29> mark @above;
+  pos base [\uni2C73 ] <anchor 756 956 contourpoint 35> mark @above;
+  pos base [\Tbar ] <anchor 591 1409> mark @above;
+  pos base [\tbar ] <anchor 254 956> mark @above;
+  pos base [\uniA78D \afii10041 ] <anchor 755 1409 contourpoint 25> mark @above;
+  pos base [\kgreenlandic \uni1D0B ] <anchor 505 938 contourpoint 14> mark @above;
+  pos base [\afii10076 \kappa ] <anchor 555 938> mark @above;
+  pos base [\afii10065 ] <anchor 693 0> mark @above;
+  pos base [\afii10083 ] <anchor 486 956> mark @above;
+  pos base [\afii10066 ] <anchor 460 2000> mark @above;
+  pos base [\afii10068 ] <anchor 465 956 contourpoint 6> mark @above;
+  pos base [\Theta ] <anchor 727 1409 contourpoint 4> mark @above;
+  pos base [\uni0262 ] <anchor 534 956> mark @above;
+  pos base [\alpha ] <anchor 495 956 contourpoint 49> mark @above;
+  pos base [\lambda ] <anchor 515 1475 contourpoint 25> mark @above;
+  pos base [\rho ] <anchor 555 956 contourpoint 0> mark @above;
+  pos base [\nu ] <anchor 492 956 contourpoint 15> mark @above;
+  pos base [\delta ] <anchor 482 1475 contourpoint 52> mark @above;
+  pos base [\Phi \afii10038 ] <anchor 814 1409 contourpoint 55> mark @above;
+  pos base [\Psi ] <anchor 768 1409 contourpoint 0> mark @above;
+  pos base [\theta ] <anchor 563 1475 contourpoint 2> mark @above;
+  pos base [\sigma ] <anchor 495 956 contourpoint 41> mark @above;
+  pos base [\tau ] <anchor 465 956 contourpoint 22> mark @above;
+  pos base [\afii10084 \uni1D1B ] <anchor 465 956 contourpoint 2> mark @above;
+  pos base [\omega ] <anchor 775 938 contourpoint 54> mark @above;
+  pos base [\pi ] <anchor 542 956 contourpoint 27> mark @above;
+  pos base [\zeta ] <anchor 573 1472 contourpoint 57> mark @above;
+  pos base [\afii10037 ] <anchor 644 1409 contourpoint 9> mark @above;
+  pos base [\uni0274 ] <anchor 521 956 contourpoint 11> mark @above;
+  pos base [\afii10074 \uni1D0E ] <anchor 555 956 contourpoint 11> mark @above;
+  pos base [\sigma1 ] <anchor 486 956 contourpoint 48> mark @above;
+  pos base [\xi ] <anchor 573 1472 contourpoint 68> mark @above;
+  pos base [\psi ] <anchor 565 956 contourpoint 0> mark @above;
+  pos base [\phi ] <anchor 578 956 contourpoint 0> mark @above;
+  pos base [\chi ] <anchor 507 956 contourpoint 1> mark @above;
+  pos base [\phi1 \uni0278 \afii10086 ] <anchor 565 1475 contourpoint 0> mark @above;
+  pos base [\afii10053 ] <anchor 660 1409 contourpoint 45> mark @above;
+  pos base [\afii10101 \uni03F5 ] <anchor 486 956 contourpoint 30> mark @above;
+  pos base [\Hbar ] <anchor 682 1409 contourpoint 24> mark @above;
+  pos base [\afii10081 ] <anchor 520 956 contourpoint 11> mark @above;
+  pos base [\afii10079 \afii10193 ] <anchor 520 956 contourpoint 15> mark @above;
+  pos base [\afii10099 ] <anchor 302 1475 contourpoint 50> mark @above;
+  pos base [\afii10051 ] <anchor 591 1409 contourpoint 49> mark @above;
+  pos base [\afii10029 ] <anchor 682 1409 contourpoint 31> mark @above;
+  pos base [\uni03F6 \afii10095 ] <anchor 402 956 contourpoint 30> mark @above;
+  pos base [\afii10090 ] <anchor 780 956 contourpoint 3> mark @above;
+  pos base [\afii10042 ] <anchor 887 1409 contourpoint 14> mark @above;
+  pos base [\afii10043 ] <anchor 887 1409 contourpoint 18> mark @above;
+  pos base [\afii10047 ] <anchor 595 1409 contourpoint 45> mark @above;
+  pos base [\afii10088 ] <anchor 520 956 contourpoint 3> mark @above;
+  pos base [\afii10091 ] <anchor 780 956 contourpoint 18> mark @above;
+  pos base [\afii10025 ] <anchor 476 1409 contourpoint 49> mark @above;
+  pos base [\uni0299 \afii10067 ] <anchor 447 956 contourpoint 58> mark @above;
+  pos base [\uni1D0D \afii10078 ] <anchor 659 956 contourpoint 1> mark @above;
+  pos base [\afii10072 ] <anchor 690 956 contourpoint 1> mark @above;
+  pos base [\afii10046 ] <anchor 270 1409 contourpoint 26> mark @above;
+  pos base [\afii10044 ] <anchor 604 1409 contourpoint 31> mark @above;
+  pos base [\afii10045 ] <anchor 813 1409 contourpoint 30> mark @above;
+  pos base [\afii10048 ] <anchor 877 1409 contourpoint 50> mark @above;
+  pos base [\afii10049 ] <anchor 497 1409 contourpoint 31> mark @above;
+  pos base [\afii10059 ] <anchor 846 1409> mark @above;
+  pos base [\afii10145 ] <anchor 682 1409 contourpoint 13> mark @above;
+  pos base [\uni027E ] <anchor 506 956 contourpoint 19> mark @above;
+  pos base [\uni0250 ] <anchor 455 956 contourpoint 53> mark @above;
+  pos base [\uni1D18 \uni1D29 ] <anchor 447 956 contourpoint 28> mark @above;
+  pos base [\afii10094 ] <anchor 244 956 contourpoint 27> mark @above;
+  pos base [\afii10093 ] <anchor 601 956 contourpoint 31> mark @above;
+  pos base [\uni0252 ] <anchor 461 956 contourpoint 45> mark @above;
+  pos base [\uni0224 ] <anchor 601 1409 contourpoint 21> mark @above;
+  pos base [\uni0225 ] <anchor 508 956 contourpoint 21> mark @above;
+  pos base [\uni1D00 ] <anchor 492 956 contourpoint 13> mark @above;
+  pos base [\uni1D04 ] <anchor -859 482> mark @above;
+  pos base [\uni026A ] <anchor 302 956 contourpoint 12> mark @above;
+  pos base [\uni023A ] <anchor 664 1409 contourpoint 23> mark @above;
+  pos base [\uniA726 ] <anchor 682 1409 contourpoint 27> mark @above;
+  pos base [\uni0249 ] <anchor 302 1475 contourpoint 40> mark @above;
+  pos base [\uni025F ] <anchor 302 956 contourpoint 25> mark @above;
+  pos base [\afii10089 ] <anchor 520 956> mark @above;
   subtable;
   markClass [\uni0328 ] <anchor 0 0 contourpoint 18> @ogonek;
   pos base [\A ] <anchor 1166 0 contourpoint 13> mark @ogonek;
-  pos base [\B ] <anchor 636 0 contourpoint 56> mark @ogonek;
-  pos base [\C ] <anchor 1080 153 contourpoint 38> mark @ogonek;
+  pos base [\B ] <anchor 636 0 contourpoint 57> mark @ogonek;
+  pos base [\C \afii10035 ] <anchor 1080 153 contourpoint 38> mark @ogonek;
   pos base [\D ] <anchor 620 0 contourpoint 34> mark @ogonek;
-  pos base [\E ] <anchor 908 0 contourpoint 12> mark @ogonek;
+  pos base [\E \afii10022 \Epsilon ] <anchor 908 0 contourpoint 12> mark @ogonek;
   pos base [\F ] <anchor 270 0 contourpoint 12> mark @ogonek;
   pos base [\G ] <anchor 740 0 contourpoint 38> mark @ogonek;
-  pos base [\H ] <anchor 1093 0 contourpoint 14> mark @ogonek;
-  pos base [\I \Idotaccent ] <anchor 270 0 contourpoint 6> mark @ogonek;
-  pos base [\J ] <anchor 60 -492 contourpoint 18> mark @ogonek;
-  pos base [\K ] <anchor 997 0 contourpoint 13> mark @ogonek;
+  pos base [\H \afii10031 \Eta \Xi ] <anchor 1093 0 contourpoint 14> mark @ogonek;
+  pos base [\I \Idotaccent \afii10020 \Gamma \Iota \afii10055 ] <anchor 270 0 contourpoint 6> mark @ogonek;
+  pos base [\J \afii10057 ] <anchor 60 -492 contourpoint 18> mark @ogonek;
+  pos base [\K \Kappa ] <anchor 997 0 contourpoint 13> mark @ogonek;
   pos base [\L ] <anchor 580 0 contourpoint 8> mark @ogonek;
-  pos base [\M ] <anchor 1575 0 contourpoint 15> mark @ogonek;
-  pos base [\N ] <anchor 1114 0 contourpoint 12> mark @ogonek;
-  pos base [\O ] <anchor 727 0 contourpoint 40> mark @ogonek;
-  pos base [\P ] <anchor 270 0 contourpoint 28> mark @ogonek;
+  pos base [\M \afii10030 \Mu ] <anchor 1575 0 contourpoint 15> mark @ogonek;
+  pos base [\N \afii10026 \Nu ] <anchor 1114 0 contourpoint 12> mark @ogonek;
+  pos base [\O \Oslash ] <anchor 727 0 contourpoint 40> mark @ogonek;
+  pos base [\P \afii10034 \Rho ] <anchor 270 0 contourpoint 28> mark @ogonek;
   pos base [\Q ] <anchor 727 0 contourpoint 52> mark @ogonek;
-  pos base [\R ] <anchor 997 0 contourpoint 26> mark @ogonek;
-  pos base [\S ] <anchor 504 0 contourpoint 60> mark @ogonek;
-  pos base [\T ] <anchor 591 0 contourpoint 10> mark @ogonek;
+  pos base [\R ] <anchor 997 0 contourpoint 34> mark @ogonek;
+  pos base [\S \afii10054 ] <anchor 504 0 contourpoint 60> mark @ogonek;
+  pos base [\T \afii10036 \Tau ] <anchor 591 0 contourpoint 10> mark @ogonek;
   pos base [\U ] <anchor 655 0 contourpoint 17> mark @ogonek;
   pos base [\V ] <anchor 664 0 contourpoint 9> mark @ogonek;
   pos base [\W ] <anchor 1424 0 contourpoint 16> mark @ogonek;
-  pos base [\X ] <anchor 1098 0 contourpoint 12> mark @ogonek;
-  pos base [\Y ] <anchor 620 0 contourpoint 11> mark @ogonek;
-  pos base [\Z ] <anchor 1048 0 contourpoint 8> mark @ogonek;
-  pos base [\a ] <anchor 720 0 contourpoint 55> mark @ogonek;
+  pos base [\X \afii10039 \Chi ] <anchor 1098 0 contourpoint 12> mark @ogonek;
+  pos base [\Y \Upsilon ] <anchor 620 0 contourpoint 11> mark @ogonek;
+  pos base [\Z \Zeta ] <anchor 1048 0 contourpoint 8> mark @ogonek;
+  pos base [\a ] <anchor 720 0 contourpoint 51> mark @ogonek;
   pos base [\b ] <anchor 555 0 contourpoint 34> mark @ogonek;
-  pos base [\c ] <anchor 516 0 contourpoint 29> mark @ogonek;
+  pos base [\c ] <anchor 516 0 contourpoint 25> mark @ogonek;
   pos base [\d ] <anchor 816 0 contourpoint 33> mark @ogonek;
-  pos base [\e \egrave \eacute \ecircumflex \edieresis ] <anchor 740 0 contourpoint 41> mark @ogonek;
+  pos base [\e \afii10070 ] <anchor 740 0 contourpoint 41> mark @ogonek;
   pos base [\f ] <anchor 302 0 contourpoint 25> mark @ogonek;
   pos base [\g ] <anchor 516 -492 contourpoint 93> mark @ogonek;
   pos base [\h ] <anchor 876 0 contourpoint 25> mark @ogonek;
-  pos base [\i \dotlessi \igrave \iacute \icircumflex \idieresis ] <anchor 302 0 contourpoint 8> mark @ogonek;
+  pos base [\i \dotlessi \afii10103 ] <anchor 302 0 contourpoint 8> mark @ogonek;
+  pos base [\j \uni0237 \afii10105 ] <anchor 72 -438 contourpoint 19> mark @ogonek;
   pos base [\k ] <anchor 555 0 contourpoint 12> mark @ogonek;
-  pos base [\l \uni0269 ] <anchor 344 0 contourpoint 14> mark @ogonek;
-  pos base [\m ] <anchor 1403 0 contourpoint 38> mark @ogonek;
-  pos base [\n \u \ntilde \ugrave \uacute \ucircumflex \udieresis ] <anchor 876 0 contourpoint 27> mark @ogonek;
-  pos base [\o \ograve \oacute \ocircumflex \otilde \odieresis ] <anchor 506 0 contourpoint 46> mark @ogonek;
-  pos base [\p ] <anchor 244 -492 contourpoint 32> mark @ogonek;
+  pos base [\l ] <anchor 344 0 contourpoint 15> mark @ogonek;
+  pos base [\m ] <anchor 1403 0 contourpoint 39> mark @ogonek;
+  pos base [\n ] <anchor 876 0 contourpoint 28> mark @ogonek;
+  pos base [\o ] <anchor 506 0 contourpoint 27> mark @ogonek;
+  pos base [\p \afii10082 ] <anchor 244 -492 contourpoint 32> mark @ogonek;
   pos base [\q ] <anchor 816 -492 contourpoint 36> mark @ogonek;
   pos base [\r ] <anchor 244 0 contourpoint 20> mark @ogonek;
-  pos base [\s ] <anchor 400 0 contourpoint 38> mark @ogonek;
+  pos base [\s \afii10102 ] <anchor 400 0 contourpoint 38> mark @ogonek;
   pos base [\t ] <anchor 372 0 contourpoint 22> mark @ogonek;
+  pos base [\u ] <anchor 876 0 contourpoint 27> mark @ogonek;
   pos base [\v ] <anchor 492 0 contourpoint 7> mark @ogonek;
   pos base [\w ] <anchor 1068 0 contourpoint 16> mark @ogonek;
-  pos base [\x ] <anchor 790 0 contourpoint 15> mark @ogonek;
-  pos base [\y \yacute \ydieresis ] <anchor 170 -492 contourpoint 27> mark @ogonek;
+  pos base [\x \afii10087 ] <anchor 790 0 contourpoint 15> mark @ogonek;
+  pos base [\y \afii10085 ] <anchor 170 -492 contourpoint 27> mark @ogonek;
   pos base [\z ] <anchor 820 0 contourpoint 11> mark @ogonek;
-  pos base [\uni0237 ] <anchor 222 -492 contourpoint 21> mark @ogonek;
   pos base [\uni0251 ] <anchor 848 0 contourpoint 45> mark @ogonek;
-  pos base [\uni0259 \uni01DD ] <anchor 450 0 contourpoint 40> mark @ogonek;
+  pos base [\uni0259 \uni01DD \afii10846 ] <anchor 450 0 contourpoint 40> mark @ogonek;
   pos base [\Eng ] <anchor 755 -492 contourpoint 48> mark @ogonek;
   pos base [\eng ] <anchor 555 -492 contourpoint 42> mark @ogonek;
   pos base [\uni0253 ] <anchor 555 0 contourpoint 47> mark @ogonek;
@@ -299,85 +763,199 @@ lookup markMarkPositioninginLatin {
   pos base [\uni0186 ] <anchor 584 0 contourpoint 32> mark @ogonek;
   pos base [\uni0257 ] <anchor 816 0 contourpoint 48> mark @ogonek;
   pos base [\uni0256 ] <anchor 1063 -492 contourpoint 48> mark @ogonek;
-  pos base [\uni018F ] <anchor 652 0 contourpoint 43> mark @ogonek;
-  pos base [\uni028B ] <anchor 492 0 contourpoint 27> mark @ogonek;
+  pos base [\longs ] <anchor 302 0 contourpoint 0> mark @ogonek;
+  pos base [\germandbls ] <anchor 244 0 contourpoint 0> mark @ogonek;
+  pos base [\uni018F \uni04D8 ] <anchor 652 0 contourpoint 43> mark @ogonek;
+  pos base [\uni01B3 ] <anchor 620 0 contourpoint 2> mark @ogonek;
+  pos base [\uni01B4 ] <anchor 170 -492 contourpoint 5> mark @ogonek;
+  pos base [\uni028B \upsilon ] <anchor 492 0 contourpoint 27> mark @ogonek;
   pos base [\uni028C ] <anchor 876 0 contourpoint 10> mark @ogonek;
-  pos base [\uni0245 ] <anchor 1166 0 contourpoint 9> mark @ogonek;
+  pos base [\uni0245 \Lambda \Delta ] <anchor 1166 0 contourpoint 9> mark @ogonek;
   pos base [\Eth ] <anchor 620 0 contourpoint 42> mark @ogonek;
+  pos base [\uni01A9 ] <anchor 816 0 contourpoint 0> mark @ogonek;
   pos base [\uni01B2 ] <anchor 656 0 contourpoint 31> mark @ogonek;
+  pos base [\uni0269 \iota ] <anchor 344 0 contourpoint 14> mark @ogonek;
+  pos base [\AE ] <anchor 1649 0 contourpoint 19> mark @ogonek;
   pos base [\ae ] <anchor 1320 93> mark @ogonek;
   pos base [\oe ] <anchor 1447 0> mark @ogonek;
   pos base [\thorn ] <anchor 244 -492 contourpoint 30> mark @ogonek;
+  pos base [\uni0191 ] <anchor -88 -492 contourpoint 2> mark @ogonek;
   pos base [\uni0272 ] <anchor 854 0> mark @ogonek;
-  pos base [\agrave \aacute \acircumflex \atilde \adieresis \aring ] <anchor 439 956 contourpoint 52> mark @ogonek;
-  pos base [\uni01CE ] <anchor 720 0> mark @ogonek;
   pos base [\uni0196 ] <anchor 361 0 contourpoint 18> mark @ogonek;
   pos base [\uni0268 \uni0268.dotless ] <anchor 302 0 contourpoint 16> mark @ogonek;
   pos base [\uni2C6D ] <anchor 1048 0 contourpoint 42> mark @ogonek;
   pos base [\uni0197 ] <anchor 331 0 contourpoint 14> mark @ogonek;
-  pos base [\uni019F ] <anchor 727 0 contourpoint 44> mark @ogonek;
+  pos base [\uni019F \Theta ] <anchor 727 0 contourpoint 44> mark @ogonek;
   pos base [\uni0289 ] <anchor 934 0 contourpoint 39> mark @ogonek;
   pos base [\uni0244 ] <anchor 716 0 contourpoint 31> mark @ogonek;
   pos base [\dcroat ] <anchor 816 0 contourpoint 41> mark @ogonek;
   pos base [\uni01B5 ] <anchor 1048 0 contourpoint 16> mark @ogonek;
   pos base [\uni01B6 ] <anchor 820 0 contourpoint 19> mark @ogonek;
+  pos base [\uni0275 \afii10195 ] <anchor 506 0 contourpoint 29> mark @ogonek;
+  pos base [\afii10017 \Alpha ] <anchor 786 1053> mark @ogonek;
+  pos base [\afii10019 \Beta ] <anchor 892 1053> mark @ogonek;
+  pos base [\afii10028 ] <anchor 997 0 contourpoint 2> mark @ogonek;
+  pos base [\afii10032 \Omicron ] <anchor 1263 1053> mark @ogonek;
+  pos base [\afii10033 \Pi ] <anchor 1093 0 contourpoint 10> mark @ogonek;
+  pos base [\uni01B1 ] <anchor 727 0 contourpoint 46> mark @ogonek;
+  pos base [\Omega ] <anchor 727 0 contourpoint 45> mark @ogonek;
+  pos base [\uni0182 \afii10018 ] <anchor 636 0 contourpoint 2> mark @ogonek;
+  pos base [\eta \uni019E ] <anchor 876 -492> mark @ogonek;
+  pos base [\omicron \afii10080 ] <anchor 773 828> mark @ogonek;
+  pos base [\uni0220 ] <anchor 1218 -492 contourpoint 34> mark @ogonek;
+  pos base [\uni0188 ] <anchor 516 0 contourpoint 41> mark @ogonek;
+  pos base [\uni01A5 ] <anchor 244 -492 contourpoint 46> mark @ogonek;
+  pos base [\uni01A4 ] <anchor 444 0 contourpoint 38> mark @ogonek;
+  pos base [\uni0183 ] <anchor 555 0 contourpoint 36> mark @ogonek;
+  pos base [\uni0187 ] <anchor 1080 153> mark @ogonek;
+  pos base [\uni0266 ] <anchor 876 0 contourpoint 39> mark @ogonek;
+  pos base [\uni0193 \uni01E4 ] <anchor 740 0> mark @ogonek;
+  pos base [\uni01AC ] <anchor 591 0 contourpoint 29> mark @ogonek;
+  pos base [\uni01AD ] <anchor 372 0 contourpoint 43> mark @ogonek;
+  pos base [\uni01AE ] <anchor 950 -492 contourpoint 32> mark @ogonek;
+  pos base [\uni01B7 ] <anchor 515 0> mark @ogonek;
+  pos base [\uni027D ] <anchor 465 -492 contourpoint 37> mark @ogonek;
+  pos base [\uni024D ] <anchor 305 0 contourpoint 29> mark @ogonek;
+  pos base [\uni024C ] <anchor 1117 0> mark @ogonek;
+  pos base [\uni0243 ] <anchor 636 0 contourpoint 55> mark @ogonek;
+  pos base [\uni0265 ] <anchor 876 -492 contourpoint 26> mark @ogonek;
+  pos base [\uni0288 ] <anchor 474 -492 contourpoint 28> mark @ogonek;
+  pos base [\uni2C64 ] <anchor 629 -492 contourpoint 44> mark @ogonek;
+  pos base [\uni2C72 ] <anchor 1424 0 contourpoint 32> mark @ogonek;
+  pos base [\uni2C73 ] <anchor 1068 0 contourpoint 37> mark @ogonek;
+  pos base [\Tbar ] <anchor 591 0> mark @ogonek;
+  pos base [\tbar ] <anchor 372 0> mark @ogonek;
+  pos base [\uniA78D \afii10041 \Hbar ] <anchor 1093 0 contourpoint 26> mark @ogonek;
+  pos base [\kgreenlandic \uni1D0B ] <anchor 727 0 contourpoint 12> mark @ogonek;
+  pos base [\afii10076 \kappa ] <anchor 555 0> mark @ogonek;
+  pos base [\afii10065 ] <anchor 774 828> mark @ogonek;
+  pos base [\afii10083 ] <anchor 516 0> mark @ogonek;
+  pos base [\afii10068 ] <anchor 244 0 contourpoint 8> mark @ogonek;
+  pos base [\uni0262 ] <anchor 564 0> mark @ogonek;
+  pos base [\alpha ] <anchor 954 0 contourpoint 51> mark @ogonek;
+  pos base [\beta ] <anchor 244 -492 contourpoint 0> mark @ogonek;
+  pos base [\lambda ] <anchor 170 -0 contourpoint 27> mark @ogonek;
+  pos base [\rho ] <anchor 244 -492 contourpoint 2> mark @ogonek;
+  pos base [\nu ] <anchor 492 0 contourpoint 14> mark @ogonek;
+  pos base [\gamma ] <anchor 562 -492 contourpoint 24> mark @ogonek;
+  pos base [\delta ] <anchor 525 0 contourpoint 55> mark @ogonek;
+  pos base [\Phi \afii10038 ] <anchor 814 -100 contourpoint 57> mark @ogonek;
+  pos base [\Psi ] <anchor 768 0 contourpoint 2> mark @ogonek;
+  pos base [\theta ] <anchor 563 0 contourpoint 0> mark @ogonek;
+  pos base [\sigma ] <anchor 542 0 contourpoint 43> mark @ogonek;
+  pos base [\tau ] <anchor 565 0 contourpoint 20> mark @ogonek;
+  pos base [\afii10084 \uni1D1B ] <anchor 465 0 contourpoint 0> mark @ogonek;
+  pos base [\omega ] <anchor 775 0 contourpoint 52> mark @ogonek;
+  pos base [\pi ] <anchor 896 0 contourpoint 25> mark @ogonek;
+  pos base [\mu ] <anchor 876 0 contourpoint 26> mark @ogonek;
+  pos base [\zeta ] <anchor 681 -439 contourpoint 60> mark @ogonek;
+  pos base [\afii10037 ] <anchor 190 0 contourpoint 8> mark @ogonek;
+  pos base [\uni0274 ] <anchor 798 0 contourpoint 13> mark @ogonek;
+  pos base [\afii10074 \uni1D0E ] <anchor 876 0 contourpoint 13> mark @ogonek;
+  pos base [\sigma1 ] <anchor 663 -437 contourpoint 51> mark @ogonek;
+  pos base [\xi ] <anchor 681 -439 contourpoint 71> mark @ogonek;
+  pos base [\psi \phi1 \uni0278 \afii10086 ] <anchor 565 -492 contourpoint 2> mark @ogonek;
+  pos base [\phi ] <anchor 578 -492 contourpoint 2> mark @ogonek;
+  pos base [\chi ] <anchor 1023 -443 contourpoint 3> mark @ogonek;
+  pos base [\afii10053 ] <anchor 1080 153 contourpoint 47> mark @ogonek;
+  pos base [\afii10101 \uni03F5 ] <anchor 516 0 contourpoint 33> mark @ogonek;
+  pos base [\afii10108 \hbar ] <anchor 934 0 contourpoint 33> mark @ogonek;
+  pos base [\afii10060 ] <anchor 1309 0 contourpoint 29> mark @ogonek;
+  pos base [\afii10081 ] <anchor 797 0 contourpoint 9> mark @ogonek;
+  pos base [\afii10079 \afii10193 ] <anchor 797 0 contourpoint 13> mark @ogonek;
+  pos base [\afii10099 ] <anchor 613 -492 contourpoint 48> mark @ogonek;
+  pos base [\afii10051 ] <anchor 847 -492 contourpoint 48> mark @ogonek;
+  pos base [\afii10029 ] <anchor 1093 0 contourpoint 33> mark @ogonek;
+  pos base [\uni03F6 \afii10095 ] <anchor 372 0 contourpoint 33> mark @ogonek;
+  pos base [\afii10090 ] <anchor 1316 0 contourpoint 1> mark @ogonek;
+  pos base [\afii10042 ] <anchor 1503 0 contourpoint 12> mark @ogonek;
+  pos base [\afii10040 ] <anchor 731 0 contourpoint 14> mark @ogonek;
+  pos base [\afii10043 ] <anchor 1165 0 contourpoint 16> mark @ogonek;
+  pos base [\afii10047 ] <anchor 518 0 contourpoint 47> mark @ogonek;
+  pos base [\afii10088 ] <anchor 616 0 contourpoint 1> mark @ogonek;
+  pos base [\afii10091 ] <anchor 1098 0 contourpoint 17> mark @ogonek;
+  pos base [\afii10025 ] <anchor 476 0 contourpoint 51> mark @ogonek;
+  pos base [\uni1D0D \afii10078 ] <anchor 659 0 contourpoint 0> mark @ogonek;
+  pos base [\afii10072 ] <anchor 1260 0 contourpoint 3> mark @ogonek;
+  pos base [\afii10046 ] <anchor 540 0 contourpoint 28> mark @ogonek;
+  pos base [\afii10044 ] <anchor 700 0 contourpoint 33> mark @ogonek;
+  pos base [\afii10045 ] <anchor 813 0 contourpoint 32> mark @ogonek;
+  pos base [\afii10048 ] <anchor 270 0 contourpoint 52> mark @ogonek;
+  pos base [\afii10049 ] <anchor 48 0 contourpoint 33> mark @ogonek;
+  pos base [\afii10059 ] <anchor 1116 0> mark @ogonek;
+  pos base [\afii10145 ] <anchor 1093 0 contourpoint 15> mark @ogonek;
+  pos base [\uni0267 ] <anchor 555 -492 contourpoint 0> mark @ogonek;
+  pos base [\uni027E ] <anchor 244 0 contourpoint 17> mark @ogonek;
+  pos base [\uni0250 ] <anchor 455 -0 contourpoint 52> mark @ogonek;
+  pos base [\uni0252 ] <anchor 461 0 contourpoint 47> mark @ogonek;
+  pos base [\uni0224 ] <anchor 1048 0 contourpoint 20> mark @ogonek;
+  pos base [\uni0225 ] <anchor 820 0 contourpoint 23> mark @ogonek;
+  pos base [\uni1D00 ] <anchor 876 0 contourpoint 11> mark @ogonek;
+  pos base [\uni1D27 ] <anchor 876 0 contourpoint 7> mark @ogonek;
+  pos base [\uni1D04 ] <anchor -786 278> mark @ogonek;
+  pos base [\uni026A ] <anchor 302 0 contourpoint 14> mark @ogonek;
+  pos base [\uni023A ] <anchor 1166 0 contourpoint 25> mark @ogonek;
+  pos base [\uniA726 ] <anchor 632 -492 contourpoint 29> mark @ogonek;
+  pos base [\uni0249 \uni025F ] <anchor 72 -438 contourpoint 24> mark @ogonek;
+  pos base [\afii10089 ] <anchor 797 0> mark @ogonek;
   subtable;
   markClass [\uni0327 ] <anchor 0 0 contourpoint 19> @cedilla;
   pos base [\A ] <anchor 1166 0 contourpoint 13> mark @cedilla;
-  pos base [\B ] <anchor 636 0 contourpoint 56> mark @cedilla;
-  pos base [\C ] <anchor 660 0 contourpoint 39> mark @cedilla;
+  pos base [\B ] <anchor 636 0 contourpoint 57> mark @cedilla;
+  pos base [\C \afii10035 ] <anchor 660 0 contourpoint 39> mark @cedilla;
   pos base [\D ] <anchor 620 0 contourpoint 34> mark @cedilla;
-  pos base [\E ] <anchor 568 0 contourpoint 15> mark @cedilla;
+  pos base [\E \afii10022 \Epsilon ] <anchor 568 0 contourpoint 15> mark @cedilla;
   pos base [\F ] <anchor 270 0 contourpoint 12> mark @cedilla;
   pos base [\G ] <anchor 740 0 contourpoint 38> mark @cedilla;
-  pos base [\H ] <anchor 1093 0 contourpoint 14> mark @cedilla;
-  pos base [\I \Idotaccent ] <anchor 270 0 contourpoint 6> mark @cedilla;
-  pos base [\J ] <anchor 60 -492 contourpoint 18> mark @cedilla;
-  pos base [\K ] <anchor 997 0 contourpoint 13> mark @cedilla;
+  pos base [\H \afii10031 \Eta \Xi ] <anchor 1093 0 contourpoint 14> mark @cedilla;
+  pos base [\I \Idotaccent \afii10020 \Gamma \Iota \afii10055 ] <anchor 270 0 contourpoint 6> mark @cedilla;
+  pos base [\J \afii10057 ] <anchor 60 -492 contourpoint 18> mark @cedilla;
+  pos base [\K \Kappa ] <anchor 997 0 contourpoint 13> mark @cedilla;
   pos base [\L ] <anchor 580 0 contourpoint 8> mark @cedilla;
-  pos base [\M ] <anchor 1575 0 contourpoint 15> mark @cedilla;
-  pos base [\N ] <anchor 1114 0 contourpoint 12> mark @cedilla;
-  pos base [\O ] <anchor 727 0 contourpoint 40> mark @cedilla;
-  pos base [\P ] <anchor 270 0 contourpoint 28> mark @cedilla;
+  pos base [\M \afii10030 \Mu ] <anchor 1575 0 contourpoint 15> mark @cedilla;
+  pos base [\N \afii10026 \Nu ] <anchor 1114 0 contourpoint 12> mark @cedilla;
+  pos base [\O \Oslash ] <anchor 727 0 contourpoint 40> mark @cedilla;
+  pos base [\P \afii10034 \Rho ] <anchor 270 0 contourpoint 28> mark @cedilla;
   pos base [\Q ] <anchor 727 0 contourpoint 52> mark @cedilla;
-  pos base [\R ] <anchor 997 0 contourpoint 26> mark @cedilla;
-  pos base [\S ] <anchor 504 0 contourpoint 60> mark @cedilla;
-  pos base [\T ] <anchor 591 0 contourpoint 10> mark @cedilla;
+  pos base [\R ] <anchor 997 0 contourpoint 34> mark @cedilla;
+  pos base [\S \afii10054 ] <anchor 504 0 contourpoint 60> mark @cedilla;
+  pos base [\T \afii10036 \Tau ] <anchor 591 0 contourpoint 10> mark @cedilla;
   pos base [\U ] <anchor 655 0 contourpoint 17> mark @cedilla;
   pos base [\V ] <anchor 664 0 contourpoint 9> mark @cedilla;
   pos base [\W ] <anchor 1424 0 contourpoint 16> mark @cedilla;
-  pos base [\X ] <anchor 1098 0 contourpoint 12> mark @cedilla;
-  pos base [\Y ] <anchor 620 0 contourpoint 11> mark @cedilla;
-  pos base [\Z ] <anchor 1048 0 contourpoint 8> mark @cedilla;
-  pos base [\a \agrave \aacute \acircumflex \atilde \adieresis \aring ] <anchor 693 0 contourpoint 53> mark @cedilla;
+  pos base [\X \afii10039 \Chi ] <anchor 1098 0 contourpoint 12> mark @cedilla;
+  pos base [\Y \Upsilon ] <anchor 620 0 contourpoint 11> mark @cedilla;
+  pos base [\Z \Zeta ] <anchor 1048 0 contourpoint 8> mark @cedilla;
+  pos base [\a ] <anchor 693 0 contourpoint 49> mark @cedilla;
   pos base [\b ] <anchor 555 0 contourpoint 34> mark @cedilla;
-  pos base [\c ] <anchor 516 0 contourpoint 29> mark @cedilla;
+  pos base [\c ] <anchor 516 0 contourpoint 25> mark @cedilla;
   pos base [\d ] <anchor 482 0 contourpoint 31> mark @cedilla;
-  pos base [\e ] <anchor 495 0 contourpoint 42> mark @cedilla;
+  pos base [\e \afii10070 ] <anchor 495 0 contourpoint 42> mark @cedilla;
   pos base [\f ] <anchor 302 0 contourpoint 25> mark @cedilla;
   pos base [\g ] <anchor 516 -492 contourpoint 93> mark @cedilla;
   pos base [\h ] <anchor 876 0 contourpoint 25> mark @cedilla;
-  pos base [\i \dotlessi \igrave \iacute \icircumflex \idieresis ] <anchor 302 0 contourpoint 8> mark @cedilla;
+  pos base [\i \dotlessi \afii10103 ] <anchor 302 0 contourpoint 8> mark @cedilla;
+  pos base [\j \uni0237 \afii10105 ] <anchor 222 -492 contourpoint 22> mark @cedilla;
   pos base [\k ] <anchor 555 0 contourpoint 12> mark @cedilla;
-  pos base [\l \uni0269 ] <anchor 344 0 contourpoint 14> mark @cedilla;
-  pos base [\m ] <anchor 1403 0 contourpoint 38> mark @cedilla;
-  pos base [\n \u \ntilde \ugrave \uacute \ucircumflex \udieresis ] <anchor 876 0 contourpoint 27> mark @cedilla;
-  pos base [\o \ograve \oacute \ocircumflex \otilde \odieresis ] <anchor 506 0 contourpoint 46> mark @cedilla;
-  pos base [\p ] <anchor 244 -492 contourpoint 32> mark @cedilla;
+  pos base [\l ] <anchor 344 0 contourpoint 15> mark @cedilla;
+  pos base [\m ] <anchor 1403 0 contourpoint 39> mark @cedilla;
+  pos base [\n ] <anchor 876 0 contourpoint 28> mark @cedilla;
+  pos base [\o ] <anchor 506 0 contourpoint 27> mark @cedilla;
+  pos base [\p \afii10082 ] <anchor 244 -492 contourpoint 32> mark @cedilla;
   pos base [\q ] <anchor 816 -492 contourpoint 36> mark @cedilla;
   pos base [\r ] <anchor 244 0 contourpoint 20> mark @cedilla;
-  pos base [\s ] <anchor 400 0 contourpoint 38> mark @cedilla;
+  pos base [\s \afii10102 ] <anchor 400 0 contourpoint 38> mark @cedilla;
   pos base [\t ] <anchor 372 0 contourpoint 22> mark @cedilla;
+  pos base [\u ] <anchor 876 0 contourpoint 27> mark @cedilla;
   pos base [\v ] <anchor 492 0 contourpoint 7> mark @cedilla;
   pos base [\w ] <anchor 1068 0 contourpoint 16> mark @cedilla;
-  pos base [\x ] <anchor 790 0 contourpoint 15> mark @cedilla;
-  pos base [\y \yacute \ydieresis ] <anchor 170 -492 contourpoint 27> mark @cedilla;
+  pos base [\x \afii10087 ] <anchor 790 0 contourpoint 15> mark @cedilla;
+  pos base [\y \afii10085 ] <anchor 170 -492 contourpoint 27> mark @cedilla;
   pos base [\z ] <anchor 820 0 contourpoint 11> mark @cedilla;
-  pos base [\uni0237 ] <anchor 222 -492 contourpoint 21> mark @cedilla;
   pos base [\uni0251 ] <anchor 848 0 contourpoint 45> mark @cedilla;
-  pos base [\uni0259 \uni01DD ] <anchor 450 0 contourpoint 40> mark @cedilla;
+  pos base [\uni0259 \uni01DD \afii10846 ] <anchor 450 0 contourpoint 40> mark @cedilla;
   pos base [\uni0254 ] <anchor 429 0 contourpoint 30> mark @cedilla;
-  pos base [\uni025B ] <anchor 478 0> mark @cedilla;
+  pos base [\uni025B \uni025C \afii10073 ] <anchor 448 0 contourpoint 46> mark @cedilla;
   pos base [\Eng ] <anchor 755 -492 contourpoint 48> mark @cedilla;
   pos base [\eng ] <anchor 555 -492 contourpoint 42> mark @cedilla;
   pos base [\uni0253 ] <anchor 555 0 contourpoint 47> mark @cedilla;
@@ -385,86 +963,208 @@ lookup markMarkPositioninginLatin {
   pos base [\uni0186 ] <anchor 584 0 contourpoint 32> mark @cedilla;
   pos base [\uni0257 ] <anchor 482 0 contourpoint 46> mark @cedilla;
   pos base [\uni0256 ] <anchor 1063 -492 contourpoint 48> mark @cedilla;
-  pos base [\uni018F ] <anchor 652 0 contourpoint 43> mark @cedilla;
-  pos base [\uni028B ] <anchor 492 0 contourpoint 27> mark @cedilla;
+  pos base [\longs ] <anchor 302 0 contourpoint 0> mark @cedilla;
+  pos base [\germandbls ] <anchor 244 0 contourpoint 0> mark @cedilla;
+  pos base [\uni018F \uni04D8 ] <anchor 652 0 contourpoint 43> mark @cedilla;
+  pos base [\uni01B3 ] <anchor 620 0 contourpoint 2> mark @cedilla;
+  pos base [\uni01B4 ] <anchor 170 -492 contourpoint 5> mark @cedilla;
+  pos base [\uni028B \upsilon ] <anchor 492 0 contourpoint 27> mark @cedilla;
   pos base [\uni028C ] <anchor 876 0 contourpoint 10> mark @cedilla;
-  pos base [\uni0245 ] <anchor 1166 0 contourpoint 9> mark @cedilla;
+  pos base [\uni0245 \Lambda \Delta ] <anchor 1166 0 contourpoint 9> mark @cedilla;
   pos base [\Eth ] <anchor 620 0 contourpoint 42> mark @cedilla;
+  pos base [\uni01A9 ] <anchor 816 0 contourpoint 0> mark @cedilla;
   pos base [\uni01B2 ] <anchor 656 0 contourpoint 31> mark @cedilla;
+  pos base [\uni0269 \iota ] <anchor 344 0 contourpoint 14> mark @cedilla;
+  pos base [\AE ] <anchor 1649 0 contourpoint 19> mark @cedilla;
   pos base [\ae ] <anchor 1080 0> mark @cedilla;
   pos base [\oe ] <anchor 1222 0> mark @cedilla;
   pos base [\thorn ] <anchor 244 -492 contourpoint 30> mark @cedilla;
+  pos base [\uni0191 ] <anchor -88 -492 contourpoint 2> mark @cedilla;
   pos base [\uni0272 ] <anchor 827 0> mark @cedilla;
-  pos base [\uni01CE ] <anchor 693 0> mark @cedilla;
   pos base [\uni0196 ] <anchor 361 0 contourpoint 18> mark @cedilla;
   pos base [\uni0268 \uni0268.dotless ] <anchor 302 0 contourpoint 16> mark @cedilla;
   pos base [\uni2C6D ] <anchor 684 0 contourpoint 39> mark @cedilla;
   pos base [\uni0197 ] <anchor 331 0 contourpoint 14> mark @cedilla;
-  pos base [\uni019F ] <anchor 727 0 contourpoint 44> mark @cedilla;
+  pos base [\uni019F \Theta ] <anchor 727 0 contourpoint 44> mark @cedilla;
   pos base [\uni0289 ] <anchor 934 0 contourpoint 39> mark @cedilla;
   pos base [\uni0244 ] <anchor 716 0 contourpoint 31> mark @cedilla;
   pos base [\dcroat ] <anchor 482 0 contourpoint 39> mark @cedilla;
   pos base [\uni01B5 ] <anchor 1048 0 contourpoint 16> mark @cedilla;
   pos base [\uni01B6 ] <anchor 820 0 contourpoint 19> mark @cedilla;
+  pos base [\uni0275 \afii10195 ] <anchor 506 0 contourpoint 29> mark @cedilla;
+  pos base [\afii10017 \Alpha ] <anchor 786 1053> mark @cedilla;
+  pos base [\afii10019 \Beta ] <anchor 892 1053> mark @cedilla;
+  pos base [\afii10028 ] <anchor 997 0 contourpoint 2> mark @cedilla;
+  pos base [\afii10032 \Omicron ] <anchor 1263 1053> mark @cedilla;
+  pos base [\afii10033 \Pi ] <anchor 1093 0 contourpoint 10> mark @cedilla;
+  pos base [\uni01B1 ] <anchor 727 0 contourpoint 46> mark @cedilla;
+  pos base [\Omega ] <anchor 727 0 contourpoint 45> mark @cedilla;
+  pos base [\uni0182 \afii10018 ] <anchor 636 0 contourpoint 2> mark @cedilla;
+  pos base [\epsilon ] <anchor 478 0> mark @cedilla;
+  pos base [\eta \uni019E ] <anchor 876 -492> mark @cedilla;
+  pos base [\omicron \afii10080 ] <anchor 773 828> mark @cedilla;
+  pos base [\uni0220 ] <anchor 1218 -492 contourpoint 34> mark @cedilla;
+  pos base [\uni0188 ] <anchor 516 0 contourpoint 41> mark @cedilla;
+  pos base [\uni01A5 ] <anchor 244 -492 contourpoint 46> mark @cedilla;
+  pos base [\uni01A4 ] <anchor 444 0 contourpoint 38> mark @cedilla;
+  pos base [\uni0183 ] <anchor 555 0 contourpoint 36> mark @cedilla;
+  pos base [\uni0187 ] <anchor 660 0> mark @cedilla;
+  pos base [\uni0266 ] <anchor 876 0 contourpoint 39> mark @cedilla;
+  pos base [\uni0193 \uni01E4 ] <anchor 740 0> mark @cedilla;
+  pos base [\uni01AC ] <anchor 591 0 contourpoint 29> mark @cedilla;
+  pos base [\uni01AD ] <anchor 372 0 contourpoint 43> mark @cedilla;
+  pos base [\uni01AE ] <anchor 950 -492 contourpoint 32> mark @cedilla;
+  pos base [\uni01B7 ] <anchor 515 0> mark @cedilla;
+  pos base [\uni027D ] <anchor 465 -492 contourpoint 37> mark @cedilla;
+  pos base [\uni024D ] <anchor 305 0 contourpoint 29> mark @cedilla;
+  pos base [\uni024C ] <anchor 1117 0> mark @cedilla;
+  pos base [\uni0243 ] <anchor 636 0 contourpoint 55> mark @cedilla;
+  pos base [\uni0265 ] <anchor 876 -492 contourpoint 26> mark @cedilla;
+  pos base [\uni0288 ] <anchor 474 -492 contourpoint 28> mark @cedilla;
+  pos base [\uni2C64 ] <anchor 629 -492 contourpoint 44> mark @cedilla;
+  pos base [\uni2C72 ] <anchor 1424 0 contourpoint 32> mark @cedilla;
+  pos base [\uni2C73 ] <anchor 1068 0 contourpoint 37> mark @cedilla;
+  pos base [\Tbar ] <anchor 591 0> mark @cedilla;
+  pos base [\tbar ] <anchor 372 0> mark @cedilla;
+  pos base [\uniA78D \afii10041 \Hbar ] <anchor 1093 0 contourpoint 26> mark @cedilla;
+  pos base [\kgreenlandic \uni1D0B ] <anchor 727 0 contourpoint 12> mark @cedilla;
+  pos base [\afii10076 \kappa ] <anchor 555 0> mark @cedilla;
+  pos base [\afii10065 ] <anchor 439 0> mark @cedilla;
+  pos base [\afii10083 ] <anchor 516 0> mark @cedilla;
+  pos base [\afii10068 ] <anchor 244 0 contourpoint 8> mark @cedilla;
+  pos base [\uni0262 ] <anchor 564 0> mark @cedilla;
+  pos base [\alpha ] <anchor 495 0 contourpoint 52> mark @cedilla;
+  pos base [\beta ] <anchor 244 -492 contourpoint 0> mark @cedilla;
+  pos base [\lambda ] <anchor 170 -0 contourpoint 27> mark @cedilla;
+  pos base [\rho ] <anchor 244 -492 contourpoint 2> mark @cedilla;
+  pos base [\nu ] <anchor 492 0 contourpoint 14> mark @cedilla;
+  pos base [\gamma ] <anchor 562 -492 contourpoint 24> mark @cedilla;
+  pos base [\delta ] <anchor 482 0 contourpoint 53> mark @cedilla;
+  pos base [\Phi \afii10038 ] <anchor 814 -100 contourpoint 57> mark @cedilla;
+  pos base [\Psi ] <anchor 768 0 contourpoint 2> mark @cedilla;
+  pos base [\theta ] <anchor 563 0 contourpoint 0> mark @cedilla;
+  pos base [\sigma ] <anchor 495 0 contourpoint 44> mark @cedilla;
+  pos base [\tau ] <anchor 565 0 contourpoint 20> mark @cedilla;
+  pos base [\afii10084 \uni1D1B ] <anchor 465 0 contourpoint 0> mark @cedilla;
+  pos base [\omega ] <anchor 775 0 contourpoint 52> mark @cedilla;
+  pos base [\pi ] <anchor 896 0 contourpoint 25> mark @cedilla;
+  pos base [\mu ] <anchor 876 0 contourpoint 26> mark @cedilla;
+  pos base [\zeta ] <anchor 681 -439 contourpoint 60> mark @cedilla;
+  pos base [\afii10037 ] <anchor 190 0 contourpoint 8> mark @cedilla;
+  pos base [\uni0274 ] <anchor 798 0 contourpoint 13> mark @cedilla;
+  pos base [\afii10074 \uni1D0E ] <anchor 876 0 contourpoint 13> mark @cedilla;
+  pos base [\sigma1 ] <anchor 663 -437 contourpoint 51> mark @cedilla;
+  pos base [\xi ] <anchor 681 -439 contourpoint 71> mark @cedilla;
+  pos base [\psi \phi1 \uni0278 \afii10086 ] <anchor 565 -492 contourpoint 2> mark @cedilla;
+  pos base [\phi ] <anchor 578 -492 contourpoint 2> mark @cedilla;
+  pos base [\chi ] <anchor 1023 -443 contourpoint 3> mark @cedilla;
+  pos base [\afii10053 ] <anchor 660 0 contourpoint 48> mark @cedilla;
+  pos base [\afii10101 \uni03F5 ] <anchor 516 0 contourpoint 33> mark @cedilla;
+  pos base [\afii10108 \hbar ] <anchor 934 0 contourpoint 33> mark @cedilla;
+  pos base [\afii10060 ] <anchor 1309 0 contourpoint 29> mark @cedilla;
+  pos base [\afii10081 ] <anchor 797 0 contourpoint 9> mark @cedilla;
+  pos base [\afii10079 \afii10193 ] <anchor 797 0 contourpoint 13> mark @cedilla;
+  pos base [\afii10099 ] <anchor 613 -492 contourpoint 48> mark @cedilla;
+  pos base [\afii10051 ] <anchor 847 -492 contourpoint 48> mark @cedilla;
+  pos base [\afii10029 ] <anchor 1093 0 contourpoint 33> mark @cedilla;
+  pos base [\uni03F6 \afii10095 ] <anchor 372 0 contourpoint 33> mark @cedilla;
+  pos base [\afii10090 ] <anchor 1316 0 contourpoint 1> mark @cedilla;
+  pos base [\afii10042 ] <anchor 1503 0 contourpoint 12> mark @cedilla;
+  pos base [\afii10040 ] <anchor 731 0 contourpoint 14> mark @cedilla;
+  pos base [\afii10043 ] <anchor 1165 0 contourpoint 16> mark @cedilla;
+  pos base [\afii10047 ] <anchor 595 0 contourpoint 48> mark @cedilla;
+  pos base [\afii10088 ] <anchor 616 0 contourpoint 1> mark @cedilla;
+  pos base [\afii10091 ] <anchor 1098 0 contourpoint 17> mark @cedilla;
+  pos base [\afii10025 ] <anchor 476 0 contourpoint 51> mark @cedilla;
+  pos base [\uni0299 \afii10067 ] <anchor 459 0 contourpoint 57> mark @cedilla;
+  pos base [\uni1D0D \afii10078 ] <anchor 659 0 contourpoint 0> mark @cedilla;
+  pos base [\afii10072 ] <anchor 1260 0 contourpoint 3> mark @cedilla;
+  pos base [\afii10046 ] <anchor 540 0 contourpoint 28> mark @cedilla;
+  pos base [\afii10044 ] <anchor 700 0 contourpoint 33> mark @cedilla;
+  pos base [\afii10045 ] <anchor 813 0 contourpoint 32> mark @cedilla;
+  pos base [\afii10048 ] <anchor 270 0 contourpoint 52> mark @cedilla;
+  pos base [\afii10049 ] <anchor 48 0 contourpoint 33> mark @cedilla;
+  pos base [\afii10059 ] <anchor 1116 0> mark @cedilla;
+  pos base [\afii10145 ] <anchor 1093 0 contourpoint 15> mark @cedilla;
+  pos base [\uni0267 ] <anchor 555 -492 contourpoint 0> mark @cedilla;
+  pos base [\uni027E ] <anchor 244 0 contourpoint 17> mark @cedilla;
+  pos base [\uni0250 ] <anchor 455 -0 contourpoint 52> mark @cedilla;
+  pos base [\uni1D18 \uni1D29 ] <anchor 244 0 contourpoint 27> mark @cedilla;
+  pos base [\afii10094 ] <anchor 447 0 contourpoint 28> mark @cedilla;
+  pos base [\afii10093 ] <anchor 601 0 contourpoint 32> mark @cedilla;
+  pos base [\uni0252 ] <anchor 461 0 contourpoint 47> mark @cedilla;
+  pos base [\uni0224 ] <anchor 1048 0 contourpoint 20> mark @cedilla;
+  pos base [\uni0225 ] <anchor 820 0 contourpoint 23> mark @cedilla;
+  pos base [\uni1D00 ] <anchor 876 0 contourpoint 11> mark @cedilla;
+  pos base [\uni1D27 ] <anchor 876 0 contourpoint 7> mark @cedilla;
+  pos base [\uni1D04 ] <anchor -859 253> mark @cedilla;
+  pos base [\uni026A ] <anchor 302 0 contourpoint 14> mark @cedilla;
+  pos base [\uni023A ] <anchor 1166 0 contourpoint 25> mark @cedilla;
+  pos base [\uniA726 ] <anchor 632 -492 contourpoint 29> mark @cedilla;
+  pos base [\uni0249 ] <anchor 302 828 contourpoint 26> mark @cedilla;
+  pos base [\uni025F ] <anchor 222 -492 contourpoint 27> mark @cedilla;
+  pos base [\afii10089 ] <anchor 797 0> mark @cedilla;
   subtable;
   markClass [\dotbelowcomb ] <anchor 0 0 contourpoint 13> @below;
   markClass [\uni0324 \uni0326 \uni0325 \uni0329 ] <anchor 0 0> @below;
   markClass [\uni0331 ] <anchor 0 0 contourpoint 5> @below;
   markClass [\uni032D \uni032C ] <anchor 0 0 contourpoint 8> @below;
+  markClass [\uni0330 ] <anchor 0 0 contourpoint 24> @below;
   pos base [\A ] <anchor 664 0 contourpoint 14> mark @below;
-  pos base [\B ] <anchor 540 0 contourpoint 57> mark @below;
-  pos base [\C ] <anchor 660 0 contourpoint 39> mark @below;
+  pos base [\B ] <anchor 540 0 contourpoint 58> mark @below;
+  pos base [\C \afii10035 ] <anchor 660 0 contourpoint 39> mark @below;
   pos base [\D ] <anchor 620 0 contourpoint 34> mark @below;
-  pos base [\E ] <anchor 568 0 contourpoint 15> mark @below;
+  pos base [\E \afii10022 \Epsilon ] <anchor 568 0 contourpoint 15> mark @below;
   pos base [\F ] <anchor 270 0 contourpoint 12> mark @below;
   pos base [\G ] <anchor 740 0 contourpoint 38> mark @below;
-  pos base [\H ] <anchor 682 0 contourpoint 15> mark @below;
-  pos base [\I \Idotaccent ] <anchor 270 0 contourpoint 6> mark @below;
-  pos base [\J ] <anchor 180 -492 contourpoint 17> mark @below;
-  pos base [\K ] <anchor 620 0 contourpoint 14> mark @below;
+  pos base [\H \afii10031 \Eta \Xi \afii10040 ] <anchor 682 0 contourpoint 15> mark @below;
+  pos base [\I \Idotaccent \afii10020 \Gamma \Iota \afii10055 ] <anchor 270 0 contourpoint 6> mark @below;
+  pos base [\J \afii10057 ] <anchor 180 -492 contourpoint 17> mark @below;
+  pos base [\K \Kappa ] <anchor 620 0 contourpoint 14> mark @below;
   pos base [\L ] <anchor 580 0 contourpoint 8> mark @below;
-  pos base [\M ] <anchor 886 0 contourpoint 16> mark @below;
-  pos base [\N ] <anchor 692 0 contourpoint 13> mark @below;
-  pos base [\O ] <anchor 727 0 contourpoint 40> mark @below;
-  pos base [\P ] <anchor 270 0 contourpoint 28> mark @below;
+  pos base [\M \afii10030 \Mu ] <anchor 886 0 contourpoint 16> mark @below;
+  pos base [\N \afii10026 \Nu ] <anchor 692 0 contourpoint 13> mark @below;
+  pos base [\O \Oslash ] <anchor 727 0 contourpoint 40> mark @below;
+  pos base [\P \afii10034 \Rho ] <anchor 270 0 contourpoint 28> mark @below;
   pos base [\Q ] <anchor 727 0 contourpoint 52> mark @below;
-  pos base [\R ] <anchor 548 0 contourpoint 27> mark @below;
-  pos base [\S ] <anchor 504 0 contourpoint 60> mark @below;
-  pos base [\T ] <anchor 591 0 contourpoint 10> mark @below;
+  pos base [\R ] <anchor 548 0 contourpoint 35> mark @below;
+  pos base [\S \afii10054 ] <anchor 504 0 contourpoint 60> mark @below;
+  pos base [\T \afii10036 \Tau ] <anchor 591 0 contourpoint 10> mark @below;
   pos base [\U ] <anchor 655 0 contourpoint 17> mark @below;
   pos base [\V ] <anchor 664 0 contourpoint 9> mark @below;
   pos base [\W ] <anchor 1013 0 contourpoint 15> mark @below;
-  pos base [\X ] <anchor 644 0 contourpoint 15> mark @below;
-  pos base [\Y ] <anchor 620 0 contourpoint 11> mark @below;
-  pos base [\Z ] <anchor 601 0 contourpoint 11> mark @below;
-  pos base [\a \agrave \aacute \acircumflex \atilde \adieresis \aring ] <anchor 439 0 contourpoint 54> mark @below;
+  pos base [\X \afii10039 \Chi ] <anchor 644 0 contourpoint 15> mark @below;
+  pos base [\Y \Upsilon ] <anchor 620 0 contourpoint 11> mark @below;
+  pos base [\Z \Zeta ] <anchor 601 0 contourpoint 11> mark @below;
+  pos base [\a ] <anchor 439 0 contourpoint 50> mark @below;
   pos base [\b ] <anchor 555 0 contourpoint 34> mark @below;
-  pos base [\c ] <anchor 486 0 contourpoint 28> mark @below;
+  pos base [\c ] <anchor 486 0 contourpoint 24> mark @below;
   pos base [\d ] <anchor 482 0 contourpoint 31> mark @below;
-  pos base [\e \egrave \eacute \ecircumflex \edieresis ] <anchor 495 0 contourpoint 42> mark @below;
+  pos base [\e \afii10070 ] <anchor 495 0 contourpoint 42> mark @below;
   pos base [\f ] <anchor 302 0 contourpoint 25> mark @below;
-  pos base [\g ] <anchor 495 -492> mark @below;
-  pos base [\h \n \u \ntilde \ugrave \uacute \ucircumflex \udieresis ] <anchor 555 0 contourpoint 24> mark @below;
-  pos base [\i \dotlessi \igrave \iacute \icircumflex \idieresis ] <anchor 302 0 contourpoint 8> mark @below;
+  pos base [\g ] <anchor -139 -2239> mark @below;
+  pos base [\h \u ] <anchor 555 0 contourpoint 24> mark @below;
+  pos base [\i \dotlessi \afii10103 ] <anchor 302 0 contourpoint 8> mark @below;
+  pos base [\j \uni0237 \afii10105 ] <anchor 222 -492 contourpoint 22> mark @below;
   pos base [\k ] <anchor 555 0 contourpoint 11> mark @below;
-  pos base [\l \uni0269 ] <anchor 344 0 contourpoint 14> mark @below;
-  pos base [\m ] <anchor 825 0 contourpoint 35> mark @below;
-  pos base [\o \ograve \oacute \ocircumflex \otilde \odieresis ] <anchor 506 0 contourpoint 46> mark @below;
-  pos base [\p ] <anchor 244 -492 contourpoint 32> mark @below;
+  pos base [\l ] <anchor 344 0 contourpoint 15> mark @below;
+  pos base [\m ] <anchor 825 0 contourpoint 36> mark @below;
+  pos base [\n ] <anchor 555 0 contourpoint 25> mark @below;
+  pos base [\o ] <anchor 506 0 contourpoint 27> mark @below;
+  pos base [\p \afii10082 ] <anchor 244 -492 contourpoint 32> mark @below;
   pos base [\q ] <anchor 816 -492 contourpoint 36> mark @below;
   pos base [\r ] <anchor 244 0 contourpoint 20> mark @below;
-  pos base [\s ] <anchor 400 0 contourpoint 38> mark @below;
+  pos base [\s \afii10102 ] <anchor 400 0 contourpoint 38> mark @below;
   pos base [\t ] <anchor 372 0 contourpoint 22> mark @below;
   pos base [\v \uni028C ] <anchor 492 0 contourpoint 7> mark @below;
   pos base [\w ] <anchor 756 0 contourpoint 13> mark @below;
-  pos base [\x ] <anchor 472 0 contourpoint 12> mark @below;
-  pos base [\y \yacute \ydieresis ] <anchor 515 -492 contourpoint 24> mark @below;
+  pos base [\x \afii10087 ] <anchor 472 0 contourpoint 12> mark @below;
+  pos base [\y \afii10085 ] <anchor 515 -492 contourpoint 24> mark @below;
   pos base [\z ] <anchor 508 0 contourpoint 8> mark @below;
-  pos base [\uni0237 ] <anchor 222 -492 contourpoint 21> mark @below;
   pos base [\uni0251 ] <anchor 555 0 contourpoint 46> mark @below;
-  pos base [\uni0259 \uni01DD ] <anchor 450 0 contourpoint 40> mark @below;
+  pos base [\uni0259 \uni01DD \afii10846 ] <anchor 450 0 contourpoint 40> mark @below;
   pos base [\uni0254 ] <anchor 429 0 contourpoint 30> mark @below;
-  pos base [\uni025B ] <anchor 448 0> mark @below;
+  pos base [\uni025B \uni025C \afii10073 ] <anchor 448 0 contourpoint 46> mark @below;
   pos base [\Eng ] <anchor 755 -492 contourpoint 48> mark @below;
   pos base [\eng ] <anchor 555 -492 contourpoint 42> mark @below;
   pos base [\uni0253 ] <anchor 555 0 contourpoint 47> mark @below;
@@ -472,33 +1172,151 @@ lookup markMarkPositioninginLatin {
   pos base [\uni0186 ] <anchor 584 0 contourpoint 32> mark @below;
   pos base [\uni0257 ] <anchor 482 0 contourpoint 46> mark @below;
   pos base [\uni0256 ] <anchor 482 0 contourpoint 47> mark @below;
-  pos base [\uni018F ] <anchor 652 0 contourpoint 43> mark @below;
-  pos base [\uni028B ] <anchor 492 0 contourpoint 27> mark @below;
-  pos base [\uni0245 ] <anchor 664 0 contourpoint 10> mark @below;
+  pos base [\longs ] <anchor 302 0 contourpoint 0> mark @below;
+  pos base [\germandbls ] <anchor 244 0 contourpoint 0> mark @below;
+  pos base [\uni018F \uni04D8 ] <anchor 652 0 contourpoint 43> mark @below;
+  pos base [\uni01B3 ] <anchor 620 0 contourpoint 2> mark @below;
+  pos base [\uni01B4 ] <anchor 515 -492 contourpoint 2> mark @below;
+  pos base [\uni028B \upsilon ] <anchor 492 0 contourpoint 27> mark @below;
+  pos base [\uni0245 \Lambda \Delta ] <anchor 664 0 contourpoint 10> mark @below;
   pos base [\Eth ] <anchor 620 0 contourpoint 42> mark @below;
+  pos base [\uni01A9 ] <anchor 533 0 contourpoint 3> mark @below;
   pos base [\uni01B2 ] <anchor 656 0 contourpoint 31> mark @below;
+  pos base [\uni0269 \iota ] <anchor 344 0 contourpoint 14> mark @below;
+  pos base [\AE ] <anchor 1011 0 contourpoint 20> mark @below;
   pos base [\ae ] <anchor 718 0> mark @below;
   pos base [\oe ] <anchor 882 0> mark @below;
   pos base [\thorn ] <anchor 244 -492 contourpoint 30> mark @below;
-  pos base [\uni0272 ] <anchor 555 0> mark @below;
-  pos base [\uni01CE ] <anchor 439 0> mark @below;
+  pos base [\uni0191 ] <anchor -88 -492 contourpoint 2> mark @below;
+  pos base [\uni0272 \afii10076 \kappa ] <anchor 555 0> mark @below;
   pos base [\uni0196 ] <anchor 361 0 contourpoint 18> mark @below;
   pos base [\uni0268 \uni0268.dotless ] <anchor 302 0 contourpoint 16> mark @below;
   pos base [\uni2C6D ] <anchor 684 0 contourpoint 39> mark @below;
   pos base [\uni0197 ] <anchor 331 0 contourpoint 14> mark @below;
-  pos base [\uni019F ] <anchor 727 0 contourpoint 44> mark @below;
+  pos base [\uni019F \Theta ] <anchor 727 0 contourpoint 44> mark @below;
   pos base [\uni0289 ] <anchor 613 0 contourpoint 36> mark @below;
   pos base [\uni0244 ] <anchor 716 0 contourpoint 31> mark @below;
   pos base [\dcroat ] <anchor 482 0 contourpoint 39> mark @below;
   pos base [\uni01B5 ] <anchor 601 0 contourpoint 19> mark @below;
   pos base [\uni01B6 ] <anchor 508 0 contourpoint 16> mark @below;
+  pos base [\uni0275 \afii10195 ] <anchor 506 0 contourpoint 29> mark @below;
+  pos base [\afii10017 \Alpha ] <anchor 1166 0> mark @below;
+  pos base [\afii10019 \Beta ] <anchor 636 0> mark @below;
+  pos base [\afii10028 ] <anchor 620 0 contourpoint 3> mark @below;
+  pos base [\afii10032 \Omicron ] <anchor 1263 1053> mark @below;
+  pos base [\afii10033 \Pi ] <anchor 682 0 contourpoint 11> mark @below;
+  pos base [\uni01B1 ] <anchor 727 0 contourpoint 46> mark @below;
+  pos base [\Omega ] <anchor 727 0 contourpoint 45> mark @below;
+  pos base [\uni0182 \afii10018 ] <anchor 540 0 contourpoint 3> mark @below;
+  pos base [\epsilon ] <anchor 448 0> mark @below;
+  pos base [\eta \uni019E ] <anchor 555 -492> mark @below;
+  pos base [\omicron \afii10080 ] <anchor 773 828> mark @below;
+  pos base [\uni0220 ] <anchor 1218 -492 contourpoint 34> mark @below;
+  pos base [\uni0188 ] <anchor 486 0 contourpoint 40> mark @below;
+  pos base [\uni01A5 ] <anchor 244 -492 contourpoint 46> mark @below;
+  pos base [\uni01A4 ] <anchor 444 0 contourpoint 38> mark @below;
+  pos base [\uni0183 ] <anchor 555 0 contourpoint 36> mark @below;
+  pos base [\uni0187 ] <anchor 660 0> mark @below;
+  pos base [\uni0266 ] <anchor 555 0 contourpoint 38> mark @below;
+  pos base [\uni0193 \uni01E4 ] <anchor 740 0> mark @below;
+  pos base [\uni01AC ] <anchor 591 0 contourpoint 29> mark @below;
+  pos base [\uni01AD ] <anchor 372 0 contourpoint 43> mark @below;
+  pos base [\uni01AE ] <anchor 950 -492 contourpoint 32> mark @below;
+  pos base [\uni01B7 ] <anchor 588 0> mark @below;
+  pos base [\uni027D ] <anchor 465 -492 contourpoint 37> mark @below;
+  pos base [\uni024D ] <anchor 305 0 contourpoint 29> mark @below;
+  pos base [\uni024C ] <anchor 668 0> mark @below;
+  pos base [\uni0243 ] <anchor 540 0 contourpoint 56> mark @below;
+  pos base [\uni0265 ] <anchor 876 -492 contourpoint 26> mark @below;
+  pos base [\uni0288 ] <anchor 474 -492 contourpoint 28> mark @below;
+  pos base [\uni2C64 ] <anchor 629 -492 contourpoint 44> mark @below;
+  pos base [\uni2C72 ] <anchor 1013 0 contourpoint 31> mark @below;
+  pos base [\uni2C73 ] <anchor 756 0 contourpoint 34> mark @below;
+  pos base [\Tbar ] <anchor 591 0> mark @below;
+  pos base [\tbar ] <anchor 372 0> mark @below;
+  pos base [\uniA78D \afii10041 ] <anchor 1093 0 contourpoint 26> mark @below;
+  pos base [\kgreenlandic \uni1D0B ] <anchor 727 0 contourpoint 12> mark @below;
+  pos base [\afii10065 ] <anchor 720 0> mark @below;
+  pos base [\afii10083 ] <anchor 486 0> mark @below;
+  pos base [\afii10068 ] <anchor 244 0 contourpoint 8> mark @below;
+  pos base [\uni0262 ] <anchor 534 0> mark @below;
+  pos base [\alpha ] <anchor 495 0 contourpoint 52> mark @below;
+  pos base [\beta ] <anchor 244 -492 contourpoint 0> mark @below;
+  pos base [\lambda ] <anchor 515 -0 contourpoint 24> mark @below;
+  pos base [\rho ] <anchor 244 -492 contourpoint 2> mark @below;
+  pos base [\nu ] <anchor 492 0 contourpoint 14> mark @below;
+  pos base [\gamma ] <anchor 562 -492 contourpoint 24> mark @below;
+  pos base [\delta ] <anchor 482 0 contourpoint 53> mark @below;
+  pos base [\Phi \afii10038 ] <anchor 814 -100 contourpoint 57> mark @below;
+  pos base [\Psi ] <anchor 768 0 contourpoint 2> mark @below;
+  pos base [\theta ] <anchor 563 0 contourpoint 0> mark @below;
+  pos base [\sigma ] <anchor 495 0 contourpoint 44> mark @below;
+  pos base [\tau ] <anchor 565 0 contourpoint 20> mark @below;
+  pos base [\afii10084 \uni1D1B ] <anchor 465 0 contourpoint 0> mark @below;
+  pos base [\omega ] <anchor 775 0 contourpoint 52> mark @below;
+  pos base [\pi ] <anchor 542 0 contourpoint 24> mark @below;
+  pos base [\mu ] <anchor 244 -492 contourpoint 23> mark @below;
+  pos base [\zeta ] <anchor 486 -492 contourpoint 59> mark @below;
+  pos base [\afii10037 ] <anchor 190 0 contourpoint 8> mark @below;
+  pos base [\uni0274 ] <anchor 521 0 contourpoint 10> mark @below;
+  pos base [\afii10074 \uni1D0E ] <anchor 555 0 contourpoint 10> mark @below;
+  pos base [\sigma1 ] <anchor 486 -492 contourpoint 50> mark @below;
+  pos base [\xi ] <anchor 486 -492 contourpoint 70> mark @below;
+  pos base [\psi \phi1 \uni0278 \afii10086 ] <anchor 565 -492 contourpoint 2> mark @below;
+  pos base [\phi ] <anchor 578 -492 contourpoint 2> mark @below;
+  pos base [\chi ] <anchor 507 -492 contourpoint 0> mark @below;
+  pos base [\afii10053 ] <anchor 660 0 contourpoint 48> mark @below;
+  pos base [\afii10101 \uni03F5 ] <anchor 486 0 contourpoint 32> mark @below;
+  pos base [\afii10108 \hbar ] <anchor 613 0 contourpoint 32> mark @below;
+  pos base [\afii10060 ] <anchor 950 0 contourpoint 32> mark @below;
+  pos base [\Hbar ] <anchor 682 0 contourpoint 27> mark @below;
+  pos base [\afii10081 ] <anchor 520 0 contourpoint 8> mark @below;
+  pos base [\afii10079 \afii10193 ] <anchor 520 0 contourpoint 12> mark @below;
+  pos base [\afii10099 ] <anchor 613 -492 contourpoint 48> mark @below;
+  pos base [\afii10051 ] <anchor 847 -492 contourpoint 48> mark @below;
+  pos base [\afii10029 ] <anchor 682 0 contourpoint 34> mark @below;
+  pos base [\uni03F6 \afii10095 ] <anchor 402 0 contourpoint 32> mark @below;
+  pos base [\afii10090 ] <anchor 780 0 contourpoint 0> mark @below;
+  pos base [\afii10042 ] <anchor 887 0 contourpoint 13> mark @below;
+  pos base [\afii10043 ] <anchor 887 0 contourpoint 17> mark @below;
+  pos base [\afii10047 ] <anchor 595 0 contourpoint 48> mark @below;
+  pos base [\afii10088 ] <anchor 520 0 contourpoint 0> mark @below;
+  pos base [\afii10091 ] <anchor 780 0 contourpoint 16> mark @below;
+  pos base [\afii10025 ] <anchor 476 0 contourpoint 51> mark @below;
+  pos base [\uni0299 \afii10067 ] <anchor 459 0 contourpoint 57> mark @below;
+  pos base [\uni1D0D \afii10078 ] <anchor 659 0 contourpoint 0> mark @below;
+  pos base [\afii10072 ] <anchor 690 0 contourpoint 0> mark @below;
+  pos base [\afii10046 ] <anchor 540 0 contourpoint 28> mark @below;
+  pos base [\afii10044 ] <anchor 604 0 contourpoint 34> mark @below;
+  pos base [\afii10045 ] <anchor 813 0 contourpoint 32> mark @below;
+  pos base [\afii10048 ] <anchor 877 0 contourpoint 49> mark @below;
+  pos base [\afii10049 ] <anchor 497 0 contourpoint 34> mark @below;
+  pos base [\afii10059 ] <anchor 1116 0> mark @below;
+  pos base [\afii10145 ] <anchor 682 -372 contourpoint 16> mark @below;
+  pos base [\uni0267 ] <anchor 555 -492 contourpoint 0> mark @below;
+  pos base [\uni027E ] <anchor 244 0 contourpoint 17> mark @below;
+  pos base [\uni0250 ] <anchor 455 -0 contourpoint 52> mark @below;
+  pos base [\uni1D18 \uni1D29 ] <anchor 244 0 contourpoint 27> mark @below;
+  pos base [\afii10094 ] <anchor 447 0 contourpoint 28> mark @below;
+  pos base [\afii10093 ] <anchor 601 0 contourpoint 32> mark @below;
+  pos base [\uni0252 ] <anchor 461 0 contourpoint 47> mark @below;
+  pos base [\uni0224 ] <anchor 601 0 contourpoint 23> mark @below;
+  pos base [\uni0225 ] <anchor 508 0 contourpoint 20> mark @below;
+  pos base [\uni1D00 ] <anchor 492 0 contourpoint 12> mark @below;
+  pos base [\uni1D27 ] <anchor 492 0 contourpoint 8> mark @below;
+  pos base [\uni1D04 ] <anchor -859 253> mark @below;
+  pos base [\uni026A ] <anchor 302 0 contourpoint 14> mark @below;
+  pos base [\uni023A ] <anchor 664 0 contourpoint 26> mark @below;
+  pos base [\uniA726 ] <anchor 682 -492 contourpoint 30> mark @below;
+  pos base [\uni0249 \uni025F ] <anchor 222 -492 contourpoint 27> mark @below;
+  pos base [\afii10089 ] <anchor 520 0> mark @below;
 } markMarkPositioninginLatin;
 
 lookup mkmkMarktoMarkinLatin {
   lookupflag 0;
   markClass [\uni0307 ] <anchor 0 1120 contourpoint 14> @markabove;
   markClass [\uni0308 ] <anchor 0 1120 contourpoint 26> @markabove;
-  markClass [\gravecomb \acutecomb \uni030D ] <anchor 0 956 contourpoint 5> @markabove;
+  markClass [\gravecomb \acutecomb \uni030D \uni0340 \uni0341 ] <anchor 0 956 contourpoint 5> @markabove;
   markClass [\uni0302 \uni030C ] <anchor 0 956 contourpoint 8> @markabove;
   markClass [\tildecomb ] <anchor 0 1035 contourpoint 26> @markabove;
   markClass [\uni0306 \uni0311 ] <anchor 0 956 contourpoint 19> @markabove;
@@ -507,10 +1325,11 @@ lookup mkmkMarktoMarkinLatin {
   markClass [\uni0304 ] <anchor 0 1120 contourpoint 6> @markabove;
   markClass [\uni030B \uni030E ] <anchor 0 956 contourpoint 9> @markabove;
   markClass [\uni0312 \uni0313 \uni0314 \uni0315 ] <anchor 0 956 contourpoint 18> @markabove;
-  pos mark [\i ] <anchor 302 1475 contourpoint 20> mark @markabove;
+  markClass [\uni1DC4 \uni1DC5 \uni1DC6 \uni1DC7 ] <anchor 0 1120 contourpoint 8> @markabove;
+  pos mark [\i \afii10103 ] <anchor 302 1475 contourpoint 21> mark @markabove;
   pos mark [\uni0307 ] <anchor 0 1475 contourpoint 12> mark @markabove;
   pos mark [\uni0308 ] <anchor 0 1475 contourpoint 25> mark @markabove;
-  pos mark [\gravecomb \acutecomb \uni030D ] <anchor 0 1475 contourpoint 4> mark @markabove;
+  pos mark [\gravecomb \acutecomb \uni030D \uni0340 \uni0341 ] <anchor 0 1475 contourpoint 4> mark @markabove;
   pos mark [\uni0302 \uni030C ] <anchor 0 1475 contourpoint 7> mark @markabove;
   pos mark [\tildecomb ] <anchor 0 1410 contourpoint 24> mark @markabove;
   pos mark [\uni0306 \uni0311 ] <anchor 0 1475 contourpoint 18> mark @markabove;
@@ -519,46 +1338,55 @@ lookup mkmkMarktoMarkinLatin {
   pos mark [\uni0304 ] <anchor 0 1329 contourpoint 4> mark @markabove;
   pos mark [\uni030B \uni030E ] <anchor 0 1475 contourpoint 8> mark @markabove;
   pos mark [\uni0312 \uni0313 \uni0314 \uni0315 ] <anchor 0 1475 contourpoint 17> mark @markabove;
-  pos mark [\uni01CE ] <anchor 439 1475> mark @markabove;
+  pos mark [\uni1DC4 \uni1DC5 \uni1DC6 \uni1DC7 ] <anchor 0 1329 contourpoint 6> mark @markabove;
   subtable;
   markClass [\dotbelowcomb ] <anchor 0 0 contourpoint 13> @markbelow;
   markClass [\uni0331 ] <anchor 0 0 contourpoint 5> @markbelow;
   markClass [\uni032D \uni032C ] <anchor 0 0 contourpoint 8> @markbelow;
+  markClass [\uni0330 ] <anchor 0 0 contourpoint 24> @markbelow;
   pos mark [\uni0327 ] <anchor 0 -492 contourpoint 18> mark @markbelow;
   pos mark [\dotbelowcomb ] <anchor 0 -349 contourpoint 12> mark @markbelow;
   pos mark [\uni0331 ] <anchor 0 -349 contourpoint 4> mark @markbelow;
-  pos mark [\ccedilla ] <anchor 516 -492 contourpoint 48> mark @markbelow;
   pos mark [\uni032D \uni032C ] <anchor 0 -483 contourpoint 7> mark @markbelow;
+  pos mark [\uni0330 ] <anchor 0 -375 contourpoint 25> mark @markbelow;
 } mkmkMarktoMarkinLatin;
 
 lookup kernHorizontalKerninginLatinloo {
   lookupflag IgnoreMarks;
-    @kc9_first_1 = [\T ];
-    @kc9_second_1 = [\a ];
-    @kc9_second_2 = [\e \o ];
-    @kc9_second_3 = [\u ];
-    @kc9_second_4 = [\g ];
-    @kc9_second_5 = [\r ];
-    @kc9_second_6 = [\p ];
-    pos @kc9_first_1 @kc9_second_1 -84;
-    pos @kc9_first_1 @kc9_second_2 -95;
-    pos @kc9_first_1 @kc9_second_5 -160;
-    pos @kc9_first_1 @kc9_second_6 -162;
+    @kc16_first_1 = [\T ];
+    @kc16_second_1 = [\a ];
+    @kc16_second_2 = [\e \o ];
+    @kc16_second_3 = [\u ];
+    @kc16_second_4 = [\g ];
+    @kc16_second_5 = [\r ];
+    @kc16_second_6 = [\p ];
+    pos @kc16_first_1 @kc16_second_1 -84;
+    pos @kc16_first_1 @kc16_second_2 -95;
+    pos @kc16_first_1 @kc16_second_5 -160;
+    pos @kc16_first_1 @kc16_second_6 -162;
   subtable;
-    @kc10_first_1 = [\o ];
-    @kc10_first_2 = [\e ];
-    @kc10_first_3 = [\a ];
-    @kc10_first_4 = [\u ];
-    @kc10_first_5 = [\n ];
-    @kc10_second_1 = [\T ];
-    pos @kc10_first_1 @kc10_second_1 -83;
-    pos @kc10_first_2 @kc10_second_1 -82;
-    pos @kc10_first_3 @kc10_second_1 -82;
+    @kc17_first_1 = [\o ];
+    @kc17_first_2 = [\e ];
+    @kc17_first_3 = [\a ];
+    @kc17_first_4 = [\u ];
+    @kc17_first_5 = [\n ];
+    @kc17_second_1 = [\T ];
+    pos @kc17_first_1 @kc17_second_1 -83;
+    pos @kc17_first_2 @kc17_second_1 -82;
+    pos @kc17_first_3 @kc17_second_1 -82;
 } kernHorizontalKerninginLatinloo;
 
 feature mark {
 
  script DFLT;
+     language dflt ;
+      lookup markMarkPositioninginLatin;
+
+ script cyrl;
+     language dflt ;
+      lookup markMarkPositioninginLatin;
+
+ script grek;
      language dflt ;
       lookup markMarkPositioninginLatin;
 
@@ -604,33 +1432,100 @@ feature kern {
 	\uni0181 \uni018E \uni018F \uni018A \uni01B3 \uni01B4 \uni0198 \uni0199 \uni028B 
 	\uni028C \uni0245 \Eth \exclamdown \questiondown \Oslash \oslash \multiply 
 	\uni0283 \uni01A9 \uni01B2 \uni0269 \uni0263 \divide \eth \AE \ae \OE \oe \Thorn 
-	\thorn \uni0191 \florin \uni0194 \uni019D \uni00A0 \paragraph \uni0272 \Agrave 
-	\Aacute \Acircumflex \Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute 
-	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve 
-	\Oacute \Ocircumflex \Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis 
-	\Yacute \agrave \aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave 
-	\eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \ntilde 
-	\ograve \oacute \ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex 
-	\udieresis \yacute \ydieresis \Euro \sterling \currency \brokenbar \uni022A 
-	\uni022F \uni01CD \uni01DD \uni1EB8 \uni1EB9 \uni1ECA \uni1ECB \uni1ECC \uni1ECD 
-	\uni1EE4 \uni1EE5 \uni1E62 \uni1E63 \uni20B5 \uni20A6 \uni01CF \uni01D0 \uni01D1 
-	\uni01D2 \uni01D3 \uni01D4 \Ecaron \ecaron \uni0196 \uni0268 \uni0268.dotless 
-	\Idotaccent \uni2C6D \Edotaccent \edotaccent \Emacron \emacron \uni1E18 
-	\uni1E19 \Itilde \itilde \uni1EBC \uni1EBD \uni0228 \uni0229 \Omacron \omacron 
-	\uni0197 \uni019F \Obreve \obreve \Utilde \utilde \uni0289 \uni0244 \uni1E76 
-	\uni1E77 \dcroat \uni1E13 \uni1E12 \Gcircumflex \gcircumflex \uni1E3C \uni1E3D 
-	\uni1E44 \uni1E45 \uni1E4B \uni1E4A \Scaron \scaron \uni1E70 \uni1E71 
-	\Wcircumflex \wcircumflex \wdieresis \Wdieresis \uni1EF9 \uni1EF8 \Amacron 
-	\amacron \Abreve \abreve \uni1EA0 \uni1EA1 \uni1E04 \uni1E05 \Cacute \cacute 
-	\Ccaron \ccaron \uni1E0E \uni1E0F \uni1E0C \uni1E0D \uni1E24 \uni1E25 \uni1E36 
-	\uni1E37 \uni1E46 \uni1E47 \uni1E54 \uni1E55 \uni1E6E \uni1E6F \uni1E6C \uni1E6D 
-	\Umacron \umacron \Uhungarumlaut \uhungarumlaut \uni1E92 \uni1E93 \uni01B5 
-	\uni01B6 \uni2010 \uni2011 \endash \emdash \bullet \guilsinglleft 
-	\guilsinglright \uni0275 ];
+	\thorn \uni0191 \florin \uni0194 \uni019D \uni00A0 \paragraph \uni0272 \Euro 
+	\sterling \currency \brokenbar \uni01DD \uni20B5 \uni20A6 \uni0196 \uni0268 
+	\uni0268.dotless \Idotaccent \uni2C6D \uni0197 \uni019F \uni0289 \uni0244 
+	\dcroat \uni01B5 \uni01B6 \uni2010 \uni2011 \endash \emdash \bullet 
+	\guilsinglleft \guilsinglright \uni0275 \uni028A \uni0292 \afii10017 
+	\afii10019 \afii10022 \afii10028 \afii10030 \afii10031 \afii10032 \afii10034 
+	\afii10035 \afii10036 \afii10039 \afii10054 \afii10020 \afii10026 \afii10033 
+	\Alpha \Beta \Gamma \Epsilon \Zeta \Eta \Pi \Rho \Sigma \Lambda \Delta \Iota 
+	\afii10055 \Kappa \Mu \Nu \Omicron \Tau \Upsilon \Chi \uni01B1 \Omega \uni0182 
+	\afii10018 \epsilon \eta \omicron \uni019E \uni0220 \uni0188 \uni01A5 \uni01A4 
+	\uni0183 \uni0187 \uni0189 \uni0266 \Dcroat \uni0193 \uni01AC \uni01AD \uni01AE 
+	\uni01B7 \uni027D \uni024D \uni0260 \uni024C \uni0243 \uni0265 \uni0288 \uni2C64 
+	\uni2C72 \uni2C73 \Tbar \tbar \uniA78D \afii10041 \kgreenlandic \afii10076 
+	\afii10065 \afii10070 \afii10080 \afii10082 \afii10083 \afii10085 \afii10087 
+	\afii10102 \afii10103 \afii10057 \afii10066 \afii10068 \Theta \Xi \uni0262 
+	\alpha \beta \kappa \lambda \rho \nu \gamma \iota \upsilon \delta \Phi \Psi \theta 
+	\sigma \tau \afii10084 \uni1D1B \omega \pi \mu \zeta \afii10037 \afii10038 
+	\afii10195 \afii10147 \uni0274 \afii10074 \uni0277 \sigma1 \xi \psi \phi \chi 
+	\phi1 \uni0278 \afii10053 \afii10101 \afii10108 \afii10060 \hbar \Hbar 
+	\afii10086 \afii10081 \afii10079 \afii10099 \afii10051 \afii10029 \uni03F5 
+	\uni03F6 \afii10095 \afii10105 \afii10090 \afii10042 \afii10021 \afii10040 
+	\afii10043 \afii10047 \afii10088 \afii10091 \afii10025 \uni0299 \uni025C 
+	\afii10073 \afii10067 \uni1D0E \uni1D0D \afii10078 \afii10024 \afii10072 
+	\afii10046 \afii10044 \afii10045 \afii10048 \afii10049 \afii10059 \afii10145 
+	\afii10193 \uni0267 \uni027E \uni0241 \uni0250 \uni0242 \uni0280 \uni1D18 
+	\afii10097 \afii10094 \afii10093 \uni0294 \uni0295 \uni0252 \uni0264 \uni02BE 
+	\uni02BF \ordfeminine \ordmasculine \uni02C0 \uni2126 \uni2127 \uni212A 
+	\napostrophe \uni00B5 \plusminus \uni00AD \uni1E9E \periodcentered \circumflex 
+	\caron \uni02CA \uni02CB \uni02D7 \uni02D6 \uni0224 \uni0225 \uni02EE \uniA78A 
+	\uniA789 \cent \logicalnot \arrowleft \arrowright \arrowup \arrowdown \uni2197 
+	\uni2196 \uni2198 \uni2199 \yen \zero.tnum \one.tnum \two.tnum \three.tnum 
+	\four.tnum \five.tnum \six.tnum \seven.tnum \eight.tnum \nine.tnum \zero.lnum 
+	\one.lnum \two.lnum \three.lnum \four.lnum \five.lnum \six.lnum \seven.lnum 
+	\eight.lnum \nine.lnum \uni2219 \zero.lnum.tnum \one.lnum.tnum \two.lnum.tnum 
+	\three.lnum.tnum \four.lnum.tnum \five.lnum.tnum \six.lnum.tnum 
+	\seven.lnum.tnum \eight.lnum.tnum \nine.lnum.tnum \zero.c2sc \one.c2sc 
+	\two.c2sc \three.c2sc \four.c2sc \five.c2sc \six.c2sc \seven.c2sc \eight.c2sc 
+	\nine.c2sc \zero.c2sc.tnum \one.c2sc.tnum \two.c2sc.tnum \three.c2sc.tnum 
+	\four.c2sc.tnum \five.c2sc.tnum \six.c2sc.tnum \seven.c2sc.tnum 
+	\eight.c2sc.tnum \nine.c2sc.tnum \A.c2sc \B.c2sc \C.c2sc \D.c2sc \E.c2sc 
+	\F.c2sc \G.c2sc \H.c2sc \I.c2sc \J.c2sc \K.c2sc \L.c2sc \M.c2sc \N.c2sc \O.c2sc 
+	\P.c2sc \Q.c2sc \R.c2sc \S.c2sc \T.c2sc \U.c2sc \V.c2sc \W.c2sc \X.c2sc \Y.c2sc 
+	\Z.c2sc \uni1D00 \uni1D27 \uni1D29 \uni1D04 \uni1D05 \uni1D0F \uni1D1C \uni029B 
+	\uniA731 \uni1D0B \uni028F \uni1D22 \uni026A \AE.c2sc \Eth.c2sc \Oslash.c2sc 
+	\Thorn.c2sc \Dcroat.c2sc \Hbar.c2sc \Ldot \ldot \Ldot.c2sc \IJ \ij \Eng.c2sc 
+	\OE.c2sc \Uhorn \Ohorn \ohorn \uhorn \Tbar.c2cs \uni0181.c2sc \uni0186.c2sc 
+	\uni0187.c2sc \uni0189.c2sc \uni018A.c2sc \uni018E.c2sc \uni018F.c2sc 
+	\uni0190.c2sc \uni0191.c2sc \uni0193.c2sc \uni0194.c2sc \uni0196.c2sc 
+	\uni0197.c2sc \uni0198.c2sc \uni019D.c2sc \uni019F.c2sc \uni01A4.c2sc 
+	\uni01A9.c2sc \uni01AC.c2sc \uni01AE.c2sc \uni01B1.c2sc \uni01B2.c2sc 
+	\uni01B3.c2sc \uni01B5.c2sc \uni01B7.c2sc \uni01E4.c2sc \uni0220.c2sc 
+	\uni0224.c2sc \uni023A.c2sc \uni023B.c2sc \uni023E.c2sc \uni023D.c2sc 
+	\uniA78C \uniA78B \Alpha.c2sc \Beta.c2sc \uni0241.c2sc \uni0243.c2sc 
+	\uni0244.c2sc \uni0245.c2sc \uni0246.c2sc \uni0248.c2sc \uni024C.c2sc 
+	\uni024E.c2sc \uni2C64.c2sc \uni2C6D.c2sc \uni2c62.c2sc \uni2C72.c2sc 
+	\uniA78B.c2sc \uniA78D.c2sc \uni023A \uniA726 \uni2C65 \uni023B \uni01E4 
+	\uni023D \Gamma.c2sc \Delta.c2sc \Epsilon.c2sc \Zeta.c2sc \Eta.c2sc 
+	\Theta.c2sc \Iota.c2sc \Kappa.c2sc \Lambda.c2sc \Mu.c2sc \Nu.c2sc \Xi.c2sc 
+	\Omicron.c2sc \Pi.c2sc \Rho.c2sc \Sigma.c2sc \Tau.c2sc \Upsilon.c2sc \uni0248 
+	\Phi.c2sc \Chi.c2sc \Psi.c2sc \Omega.c2sc \uni03DA.c2sc \uni03DC.c2sc 
+	\uni03DE.c2sc \uni03E0.c2sc \NameMe.65708 \NameMe.65709 \NameMe.65710 
+	\NameMe.65711 \afii10017.c2sc \afii10018.c2sc \afii10019.c2sc 
+	\afii10020.c2sc \afii10021.c2sc \afii10022.c2sc \afii10024.c2sc 
+	\afii10025.c2sc \afii10026.c2sc \afii10028.c2sc \afii10029.c2sc 
+	\afii10030.c2sc \afii10031.c2sc \afii10032.c2sc \afii10033.c2sc 
+	\afii10034.c2sc \afii10036.c2sc \afii10037.c2sc \afii10038.c2sc 
+	\afii10040.c2sc \afii10041.c2sc \afii10042.c2sc \afii10043.c2sc 
+	\afii10044.c2sc \afii10045.c2sc \afii10046.c2sc \afii10047.c2sc 
+	\afii10048.c2sc \afii10049.c2sc \afii10051.c2sc \afii10053.c2sc 
+	\afii10054.c2sc \afii10055.c2sc \afii10057.c2sc \afii10058.c2sc 
+	\afii10059.c2sc \afii10060.c2sc \afii10145.c2sc \uni048A.c2sc \uni048C.c2sc 
+	\uni048E.c2sc \uni0490.c2sc \uni0492.c2sc \uni0494.c2sc \uni0496.c2sc 
+	\uni0498.c2sc \uni049A.c2sc \uni049C.c2sc \uni049E.c2sc \uni04A0.c2sc 
+	\uni04A2.c2sc \uni04A4.c2sc \uni04A6.c2sc \uni04A8.c2sc \uni04AC.c2sc 
+	\uni04AE.c2sc \uni04B0.c2sc \uni04B2.c2sc \uni04B4.c2sc \uni04B6.c2sc 
+	\uni04B8.c2sc \uni04BA.c2sc \uni04BC.c2sc \uni04BE.c2sc \uni04C0.c2sc 
+	\uni04C3.c2sc \uni04C5.c2sc \uni04C7.c2sc \uni04C9.c2sc \uni04CB.c2sc 
+	\uni04CD.c2sc \uni04D4.c2sc \uni04D8.c2sc \uni04E0.c2sc \uni04E8.c2sc 
+	\uni04F6.c2sc \uni04FA.c2sc \uni04FC.c2sc \uni04FE.c2sc \uni0510.c2sc 
+	\uni0512.c2sc \uni051A.c2sc \uni051C.c2sc \uni051E.c2sc \uni0520.c2sc 
+	\uni0522.c2sc \uni0524.c2sc \uni0526.c2sc \uni04A8 \uni04A9 \uni01E5 \uni04E0 
+	\uni04E1 \uni051A \uni051B \uni051C \uni051D \uni024E \uni024F \uni0249 \uni025F 
+	\afii10089 \afii10069 \afii10077 \afii10092 \afii10096 \afii10106 \afii10107 
+	\afii10058 \afii10846 \uni04D8 \uni04C7 \uni04C8 \uni04BC \uni04BD \uni04BA 
+	\uni1D19 \uni1D1A \uni1E9F \uni04BB \uni048C \uni048D \uni049C \uni049D 
+	\afii10050 \afii10098 \uni0494 \uni0495 \uni0500 \uni04C3 \uni04C4 \uni04A6 
+	\uni04A7 \uni0512 \uni0513 \uni03DA \uni03DB \uni03DE \uni03DF \uni03E0 \uni03E1 
+	\uni0520 \uni0521 \afii10039.c2sc ];
 @GDEF_Mark = [\uni0308 \gravecomb \acutecomb \uni0302 \tildecomb \uni0327 \uni030C 
 	\dotbelowcomb \uni0324 \uni0306 \uni0311 \hookabovecomb \uni030A \uni0304 
 	\uni0326 \uni0325 \uni0328 \uni0331 \uni030B \uni0312 \uni0313 \uni0314 \uni0315 
-	\uni0329 \uni0310 \uni02DE \uni030D \uni030E \uni01CE \uni032D \uni032C ];
+	\uni0329 \uni0310 \uni02DE \uni030D \uni030E \uni032D \uni032C \uni0340 \uni0341 
+	\uni0330 \uni1DC4 \uni1DC5 \uni1DC6 \uni1DC7 \uni031B \uni0338 \uni0339 \uni0335 
+	\uni0337 \uni0334 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
