@@ -5805,7 +5805,7 @@ AnchorPoint: "above" 450 956 basechar 0 41
 AnchorPoint: "below" 450 0 basechar 0 40
 LayerCount: 3
 Fore
-Refer: 255 477 N 1 0 0 1 0 0 2
+Refer: 253 477 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0261
@@ -11109,22 +11109,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni022A
-Encoding: 554 554 251
-Width: 1444
-Flags: W
-LayerCount: 3
-EndChar
-
-StartChar: uni022F
-Encoding: 559 559 252
-Width: 1012
-Flags: W
-LayerCount: 3
-EndChar
-
 StartChar: uni01CD
-Encoding: 461 461 253
+Encoding: 461 461 251
 Width: 1328
 LayerCount: 3
 Fore
@@ -11133,7 +11119,7 @@ Refer: 115 780 N 1 0 0 1 664 453 6 11 8
 EndChar
 
 StartChar: uni01CE
-Encoding: 462 462 254
+Encoding: 462 462 252
 Width: 894
 AnchorPoint: "mark-above" 439 1475 basemark 0
 AnchorPoint: "below" 439 0 basechar 0
@@ -11147,7 +11133,7 @@ Refer: 115 780 N 1 0 0 1 439 0 2
 EndChar
 
 StartChar: uni01DD
-Encoding: 477 477 255
+Encoding: 477 477 253
 Width: 939
 Flags: W
 AnchorPoint: "below" 450 0 basechar 0 40
@@ -11213,7 +11199,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1EB8
-Encoding: 7864 7864 256
+Encoding: 7864 7864 254
 Width: 1077
 LayerCount: 3
 Fore
@@ -11222,7 +11208,7 @@ Refer: 116 803 N 1 0 0 1 568 0 6 15 13
 EndChar
 
 StartChar: uni1EB9
-Encoding: 7865 7865 257
+Encoding: 7865 7865 255
 Width: 939
 LayerCount: 3
 Fore
@@ -11231,7 +11217,7 @@ Refer: 116 803 N 1 0 0 1 495 0 6 42 13
 EndChar
 
 StartChar: uni1ECA
-Encoding: 7882 7882 258
+Encoding: 7882 7882 256
 Width: 541
 LayerCount: 3
 Fore
@@ -11240,7 +11226,7 @@ Refer: 116 803 N 1 0 0 1 270 0 6 6 13
 EndChar
 
 StartChar: uni1ECB
-Encoding: 7883 7883 259
+Encoding: 7883 7883 257
 Width: 547
 LayerCount: 3
 Fore
@@ -11249,7 +11235,7 @@ Refer: 116 803 S 1 0 0 1 302 -4.5 6 8 13
 EndChar
 
 StartChar: uni1ECC
-Encoding: 7884 7884 260
+Encoding: 7884 7884 258
 Width: 1444
 LayerCount: 3
 Fore
@@ -11258,7 +11244,7 @@ Refer: 116 803 S 1 0 0 1 727 0 6 40 13
 EndChar
 
 StartChar: uni1ECD
-Encoding: 7885 7885 261
+Encoding: 7885 7885 259
 Width: 1012
 LayerCount: 3
 Fore
@@ -11267,7 +11253,7 @@ Refer: 116 803 S 1 0 0 1 506 0 6 46 13
 EndChar
 
 StartChar: uni1EE4
-Encoding: 7908 7908 262
+Encoding: 7908 7908 260
 Width: 1310
 LayerCount: 3
 Fore
@@ -11276,7 +11262,7 @@ Refer: 116 803 S 1 0 0 1 655 0 6 17 13
 EndChar
 
 StartChar: uni1EE5
-Encoding: 7909 7909 263
+Encoding: 7909 7909 261
 Width: 1121
 LayerCount: 3
 Fore
@@ -11285,7 +11271,7 @@ Refer: 116 803 N 1 0 0 1 555 0 6 24 13
 EndChar
 
 StartChar: uni1E62
-Encoding: 7778 7778 264
+Encoding: 7778 7778 262
 Width: 1007
 LayerCount: 3
 Fore
@@ -11294,7 +11280,7 @@ Refer: 116 803 N 1 0 0 1 504 0 6 60 13
 EndChar
 
 StartChar: uni1E63
-Encoding: 7779 7779 265
+Encoding: 7779 7779 263
 Width: 782
 LayerCount: 3
 Fore
@@ -11303,7 +11289,7 @@ Refer: 116 803 S 1 0 0 1 400 0 6 38 13
 EndChar
 
 StartChar: uni20B5
-Encoding: 8373 8373 266
+Encoding: 8373 8373 264
 Width: 1146
 Flags: W
 LayerCount: 3
@@ -11363,7 +11349,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni20A6
-Encoding: 8358 8358 267
+Encoding: 8358 8358 265
 Width: 1305
 Flags: W
 LayerCount: 3
@@ -11450,7 +11436,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni01CF
-Encoding: 463 463 268
+Encoding: 463 463 266
 Width: 541
 LayerCount: 3
 Fore
@@ -11459,7 +11445,7 @@ Refer: 115 780 N 1 0 0 1 270 453 6 4 8
 EndChar
 
 StartChar: uni01D0
-Encoding: 464 464 269
+Encoding: 464 464 267
 Width: 547
 LayerCount: 3
 Fore
@@ -11468,7 +11454,7 @@ Refer: 115 780 N 1 0 0 1 302 0 6 6 8
 EndChar
 
 StartChar: uni01D1
-Encoding: 465 465 270
+Encoding: 465 465 268
 Width: 1444
 LayerCount: 3
 Fore
@@ -11477,7 +11463,7 @@ Refer: 115 780 N 1 0 0 1 727 453 6 0 8
 EndChar
 
 StartChar: uni01D2
-Encoding: 466 466 271
+Encoding: 466 466 269
 Width: 1012
 LayerCount: 3
 Fore
@@ -11486,7 +11472,7 @@ Refer: 115 780 N 1 0 0 1 506 0 6 44 8
 EndChar
 
 StartChar: uni01D3
-Encoding: 467 467 272
+Encoding: 467 467 270
 Width: 1310
 LayerCount: 3
 Fore
@@ -11495,7 +11481,7 @@ Refer: 115 780 N 1 0 0 1 655 436 6 19 8
 EndChar
 
 StartChar: uni01D4
-Encoding: 468 468 273
+Encoding: 468 468 271
 Width: 1121
 LayerCount: 3
 Fore
@@ -11504,7 +11490,7 @@ Refer: 115 780 N 1 0 0 1 555 0 6 25 8
 EndChar
 
 StartChar: Ecaron
-Encoding: 282 282 274
+Encoding: 282 282 272
 Width: 1077
 LayerCount: 3
 Fore
@@ -11513,7 +11499,7 @@ Refer: 115 780 N 1 0 0 1 568 453 6 13 8
 EndChar
 
 StartChar: ecaron
-Encoding: 283 283 275
+Encoding: 283 283 273
 Width: 939
 LayerCount: 3
 Fore
@@ -11522,7 +11508,7 @@ Refer: 115 780 N 1 0 0 1 495 0 6 39 8
 EndChar
 
 StartChar: uni0196
-Encoding: 406 406 276
+Encoding: 406 406 274
 Width: 696
 Flags: W
 AnchorPoint: "topright" 270 1053 basechar 0 17
@@ -11569,7 +11555,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0268
-Encoding: 616 616 277
+Encoding: 616 616 275
 Width: 605
 Flags: W
 AnchorPoint: "topright" 302 828 basechar 0 15
@@ -11579,13 +11565,13 @@ AnchorPoint: "below" 302 0 basechar 0 16
 AnchorPoint: "above" 184 1259 basechar 0 28
 LayerCount: 3
 Fore
-Refer: 278 -1 N 1 0 0 1 0 0 3
+Refer: 276 -1 N 1 0 0 1 0 0 3
 Refer: 103 775 N 1 0 0 1 302 0 2
 Substitution2: "Dotless Single Substitution lookup-1" uni0268.dotless
 EndChar
 
 StartChar: uni0268.dotless
-Encoding: 65539 -1 278
+Encoding: 65539 -1 276
 Width: 605
 Flags: W
 AnchorPoint: "above" 302 956 basechar 0 14
@@ -11633,7 +11619,7 @@ EndSplineSet
 EndChar
 
 StartChar: Idotaccent
-Encoding: 304 304 279
+Encoding: 304 304 277
 Width: 541
 AnchorPoint: "topright" 270 1053 basechar 0 5
 AnchorPoint: "cedilla" 270 0 basechar 0 6
@@ -11647,7 +11633,7 @@ Refer: 103 775 S 1 0 0 1 270 453 6 4 13
 EndChar
 
 StartChar: uni2C6D
-Encoding: 11373 11373 280
+Encoding: 11373 11373 278
 Width: 1319
 Flags: W
 AnchorPoint: "topright" 1048 1053 basechar 0 41
@@ -11716,7 +11702,7 @@ EndSplineSet
 EndChar
 
 StartChar: Edotaccent
-Encoding: 278 278 281
+Encoding: 278 278 279
 Width: 1077
 LayerCount: 3
 Fore
@@ -11725,7 +11711,7 @@ Refer: 103 775 N 1 0 0 1 568 453 6 13 13
 EndChar
 
 StartChar: edotaccent
-Encoding: 279 279 282
+Encoding: 279 279 280
 Width: 939
 LayerCount: 3
 Fore
@@ -11734,7 +11720,7 @@ Refer: 103 775 N 1 0 0 1 495 0 6 39 13
 EndChar
 
 StartChar: Emacron
-Encoding: 274 274 283
+Encoding: 274 274 281
 Width: 1077
 LayerCount: 3
 Fore
@@ -11743,7 +11729,7 @@ Refer: 164 772 N 1 0 0 1 568 453 6 13 5
 EndChar
 
 StartChar: emacron
-Encoding: 275 275 284
+Encoding: 275 275 282
 Width: 939
 Flags: W
 LayerCount: 3
@@ -11753,7 +11739,7 @@ Refer: 164 772 S 1 0 0 1 495 0 6 39 5
 EndChar
 
 StartChar: uni1E18
-Encoding: 7704 7704 285
+Encoding: 7704 7704 283
 Width: 1077
 Flags: W
 LayerCount: 3
@@ -11763,7 +11749,7 @@ Refer: 116 803 S 1 0 0 1 568 0 6 15 13
 EndChar
 
 StartChar: uni1E19
-Encoding: 7705 7705 286
+Encoding: 7705 7705 284
 Width: 939
 Flags: W
 LayerCount: 3
@@ -11773,7 +11759,7 @@ Refer: 116 803 S 1 0 0 1 495 0 6 42 13
 EndChar
 
 StartChar: Itilde
-Encoding: 296 296 287
+Encoding: 296 296 285
 Width: 541
 LayerCount: 3
 Fore
@@ -11782,7 +11768,7 @@ Refer: 109 771 N 1 0 0 1 270 453 6 4 25
 EndChar
 
 StartChar: itilde
-Encoding: 297 297 288
+Encoding: 297 297 286
 Width: 547
 LayerCount: 3
 Fore
@@ -11791,7 +11777,7 @@ Refer: 109 771 S 1 0 0 1 302 0 6 6 25
 EndChar
 
 StartChar: uni1EBC
-Encoding: 7868 7868 289
+Encoding: 7868 7868 287
 Width: 1077
 LayerCount: 3
 Fore
@@ -11800,7 +11786,7 @@ Refer: 109 771 N 1 0 0 1 568 453 6 13 25
 EndChar
 
 StartChar: uni1EBD
-Encoding: 7869 7869 290
+Encoding: 7869 7869 288
 Width: 939
 LayerCount: 3
 Fore
@@ -11809,7 +11795,7 @@ Refer: 109 771 S 1 0 0 1 495 0 6 39 25
 EndChar
 
 StartChar: uni0228
-Encoding: 552 552 291
+Encoding: 552 552 289
 Width: 1077
 LayerCount: 3
 Fore
@@ -11818,7 +11804,7 @@ Refer: 114 807 N 1 0 0 1 568 0 6 15 19
 EndChar
 
 StartChar: uni0229
-Encoding: 553 553 292
+Encoding: 553 553 290
 Width: 939
 LayerCount: 3
 Fore
@@ -11827,7 +11813,7 @@ Refer: 114 807 N 1 0 0 1 495 0 6 42 19
 EndChar
 
 StartChar: Omacron
-Encoding: 332 332 293
+Encoding: 332 332 291
 Width: 1444
 LayerCount: 3
 Fore
@@ -11836,7 +11822,7 @@ Refer: 164 772 N 1 0 0 1 727 453 6 0 5
 EndChar
 
 StartChar: omacron
-Encoding: 333 333 294
+Encoding: 333 333 292
 Width: 1012
 LayerCount: 3
 Fore
@@ -11845,7 +11831,7 @@ Refer: 164 772 N 1 0 0 1 506 0 6 44 5
 EndChar
 
 StartChar: uni0197
-Encoding: 407 407 295
+Encoding: 407 407 293
 Width: 663
 Flags: W
 AnchorPoint: "topright" 331 1053 basechar 0 13
@@ -11889,7 +11875,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni019F
-Encoding: 415 415 296
+Encoding: 415 415 294
 Width: 1444
 Flags: W
 AnchorPoint: "topright" 1263 1053 basechar 0 43
@@ -11962,22 +11948,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Obreve
-Encoding: 334 334 297
-Width: 1444
-Flags: W
-LayerCount: 3
-EndChar
-
-StartChar: obreve
-Encoding: 335 335 298
-Width: 1012
-Flags: W
-LayerCount: 3
-EndChar
-
 StartChar: Utilde
-Encoding: 360 360 299
+Encoding: 360 360 295
 Width: 1310
 LayerCount: 3
 Fore
@@ -11986,7 +11958,7 @@ Refer: 109 771 N 1 0 0 1 655 436 6 19 25
 EndChar
 
 StartChar: utilde
-Encoding: 361 361 300
+Encoding: 361 361 296
 Width: 1121
 LayerCount: 3
 Fore
@@ -11995,7 +11967,7 @@ Refer: 109 771 N 1 0 0 1 555 0 6 25 25
 EndChar
 
 StartChar: uni0289
-Encoding: 649 649 301
+Encoding: 649 649 297
 Width: 1237
 Flags: W
 AnchorPoint: "topright" 965 828 basechar 0 38
@@ -12069,7 +12041,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0244
-Encoding: 580 580 302
+Encoding: 580 580 298
 Width: 1432
 Flags: W
 AnchorPoint: "topright" 1109 1053 basechar 0 32
@@ -12135,27 +12107,27 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E76
-Encoding: 7798 7798 303
+Encoding: 7798 7798 299
 Width: 1310
 Flags: W
 LayerCount: 3
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 2
-Refer: 305 813 S 1 0 0 1 655 0 6 17 8
+Refer: 301 813 S 1 0 0 1 655 0 6 17 8
 EndChar
 
 StartChar: uni1E77
-Encoding: 7799 7799 304
+Encoding: 7799 7799 300
 Width: 1121
 Flags: W
 LayerCount: 3
 Fore
 Refer: 88 117 N 1 0 0 1 0 0 2
-Refer: 305 813 S 1 0 0 1 555 0 6 24 8
+Refer: 301 813 S 1 0 0 1 555 0 6 24 8
 EndChar
 
 StartChar: uni032D
-Encoding: 813 813 305
+Encoding: 813 813 301
 Width: 0
 Flags: W
 AnchorPoint: "below" 0 0 mark 0 8
@@ -12189,7 +12161,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni032C
-Encoding: 812 812 306
+Encoding: 812 812 302
 Width: 0
 Flags: W
 AnchorPoint: "below" 0 0 mark 0 8
@@ -12223,7 +12195,7 @@ EndSplineSet
 EndChar
 
 StartChar: dcroat
-Encoding: 273 273 307
+Encoding: 273 273 303
 Width: 1124
 Flags: W
 AnchorPoint: "above" 816 1475 basechar 0 38
@@ -12274,27 +12246,27 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E13
-Encoding: 7699 7699 308
+Encoding: 7699 7699 304
 Width: 1063
 Flags: W
 LayerCount: 3
 Fore
 Refer: 71 100 N 1 0 0 1 0 0 2
-Refer: 305 813 S 1 0 0 1 482 0 6 31 8
+Refer: 301 813 S 1 0 0 1 482 0 6 31 8
 EndChar
 
 StartChar: uni1E12
-Encoding: 7698 7698 309
+Encoding: 7698 7698 305
 Width: 1375
 Flags: W
 LayerCount: 3
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 2
-Refer: 305 813 N 1 0 0 1 620 0 6 34 8
+Refer: 301 813 N 1 0 0 1 620 0 6 34 8
 EndChar
 
 StartChar: Gcircumflex
-Encoding: 284 284 310
+Encoding: 284 284 306
 Width: 1435
 LayerCount: 3
 Fore
@@ -12303,7 +12275,7 @@ Refer: 108 770 N 1 0 0 1 740 453 6 36 8
 EndChar
 
 StartChar: gcircumflex
-Encoding: 285 285 311
+Encoding: 285 285 307
 Width: 980
 LayerCount: 3
 Fore
@@ -12312,25 +12284,25 @@ Refer: 108 770 N 1 0 0 1 516 0 6 94 8
 EndChar
 
 StartChar: uni1E3C
-Encoding: 7740 7740 312
+Encoding: 7740 7740 308
 Width: 1010
 LayerCount: 3
 Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 580 0 6 8 8
+Refer: 301 813 N 1 0 0 1 580 0 6 8 8
 EndChar
 
 StartChar: uni1E3D
-Encoding: 7741 7741 313
+Encoding: 7741 7741 309
 Width: 593
 LayerCount: 3
 Fore
 Refer: 79 108 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 344 0 6 14 8
+Refer: 301 813 N 1 0 0 1 344 0 6 14 8
 EndChar
 
 StartChar: uni1E44
-Encoding: 7748 7748 314
+Encoding: 7748 7748 310
 Width: 1385
 LayerCount: 3
 Fore
@@ -12339,7 +12311,7 @@ Refer: 103 775 N 1 0 0 1 692 453 6 10 13
 EndChar
 
 StartChar: uni1E45
-Encoding: 7749 7749 315
+Encoding: 7749 7749 311
 Width: 1121
 LayerCount: 3
 Fore
@@ -12348,25 +12320,25 @@ Refer: 103 775 N 1 0 0 1 555 0 6 25 13
 EndChar
 
 StartChar: uni1E4B
-Encoding: 7755 7755 316
+Encoding: 7755 7755 312
 Width: 1121
 LayerCount: 3
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 555 0 6 24 8
+Refer: 301 813 N 1 0 0 1 555 0 6 24 8
 EndChar
 
 StartChar: uni1E4A
-Encoding: 7754 7754 317
+Encoding: 7754 7754 313
 Width: 1385
 LayerCount: 3
 Fore
 Refer: 49 78 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 692 0 6 13 8
+Refer: 301 813 N 1 0 0 1 692 0 6 13 8
 EndChar
 
 StartChar: Scaron
-Encoding: 352 352 318
+Encoding: 352 352 314
 Width: 1007
 LayerCount: 3
 Fore
@@ -12375,7 +12347,7 @@ Refer: 115 780 N 1 0 0 1 504 453 6 58 8
 EndChar
 
 StartChar: scaron
-Encoding: 353 353 319
+Encoding: 353 353 315
 Width: 782
 LayerCount: 3
 Fore
@@ -12384,25 +12356,25 @@ Refer: 115 780 S 1 0 0 1 400 0 6 39 8
 EndChar
 
 StartChar: uni1E70
-Encoding: 7792 7792 320
+Encoding: 7792 7792 316
 Width: 1183
 LayerCount: 3
 Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 591 0 6 10 8
+Refer: 301 813 N 1 0 0 1 591 0 6 10 8
 EndChar
 
 StartChar: uni1E71
-Encoding: 7793 7793 321
+Encoding: 7793 7793 317
 Width: 669
 LayerCount: 3
 Fore
 Refer: 87 116 N 1 0 0 1 0 0 3
-Refer: 305 813 N 1 0 0 1 372 0 6 22 8
+Refer: 301 813 N 1 0 0 1 372 0 6 22 8
 EndChar
 
 StartChar: Wcircumflex
-Encoding: 372 372 322
+Encoding: 372 372 318
 Width: 2027
 LayerCount: 3
 Fore
@@ -12411,7 +12383,7 @@ Refer: 108 770 N 1 0 0 1 1013 453 6 13 8
 EndChar
 
 StartChar: wcircumflex
-Encoding: 373 373 323
+Encoding: 373 373 319
 Width: 1512
 LayerCount: 3
 Fore
@@ -12420,7 +12392,7 @@ Refer: 108 770 N 1 0 0 1 756 0 6 14 8
 EndChar
 
 StartChar: wdieresis
-Encoding: 7813 7813 324
+Encoding: 7813 7813 320
 Width: 1512
 LayerCount: 3
 Fore
@@ -12429,7 +12401,7 @@ Refer: 105 168 N 1 0 0 1 284 0 6 14 24
 EndChar
 
 StartChar: Wdieresis
-Encoding: 7812 7812 325
+Encoding: 7812 7812 321
 Width: 2027
 LayerCount: 3
 Fore
@@ -12438,7 +12410,7 @@ Refer: 105 168 N 1 0 0 1 541 453 6 13 24
 EndChar
 
 StartChar: uni1EF9
-Encoding: 7929 7929 326
+Encoding: 7929 7929 322
 Width: 1027
 LayerCount: 3
 Fore
@@ -12447,7 +12419,7 @@ Refer: 109 771 N 1 0 0 1 515 0 6 25 25
 EndChar
 
 StartChar: uni1EF8
-Encoding: 7928 7928 327
+Encoding: 7928 7928 323
 Width: 1241
 LayerCount: 3
 Fore
@@ -12456,7 +12428,7 @@ Refer: 109 771 N 1 0 0 1 620 453 6 9 25
 EndChar
 
 StartChar: Amacron
-Encoding: 256 256 328
+Encoding: 256 256 324
 Width: 1328
 LayerCount: 3
 Fore
@@ -12465,7 +12437,7 @@ Refer: 164 772 N 1 0 0 1 664 453 6 11 5
 EndChar
 
 StartChar: amacron
-Encoding: 257 257 329
+Encoding: 257 257 325
 Width: 894
 LayerCount: 3
 Fore
@@ -12474,7 +12446,7 @@ Refer: 164 772 N 1 0 0 1 439 0 6 52 5
 EndChar
 
 StartChar: Abreve
-Encoding: 258 258 330
+Encoding: 258 258 326
 Width: 1328
 LayerCount: 3
 Fore
@@ -12483,7 +12455,7 @@ Refer: 160 774 N 1 0 0 1 664 453 6 11 19
 EndChar
 
 StartChar: abreve
-Encoding: 259 259 331
+Encoding: 259 259 327
 Width: 894
 LayerCount: 3
 Fore
@@ -12492,7 +12464,7 @@ Refer: 160 774 N 1 0 0 1 439 0 6 52 19
 EndChar
 
 StartChar: uni1EA0
-Encoding: 7840 7840 332
+Encoding: 7840 7840 328
 Width: 1328
 LayerCount: 3
 Fore
@@ -12501,7 +12473,7 @@ Refer: 116 803 S 1 0 0 1 664 0 6 14 13
 EndChar
 
 StartChar: uni1EA1
-Encoding: 7841 7841 333
+Encoding: 7841 7841 329
 Width: 894
 LayerCount: 3
 Fore
@@ -12510,7 +12482,7 @@ Refer: 116 803 N 1 0 0 1 439 0 6 54 13
 EndChar
 
 StartChar: uni1E04
-Encoding: 7684 7684 334
+Encoding: 7684 7684 330
 Width: 1116
 LayerCount: 3
 Fore
@@ -12519,7 +12491,7 @@ Refer: 116 803 S 1 0 0 1 540 0 6 57 13
 EndChar
 
 StartChar: uni1E05
-Encoding: 7685 7685 335
+Encoding: 7685 7685 331
 Width: 1059
 LayerCount: 3
 Fore
@@ -12528,7 +12500,7 @@ Refer: 116 803 S 1 0 0 1 555 0 6 34 13
 EndChar
 
 StartChar: Cacute
-Encoding: 262 262 336
+Encoding: 262 262 332
 Width: 1255
 LayerCount: 3
 Fore
@@ -12537,7 +12509,7 @@ Refer: 107 769 N 1 0 0 1 660 453 6 36 5
 EndChar
 
 StartChar: cacute
-Encoding: 263 263 337
+Encoding: 263 263 333
 Width: 888
 LayerCount: 3
 Fore
@@ -12546,7 +12518,7 @@ Refer: 107 769 N 1 0 0 1 486 0 6 26 5
 EndChar
 
 StartChar: Ccaron
-Encoding: 268 268 338
+Encoding: 268 268 334
 Width: 1255
 LayerCount: 3
 Fore
@@ -12555,7 +12527,7 @@ Refer: 115 780 S 1 0 0 1 660 453 6 36 8
 EndChar
 
 StartChar: ccaron
-Encoding: 269 269 339
+Encoding: 269 269 335
 Width: 888
 LayerCount: 3
 Fore
@@ -12564,7 +12536,7 @@ Refer: 115 780 N 1 0 0 1 486 0 6 26 8
 EndChar
 
 StartChar: uni1E0E
-Encoding: 7694 7694 340
+Encoding: 7694 7694 336
 Width: 1375
 LayerCount: 3
 Fore
@@ -12573,7 +12545,7 @@ Refer: 168 817 N 1 0 0 1 620 0 6 34 5
 EndChar
 
 StartChar: uni1E0F
-Encoding: 7695 7695 341
+Encoding: 7695 7695 337
 Width: 1063
 LayerCount: 3
 Fore
@@ -12582,7 +12554,7 @@ Refer: 168 817 N 1 0 0 1 482 0 6 31 5
 EndChar
 
 StartChar: uni1E0C
-Encoding: 7692 7692 342
+Encoding: 7692 7692 338
 Width: 1375
 LayerCount: 3
 Fore
@@ -12591,7 +12563,7 @@ Refer: 116 803 N 1 0 0 1 620 0 6 34 13
 EndChar
 
 StartChar: uni1E0D
-Encoding: 7693 7693 343
+Encoding: 7693 7693 339
 Width: 1063
 LayerCount: 3
 Fore
@@ -12600,7 +12572,7 @@ Refer: 116 803 S 1 0 0 1 482 0 6 31 13
 EndChar
 
 StartChar: uni1E24
-Encoding: 7716 7716 344
+Encoding: 7716 7716 340
 Width: 1364
 LayerCount: 3
 Fore
@@ -12609,7 +12581,7 @@ Refer: 116 803 N 1 0 0 1 682 0 6 15 13
 EndChar
 
 StartChar: uni1E25
-Encoding: 7717 7717 345
+Encoding: 7717 7717 341
 Width: 1121
 LayerCount: 3
 Fore
@@ -12618,7 +12590,7 @@ Refer: 116 803 S 1 0 0 1 555 0 6 24 13
 EndChar
 
 StartChar: uni1E36
-Encoding: 7734 7734 346
+Encoding: 7734 7734 342
 Width: 1010
 LayerCount: 3
 Fore
@@ -12627,7 +12599,7 @@ Refer: 116 803 N 1 0 0 1 580 0 6 8 13
 EndChar
 
 StartChar: uni1E37
-Encoding: 7735 7735 347
+Encoding: 7735 7735 343
 Width: 593
 LayerCount: 3
 Fore
@@ -12636,7 +12608,7 @@ Refer: 116 803 N 1 0 0 1 344 0 6 14 13
 EndChar
 
 StartChar: uni1E46
-Encoding: 7750 7750 348
+Encoding: 7750 7750 344
 Width: 1385
 LayerCount: 3
 Fore
@@ -12645,7 +12617,7 @@ Refer: 116 803 N 1 0 0 1 692 0 6 13 13
 EndChar
 
 StartChar: uni1E47
-Encoding: 7751 7751 349
+Encoding: 7751 7751 345
 Width: 1121
 LayerCount: 3
 Fore
@@ -12654,7 +12626,7 @@ Refer: 116 803 N 1 0 0 1 555 0 6 24 13
 EndChar
 
 StartChar: uni1E54
-Encoding: 7764 7764 350
+Encoding: 7764 7764 346
 Width: 1083
 LayerCount: 3
 Fore
@@ -12663,7 +12635,7 @@ Refer: 107 769 N 1 0 0 1 540 453 6 26 5
 EndChar
 
 StartChar: uni1E55
-Encoding: 7765 7765 351
+Encoding: 7765 7765 347
 Width: 1063
 LayerCount: 3
 Fore
@@ -12672,7 +12644,7 @@ Refer: 107 769 N 1 0 0 1 555 0 6 30 5
 EndChar
 
 StartChar: uni1E6E
-Encoding: 7790 7790 352
+Encoding: 7790 7790 348
 Width: 1183
 LayerCount: 3
 Fore
@@ -12681,7 +12653,7 @@ Refer: 168 817 N 1 0 0 1 591 0 6 10 5
 EndChar
 
 StartChar: uni1E6F
-Encoding: 7791 7791 353
+Encoding: 7791 7791 349
 Width: 669
 LayerCount: 3
 Fore
@@ -12690,7 +12662,7 @@ Refer: 168 817 N 1 0 0 1 372 0 6 22 5
 EndChar
 
 StartChar: uni1E6C
-Encoding: 7788 7788 354
+Encoding: 7788 7788 350
 Width: 1183
 LayerCount: 3
 Fore
@@ -12699,7 +12671,7 @@ Refer: 116 803 N 1 0 0 1 591 0 6 10 13
 EndChar
 
 StartChar: uni1E6D
-Encoding: 7789 7789 355
+Encoding: 7789 7789 351
 Width: 669
 LayerCount: 3
 Fore
@@ -12708,7 +12680,7 @@ Refer: 116 803 N 1 0 0 1 372 0 6 22 13
 EndChar
 
 StartChar: Umacron
-Encoding: 362 362 356
+Encoding: 362 362 352
 Width: 1310
 LayerCount: 3
 Fore
@@ -12717,7 +12689,7 @@ Refer: 164 772 N 1 0 0 1 655 436 6 19 5
 EndChar
 
 StartChar: umacron
-Encoding: 363 363 357
+Encoding: 363 363 353
 Width: 1121
 LayerCount: 3
 Fore
@@ -12726,7 +12698,7 @@ Refer: 164 772 N 1 0 0 1 555 0 6 25 5
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 368 368 358
+Encoding: 368 368 354
 Width: 1310
 LayerCount: 3
 Fore
@@ -12735,7 +12707,7 @@ Refer: 169 779 N 1 0 0 1 655 436 6 19 9
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 369 369 359
+Encoding: 369 369 355
 Width: 1121
 LayerCount: 3
 Fore
@@ -12744,7 +12716,7 @@ Refer: 169 779 N 1 0 0 1 555 0 6 25 9
 EndChar
 
 StartChar: uni1E92
-Encoding: 7826 7826 360
+Encoding: 7826 7826 356
 Width: 1259
 LayerCount: 3
 Fore
@@ -12753,7 +12725,7 @@ Refer: 116 803 N 1 0 0 1 601 0 6 11 13
 EndChar
 
 StartChar: uni1E93
-Encoding: 7827 7827 361
+Encoding: 7827 7827 357
 Width: 972
 LayerCount: 3
 Fore
@@ -12762,7 +12734,7 @@ Refer: 116 803 N 1 0 0 1 508 0 6 8 13
 EndChar
 
 StartChar: uni01B5
-Encoding: 437 437 362
+Encoding: 437 437 358
 Width: 1259
 Flags: W
 AnchorPoint: "topright" 808 1053 basechar 0 18
@@ -12819,7 +12791,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni01B6
-Encoding: 438 438 363
+Encoding: 438 438 359
 Width: 972
 Flags: W
 AnchorPoint: "topright" 738 828 basechar 0 18
@@ -12878,7 +12850,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2010
-Encoding: 8208 8208 364
+Encoding: 8208 8208 360
 Width: 595
 Flags: W
 LayerCount: 3
@@ -12901,16 +12873,16 @@ EndSplineSet
 EndChar
 
 StartChar: uni2011
-Encoding: 8209 8209 365
+Encoding: 8209 8209 361
 Width: 595
 Flags: W
 LayerCount: 3
 Fore
-Refer: 364 8208 N 1 0 0 1 0 0 2
+Refer: 360 8208 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 366
+Encoding: 8211 8211 362
 Width: 765
 Flags: W
 LayerCount: 3
@@ -12919,7 +12891,7 @@ Refer: 16 45 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 367
+Encoding: 8212 8212 363
 Width: 1556
 Flags: W
 LayerCount: 3
@@ -12942,7 +12914,7 @@ EndSplineSet
 EndChar
 
 StartChar: bullet
-Encoding: 8226 8226 368
+Encoding: 8226 8226 364
 Width: 466
 Flags: W
 LayerCount: 3
@@ -12969,7 +12941,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 8249 8249 369
+Encoding: 8249 8249 365
 Width: 572
 Flags: W
 LayerCount: 3
@@ -12996,7 +12968,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglright
-Encoding: 8250 8250 370
+Encoding: 8250 8250 366
 Width: 572
 Flags: W
 LayerCount: 3
@@ -13023,7 +12995,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0275
-Encoding: 629 629 371
+Encoding: 629 629 367
 Width: 1012
 Flags: MW
 LayerCount: 3
